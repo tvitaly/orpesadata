@@ -1,0 +1,267 @@
+{
+  "version": "v8.2_season_june_september_2026",
+  "timezone": "Europe/Madrid",
+  "season": {
+    "id": "june_september_2026",
+    "nameRu": "Июнь и сентябрь 2026",
+    "nameEs": "Junio y septiembre 2026",
+    "dateRanges": [
+      {
+        "from": "2026-06-01",
+        "to": "2026-06-30"
+      },
+      {
+        "from": "2026-09-01",
+        "to": "2026-09-30"
+      }
+    ],
+    "days": "monday_to_sunday"
+  },
+  "movement": {
+    "method": "route_distance_progress",
+    "distanceSource": "auto_from_route_coordinates",
+    "animation": "smooth",
+    "defaultDwellSeconds": 30
+  },
+  "calendarTypes": {
+    "weekday": {
+      "nameRu": "Будни",
+      "nameEs": "Laborables"
+    },
+    "weekend": {
+      "nameRu": "Выходные",
+      "nameEs": "Fines de semana"
+    },
+    "holiday": {
+      "nameRu": "Праздники",
+      "nameEs": "Festivos"
+    }
+  },
+  "tripPatterns": [
+    {
+      "id": "main_loop_season_2026",
+      "nameRu": "Сезонный круг июнь/сентябрь 2026",
+      "nameEs": "Ruta temporada junio/septiembre 2026",
+      "routeId": "main_route",
+      "loop": true,
+      "knownOffsets": [
+        {
+          "stopId": "stop_001",
+          "offsetMinutes": 0,
+          "official": true,
+          "officialStopNumber": 1,
+          "officialName": "C/ Jose Rivera Forner (esq. Leoncio Serrano)"
+        },
+        {
+          "stopId": "stop_011",
+          "offsetMinutes": 20,
+          "official": true,
+          "officialStopNumber": 14,
+          "officialName": "Av. Barcelona (frente Hotel Magic Sport / Hotel Gran Duque)"
+        },
+        {
+          "stopId": "stop_014",
+          "offsetMinutes": 30,
+          "official": true,
+          "officialStopNumber": 18,
+          "officialName": "Playa de la Concha (frente Plaza París)"
+        },
+        {
+          "stopId": "stop_015",
+          "offsetMinutes": 40,
+          "official": true,
+          "officialStopNumber": 20,
+          "officialName": "P. la Estación (Estación RENFE)"
+        }
+      ],
+      "endOffsetMinutes": 50
+    }
+  ],
+  "serviceDays": [
+    {
+      "id": "weekday_season_2026",
+      "calendarType": "weekday",
+      "active": true,
+      "blocks": [
+        {
+          "id": "season_all_day_weekday",
+          "nameRu": "Сезонное расписание",
+          "nameEs": "Horario de temporada",
+          "busId": "bus_1",
+          "patternId": "main_loop_season_2026",
+          "startTimes": [
+            "08:30",
+            "09:20",
+            "10:10",
+            "11:00",
+            "12:00",
+            "13:00",
+            "17:00",
+            "17:50",
+            "18:40",
+            "19:30",
+            "20:20",
+            "21:10",
+            "22:00"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekend_season_2026",
+      "calendarType": "weekend",
+      "active": true,
+      "blocks": [
+        {
+          "id": "season_all_day_weekend",
+          "nameRu": "Сезонное расписание",
+          "nameEs": "Horario de temporada",
+          "busId": "bus_1",
+          "patternId": "main_loop_season_2026",
+          "startTimes": [
+            "08:30",
+            "09:20",
+            "10:10",
+            "11:00",
+            "12:00",
+            "13:00",
+            "17:00",
+            "17:50",
+            "18:40",
+            "19:30",
+            "20:20",
+            "21:10",
+            "22:00"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "holiday_season_2026",
+      "calendarType": "holiday",
+      "active": true,
+      "blocks": [
+        {
+          "id": "season_all_day_holiday",
+          "nameRu": "Сезонное расписание",
+          "nameEs": "Horario de temporada",
+          "busId": "bus_1",
+          "patternId": "main_loop_season_2026",
+          "startTimes": [
+            "08:30",
+            "09:20",
+            "10:10",
+            "11:00",
+            "12:00",
+            "13:00",
+            "17:00",
+            "17:50",
+            "18:40",
+            "19:30",
+            "20:20",
+            "21:10",
+            "22:00"
+          ]
+        }
+      ]
+    }
+  ],
+  "outOfServiceBehavior": {
+    "mode": "park_at_start",
+    "parkStopId": "stop_001",
+    "availableModes": [
+      "hide",
+      "park_at_start",
+      "park_at_stop",
+      "park_last"
+    ]
+  },
+  "editingNotesRu": [
+    "Сезонное расписание одинаковое для будней, выходных и праздников.",
+    "Официальные номера на схеме AMSA отличаются от внутренних stop_XXX.",
+    "Внутренние контрольные точки для движения: stop_001 +0 мин, stop_011 +20 мин, stop_014 +30 мин, stop_015 +40 мин.",
+    "Полный круг считается 50 минут. Конечная точка круга возвращается к началу маршрута.",
+    "Метры вручную не заполняются: приложение считает длину маршрута само по route.json.",
+    "В текущем GitHub stops.json есть stop_001...stop_018; отдельный stop_019 пока не используется в расписании."
+  ],
+  "stopNumberNotes": {
+    "userConfirmedInternalStops": [
+      {
+        "number": 1,
+        "name": "C/ Jose Rivera Forner (esq. Leoncio Serrano)"
+      },
+      {
+        "number": 2,
+        "name": "C/ Torreblanca (centro médico)"
+      },
+      {
+        "number": 3,
+        "name": "P. España (cruce C/ Fco. Sevillano)"
+      },
+      {
+        "number": 4,
+        "name": "P. Principe de Asturias (frente ed. Florida)"
+      },
+      {
+        "number": 5,
+        "name": "P.M. Mediterráneo (frente H Koral)"
+      },
+      {
+        "number": 6,
+        "name": "Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)"
+      },
+      {
+        "number": 7,
+        "name": "Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)"
+      },
+      {
+        "number": 8,
+        "name": "Av. Barcelona (Rotonda Barco direcc. campings)"
+      },
+      {
+        "number": 9,
+        "name": "Av. Barcelona (Ro. Ratlla Terme)"
+      },
+      {
+        "number": 10,
+        "name": "Av. Barcelona (Rotonda Barco VUELTA-Mercadona)"
+      },
+      {
+        "number": 11,
+        "name": "Av. Barcelona (frente Hotel Magic Sport)"
+      },
+      {
+        "number": 12,
+        "name": "Av. Valencia (frente Urb Trebol)"
+      },
+      {
+        "number": 13,
+        "name": "Av. Madrid (frente H. Oropesa Sol)"
+      },
+      {
+        "number": 14,
+        "name": "Playa de la Concha (frente Plaza París)"
+      },
+      {
+        "number": 15,
+        "name": "P. la Estación (Estación RENFE)"
+      },
+      {
+        "number": 16,
+        "name": "Av. la Plana (cruce Plaza Constitución)"
+      },
+      {
+        "number": 17,
+        "name": "Urb. Balcó (Av. Benicassim - C/ Almendros)"
+      },
+      {
+        "number": 18,
+        "name": "Av. la Plana (Frente Guardia Civil)"
+      },
+      {
+        "number": 19,
+        "name": "C/ Jose Rivera Forner (esq. Leoncio Serrano)"
+      }
+    ]
+  }
+}
