@@ -1,0 +1,34 @@
+[
+  {
+    "id": "main_stop",
+    "nameRu": "Остановка",
+    "nameEs": "Parada",
+    "iconSvg": "media/icons/stop_main.svg",
+    "cardColor": "#FFD84D",
+    "showOnMap": true
+  },
+  {
+    "id": "beach",
+    "nameRu": "Пляж",
+    "nameEs": "Playa",
+    "iconSvg": "media/icons/beach.svg",
+    "cardColor": "#4DBFFF",
+    "showOnMap": true
+  },
+  {
+    "id": "center",
+    "nameRu": "Центр",
+    "nameEs": "Centro",
+    "iconSvg": "media/icons/center.svg",
+    "cardColor": "#FFFFFF",
+    "showOnMap": true
+  },
+  {
+    "id": "service",
+    "nameRu": "Объект",
+    "nameEs": "Servicio",
+    "iconSvg": "media/icons/service.svg",
+    "cardColor": "#FFFFFF",
+    "showOnMap": true
+  }
+]

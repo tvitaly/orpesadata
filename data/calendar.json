@@ -1,0 +1,11 @@
+{
+  "timezone": "Europe/Madrid",
+  "defaultCalendarType": "weekday",
+  "weekendDays": [
+    6,
+    7
+  ],
+  "holidays": [],
+  "notesRu": "Праздники можно добавить позже в массив holidays.",
+  "notesEs": "Los festivos se pueden añadir después en el array holidays."
+}

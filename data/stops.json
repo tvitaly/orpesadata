@@ -1,0 +1,434 @@
+[
+  {
+    "id": "stop_001",
+    "number": 1,
+    "nameRu": "Остановка 1",
+    "nameEs": "Parada 1",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1329859,
+      "lat": 40.0943348
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 0
+    },
+    "card": {
+      "image": "media/cards/stop_001.jpg",
+      "titleRu": "Остановка 1",
+      "titleEs": "Parada 1",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_002",
+    "number": 2,
+    "nameRu": "Остановка 2",
+    "nameEs": "Parada 2",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1373552,
+      "lat": 40.0959532
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 23
+    },
+    "card": {
+      "image": "media/cards/stop_002.jpg",
+      "titleRu": "Остановка 2",
+      "titleEs": "Parada 2",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_003",
+    "number": 3,
+    "nameRu": "Остановка 3",
+    "nameEs": "Parada 3",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1371826,
+      "lat": 40.0941151
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 35
+    },
+    "card": {
+      "image": "media/cards/stop_003.jpg",
+      "titleRu": "Остановка 3",
+      "titleEs": "Parada 3",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_004",
+    "number": 4,
+    "nameRu": "Остановка 4",
+    "nameEs": "Parada 4",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1443188,
+      "lat": 40.094655
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 45
+    },
+    "card": {
+      "image": "media/cards/stop_004.jpg",
+      "titleRu": "Остановка 4",
+      "titleEs": "Parada 4",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_005",
+    "number": 5,
+    "nameRu": "Остановка 5",
+    "nameEs": "Parada 5",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1474593,
+      "lat": 40.0959709
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 58
+    },
+    "card": {
+      "image": "media/cards/stop_005.jpg",
+      "titleRu": "Остановка 5",
+      "titleEs": "Parada 5",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_006",
+    "number": 6,
+    "nameRu": "Остановка 6",
+    "nameEs": "Parada 6",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1499233,
+      "lat": 40.1090078
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 87
+    },
+    "card": {
+      "image": "media/cards/stop_006.jpg",
+      "titleRu": "Остановка 6",
+      "titleEs": "Parada 6",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_007",
+    "number": 7,
+    "nameRu": "Остановка 7",
+    "nameEs": "Parada 7",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1516576,
+      "lat": 40.1124829
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 99
+    },
+    "card": {
+      "image": "media/cards/stop_007.jpg",
+      "titleRu": "Остановка 7",
+      "titleEs": "Parada 7",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_008",
+    "number": 8,
+    "nameRu": "Остановка 8",
+    "nameEs": "Parada 8",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1536317,
+      "lat": 40.1165984
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 109
+    },
+    "card": {
+      "image": "media/cards/stop_008.jpg",
+      "titleRu": "Остановка 8",
+      "titleEs": "Parada 8",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_009",
+    "number": 9,
+    "nameRu": "Остановка 9",
+    "nameEs": "Parada 9",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1571176,
+      "lat": 40.1246606
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 138
+    },
+    "card": {
+      "image": "media/cards/stop_009.jpg",
+      "titleRu": "Остановка 9",
+      "titleEs": "Parada 9",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_010",
+    "number": 10,
+    "nameRu": "Остановка 10",
+    "nameEs": "Parada 10",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1530874,
+      "lat": 40.1159169
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 163
+    },
+    "card": {
+      "image": "media/cards/stop_010.jpg",
+      "titleRu": "Остановка 10",
+      "titleEs": "Parada 10",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_011",
+    "number": 11,
+    "nameRu": "Остановка 11",
+    "nameEs": "Parada 11",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1500323,
+      "lat": 40.1094115
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 174
+    },
+    "card": {
+      "image": "media/cards/stop_011.jpg",
+      "titleRu": "Остановка 11",
+      "titleEs": "Parada 11",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_012",
+    "number": 12,
+    "nameRu": "Остановка 12",
+    "nameEs": "Parada 12",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1445188,
+      "lat": 40.0938963
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 209
+    },
+    "card": {
+      "image": "media/cards/stop_012.jpg",
+      "titleRu": "Остановка 12",
+      "titleEs": "Parada 12",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_013",
+    "number": 13,
+    "nameRu": "Остановка 13",
+    "nameEs": "Parada 13",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1410115,
+      "lat": 40.0880088
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 219
+    },
+    "card": {
+      "image": "media/cards/stop_013.jpg",
+      "titleRu": "Остановка 13",
+      "titleEs": "Parada 13",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_014",
+    "number": 14,
+    "nameRu": "Остановка 14",
+    "nameEs": "Parada 14",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1412238,
+      "lat": 40.0841763
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 243
+    },
+    "card": {
+      "image": "media/cards/stop_014.jpg",
+      "titleRu": "Остановка 14",
+      "titleEs": "Parada 14",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_015",
+    "number": 15,
+    "nameRu": "Остановка 15",
+    "nameEs": "Parada 15",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1395911,
+      "lat": 40.092135
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 272
+    },
+    "card": {
+      "image": "media/cards/stop_015.jpg",
+      "titleRu": "Остановка 15",
+      "titleEs": "Parada 15",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_016",
+    "number": 16,
+    "nameRu": "Остановка 16",
+    "nameEs": "Parada 16",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1347808,
+      "lat": 40.0911449
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 283
+    },
+    "card": {
+      "image": "media/cards/stop_016.jpg",
+      "titleRu": "Остановка 16",
+      "titleEs": "Parada 16",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_017",
+    "number": 17,
+    "nameRu": "Остановка 17",
+    "nameEs": "Parada 17",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1309245,
+      "lat": 40.0913428
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 300
+    },
+    "card": {
+      "image": "media/cards/stop_017.jpg",
+      "titleRu": "Остановка 17",
+      "titleEs": "Parada 17",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  },
+  {
+    "id": "stop_018",
+    "number": 18,
+    "nameRu": "Остановка 18",
+    "nameEs": "Parada 18",
+    "categoryId": "main_stop",
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.130563,
+      "lat": 40.0917253
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 356
+    },
+    "card": {
+      "image": "media/cards/stop_018.jpg",
+      "titleRu": "Остановка 18",
+      "titleEs": "Parada 18",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true
+  }
+]

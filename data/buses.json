@@ -1,0 +1,18 @@
+[
+  {
+    "id": "bus_1",
+    "name": "Bus 1",
+    "active": true,
+    "routeId": "main_route",
+    "icon": "media/icons/bus_1.svg",
+    "color": "#FFD84D"
+  },
+  {
+    "id": "bus_2",
+    "name": "Bus 2",
+    "active": false,
+    "routeId": "main_route",
+    "icon": "media/icons/bus_2.svg",
+    "color": "#FF6B6B"
+  }
+]

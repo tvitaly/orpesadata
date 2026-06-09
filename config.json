@@ -1,0 +1,22 @@
+{
+  "project": "Oropesa Bus Map",
+  "version": "1.0.0",
+  "city": "Oropesa del Mar",
+  "timezone": "Europe/Madrid",
+  "repository": {
+    "owner": "tvitaly",
+    "name": "orpesadata",
+    "branch": "main"
+  },
+  "dataBaseUrl": "https://raw.githubusercontent.com/tvitaly/orpesadata/main/data/",
+  "mediaBaseUrl": "https://raw.githubusercontent.com/tvitaly/orpesadata/main/media/",
+  "files": {
+    "route": "route.json",
+    "stops": "stops.json",
+    "schedule": "schedule.json",
+    "categories": "categories.json",
+    "buses": "buses.json",
+    "objects": "objects.json",
+    "calendar": "calendar.json"
+  }
+}
