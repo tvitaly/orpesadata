@@ -1,5 +1,5 @@
 {
-  "version": "v8.2_season_june_september_2026",
+  "version": "v8.4_season_june_september_2026_correct_numbering",
   "timezone": "Europe/Madrid",
   "season": {
     "id": "june_september_2026",
@@ -57,17 +57,17 @@
           "offsetMinutes": 20,
           "official": true,
           "officialStopNumber": 14,
-          "officialName": "Av. Barcelona (frente Hotel Magic Sport / Hotel Gran Duque)"
+          "officialName": "Av. Barcelona (frente Hotel Magic Sport)"
         },
         {
-          "stopId": "stop_014",
+          "stopId": "stop_015",
           "offsetMinutes": 30,
           "official": true,
           "officialStopNumber": 18,
           "officialName": "Playa de la Concha (frente Plaza París)"
         },
         {
-          "stopId": "stop_015",
+          "stopId": "stop_016",
           "offsetMinutes": 40,
           "official": true,
           "officialStopNumber": 20,
@@ -177,12 +177,12 @@
     ]
   },
   "editingNotesRu": [
-    "Сезонное расписание одинаковое для будней, выходных и праздников.",
-    "Официальные номера на схеме AMSA отличаются от внутренних stop_XXX.",
-    "Внутренние контрольные точки для движения: stop_001 +0 мин, stop_011 +20 мин, stop_014 +30 мин, stop_015 +40 мин.",
-    "Полный круг считается 50 минут. Конечная точка круга возвращается к началу маршрута.",
-    "Метры вручную не заполняются: приложение считает длину маршрута само по route.json.",
-    "В текущем GitHub stops.json есть stop_001...stop_018; отдельный stop_019 пока не используется в расписании."
+    "Исправлена внутренняя нумерация остановок по Name02.txt.",
+    "Новая остановка 13: Av. Valencia (altura C/ Berlín), 34RV+CCG Oropesa del Mar, routeAnchor.pointIndex 211.",
+    "Остановка 14 теперь: Av. Madrid (frente H. Oropesa Sol), routeAnchor.pointIndex 219.",
+    "Контрольные точки расписания: stop_001 +0 мин, stop_011 +20 мин, stop_015 +30 мин, stop_016 +40 мин.",
+    "Полный круг считается 50 минут.",
+    "Метры вручную не заполняются: приложение считает длину маршрута само по route.json."
   ],
   "stopNumberNotes": {
     "userConfirmedInternalStops": [
@@ -236,31 +236,117 @@
       },
       {
         "number": 13,
-        "name": "Av. Madrid (frente H. Oropesa Sol)"
+        "name": "Av. Valencia (altura C/ Berlín)"
       },
       {
         "number": 14,
-        "name": "Playa de la Concha (frente Plaza París)"
+        "name": "Av. Madrid (frente H. Oropesa Sol)"
       },
       {
         "number": 15,
-        "name": "P. la Estación (Estación RENFE)"
+        "name": "Playa de la Concha (frente Plaza París)"
       },
       {
         "number": 16,
-        "name": "Av. la Plana (cruce Plaza Constitución)"
+        "name": "P. la Estación (Estación RENFE)"
       },
       {
         "number": 17,
-        "name": "Urb. Balcó (Av. Benicassim - C/ Almendros)"
+        "name": "Av. la Plana (cruce Plaza Constitución)"
       },
       {
         "number": 18,
-        "name": "Av. la Plana (Frente Guardia Civil)"
+        "name": "Urb. Balcó (Av. Benicassim - C/ Almendros)"
       },
       {
         "number": 19,
+        "name": "Av. la Plana (Frente Guardia Civil)"
+      },
+      {
+        "number": 20,
         "name": "C/ Jose Rivera Forner (esq. Leoncio Serrano)"
+      }
+    ],
+    "routeAnchorPointIndexes": [
+      {
+        "number": 1,
+        "pointIndex": 0
+      },
+      {
+        "number": 2,
+        "pointIndex": 23
+      },
+      {
+        "number": 3,
+        "pointIndex": 35
+      },
+      {
+        "number": 4,
+        "pointIndex": 45
+      },
+      {
+        "number": 5,
+        "pointIndex": 58
+      },
+      {
+        "number": 6,
+        "pointIndex": 87
+      },
+      {
+        "number": 7,
+        "pointIndex": 99
+      },
+      {
+        "number": 8,
+        "pointIndex": 109
+      },
+      {
+        "number": 9,
+        "pointIndex": 138
+      },
+      {
+        "number": 10,
+        "pointIndex": 163
+      },
+      {
+        "number": 11,
+        "pointIndex": 174
+      },
+      {
+        "number": 12,
+        "pointIndex": 209
+      },
+      {
+        "number": 13,
+        "pointIndex": 211
+      },
+      {
+        "number": 14,
+        "pointIndex": 219
+      },
+      {
+        "number": 15,
+        "pointIndex": 243
+      },
+      {
+        "number": 16,
+        "pointIndex": 272
+      },
+      {
+        "number": 17,
+        "pointIndex": 283
+      },
+      {
+        "number": 18,
+        "pointIndex": 300
+      },
+      {
+        "number": 19,
+        "pointIndex": 356
+      },
+      {
+        "number": 20,
+        "pointIndex": 0
       }
     ]
   }
