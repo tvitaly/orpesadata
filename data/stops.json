@@ -582,13 +582,13 @@
     "active": true,
     "officialName": "C/ Jose Rivera Forner (esq. Leoncio Serrano)",
     "returnFromRoutePointIndex": 381,
+    "visible": false,
     "markerVisible": false,
     "displayOnMap": false,
+    "showOnMap": false,
     "meta": {
       "hiddenReasonRu": "Техническая конечная остановка для завершения кольца. Участвует в маршруте и расписании, но не отображается на карте.",
       "hiddenReasonEs": "Parada técnica final para cerrar el recorrido. Participa en la ruta y el horario, pero no se muestra en el mapa."
-    },
-    "showOnMap": false,
-    "visible": false
+    }
   }
 ]
