@@ -1,0 +1,584 @@
+[
+  {
+    "id": "stop_001",
+    "number": 1,
+    "nameRu": "Остановка 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
+    "nameEs": "Parada 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.13303780940246113,
+      "lat": 40.094315715531984
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.13303780940246113,
+      "lat": 40.094315715531984
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 0
+    },
+    "card": {
+      "image": "media/cards/stop_001.jpg",
+      "titleRu": "Остановка 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
+      "titleEs": "Parada 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "C/ Jose Rivera Forner (esq. Leoncio Serrano)"
+  },
+  {
+    "id": "stop_002",
+    "number": 2,
+    "nameRu": "Остановка 2 · C/ Torreblanca (centro médico)",
+    "nameEs": "Parada 2 · C/ Torreblanca (centro médico)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.13730771168299485,
+      "lat": 40.0959724184438
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.13730771168299485,
+      "lat": 40.0959724184438
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 23
+    },
+    "card": {
+      "image": "media/cards/stop_002.jpg",
+      "titleRu": "Остановка 2 · C/ Torreblanca (centro médico)",
+      "titleEs": "Parada 2 · C/ Torreblanca (centro médico)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "C/ Torreblanca (centro médico)"
+  },
+  {
+    "id": "stop_003",
+    "number": 3,
+    "nameRu": "Остановка 3 · P. España (cruce C/ Fco. Sevillano)",
+    "nameEs": "Parada 3 · P. España (cruce C/ Fco. Sevillano)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.13717890296829066,
+      "lat": 40.094085414419965
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.13717890296829066,
+      "lat": 40.094085414419965
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 35
+    },
+    "card": {
+      "image": "media/cards/stop_003.jpg",
+      "titleRu": "Остановка 3 · P. España (cruce C/ Fco. Sevillano)",
+      "titleEs": "Parada 3 · P. España (cruce C/ Fco. Sevillano)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "P. España (cruce C/ Fco. Sevillano)"
+  },
+  {
+    "id": "stop_004",
+    "number": 4,
+    "nameRu": "Остановка 4 · P. Principe de Asturias (frente ed. Florida)",
+    "nameEs": "Parada 4 · P. Principe de Asturias (frente ed. Florida)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.14434660833484886,
+      "lat": 40.094585176881075
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.14434660833484886,
+      "lat": 40.094585176881075
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 45
+    },
+    "card": {
+      "image": "media/cards/stop_004.jpg",
+      "titleRu": "Остановка 4 · P. Principe de Asturias (frente ed. Florida)",
+      "titleEs": "Parada 4 · P. Principe de Asturias (frente ed. Florida)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "P. Principe de Asturias (frente ed. Florida)"
+  },
+  {
+    "id": "stop_005",
+    "number": 5,
+    "nameRu": "Остановка 5 · P.M. Mediterráneo (frente H Koral)",
+    "nameEs": "Parada 5 · P.M. Mediterráneo (frente H Koral)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.14752078008485764,
+      "lat": 40.09596378316642
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.14752078008485764,
+      "lat": 40.09596378316642
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 58
+    },
+    "card": {
+      "image": "media/cards/stop_005.jpg",
+      "titleRu": "Остановка 5 · P.M. Mediterráneo (frente H Koral)",
+      "titleEs": "Parada 5 · P.M. Mediterráneo (frente H Koral)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "P.M. Mediterráneo (frente H Koral)"
+  },
+  {
+    "id": "stop_006",
+    "number": 6,
+    "nameRu": "Остановка 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
+    "nameEs": "Parada 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.1499672091281906,
+      "lat": 40.10897792730264
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1499672091281906,
+      "lat": 40.10897792730264
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 87
+    },
+    "card": {
+      "image": "media/cards/stop_006.jpg",
+      "titleRu": "Остановка 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
+      "titleEs": "Parada 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)"
+  },
+  {
+    "id": "stop_007",
+    "number": 7,
+    "nameRu": "Остановка 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
+    "nameEs": "Parada 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.1517478255662509,
+      "lat": 40.112465459449815
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1517478255662509,
+      "lat": 40.112465459449815
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 99
+    },
+    "card": {
+      "image": "media/cards/stop_007.jpg",
+      "titleRu": "Остановка 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
+      "titleEs": "Parada 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)"
+  },
+  {
+    "id": "stop_008",
+    "number": 8,
+    "nameRu": "Остановка 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
+    "nameEs": "Parada 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.1537227165726137,
+      "lat": 40.11655072510571
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1537227165726137,
+      "lat": 40.11655072510571
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 109
+    },
+    "card": {
+      "image": "media/cards/stop_008.jpg",
+      "titleRu": "Остановка 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
+      "titleEs": "Parada 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Av. Barcelona (Rotonda Barco direcc. campings)"
+  },
+  {
+    "id": "stop_009",
+    "number": 9,
+    "nameRu": "Остановка 9 · Av. Barcelona (Ro. Ratlla Terme)",
+    "nameEs": "Parada 9 · Av. Barcelona (Ro. Ratlla Terme)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.15707217127649445,
+      "lat": 40.124690317222466
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.15707217127649445,
+      "lat": 40.124690317222466
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 138
+    },
+    "card": {
+      "image": "media/cards/stop_009.jpg",
+      "titleRu": "Остановка 9 · Av. Barcelona (Ro. Ratlla Terme)",
+      "titleEs": "Parada 9 · Av. Barcelona (Ro. Ratlla Terme)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Av. Barcelona (Ro. Ratlla Terme)"
+  },
+  {
+    "id": "stop_010",
+    "number": 10,
+    "nameRu": "Остановка 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
+    "nameEs": "Parada 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.15299164927882972,
+      "lat": 40.11592666654544
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.15299164927882972,
+      "lat": 40.11592666654544
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 163
+    },
+    "card": {
+      "image": "media/cards/stop_010.jpg",
+      "titleRu": "Остановка 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
+      "titleEs": "Parada 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Av. Barcelona (Rotonda Barco VUELTA-Mercadona)"
+  },
+  {
+    "id": "stop_011",
+    "number": 11,
+    "nameRu": "Остановка 11 · Av. Barcelona (frente Hotel Magic Sport)",
+    "nameEs": "Parada 11 · Av. Barcelona (frente Hotel Magic Sport)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.1499475738039201,
+      "lat": 40.10944667105812
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1499475738039201,
+      "lat": 40.10944667105812
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 174
+    },
+    "card": {
+      "image": "media/cards/stop_011.jpg",
+      "titleRu": "Остановка 11 · Av. Barcelona (frente Hotel Magic Sport)",
+      "titleEs": "Parada 11 · Av. Barcelona (frente Hotel Magic Sport)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Av. Barcelona (frente Hotel Magic Sport)"
+  },
+  {
+    "id": "stop_012",
+    "number": 12,
+    "nameRu": "Остановка 12 · Av. Valencia (frente Urb Trebol)",
+    "nameEs": "Parada 12 · Av. Valencia (frente Urb Trebol)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.1444337109383746,
+      "lat": 40.093908894099044
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1444337109383746,
+      "lat": 40.093908894099044
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 209
+    },
+    "card": {
+      "image": "media/cards/stop_012.jpg",
+      "titleRu": "Остановка 12 · Av. Valencia (frente Urb Trebol)",
+      "titleEs": "Parada 12 · Av. Valencia (frente Urb Trebol)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Av. Valencia (frente Urb Trebol)"
+  },
+  {
+    "id": "stop_013",
+    "number": 13,
+    "nameRu": "Остановка 13 · Av. Valencia (altura C/ Berlín)",
+    "nameEs": "Parada 13 · Av. Valencia (altura C/ Berlín)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.1435753457868414,
+      "lat": 40.09105450525283
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1435753457868414,
+      "lat": 40.09105450525283
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 211
+    },
+    "card": {
+      "image": "media/cards/stop_013.jpg",
+      "titleRu": "Остановка 13 · Av. Valencia (altura C/ Berlín)",
+      "titleEs": "Parada 13 · Av. Valencia (altura C/ Berlín)",
+      "descriptionRu": "Новая остановка: 34RV+CCG Oropesa del Mar. Описание можно отредактировать в stops.json.",
+      "descriptionEs": "Nueva parada: 34RV+CCG Oropesa del Mar. La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Av. Valencia (altura C/ Berlín)",
+    "plusCode": "34RV+CCG Oropesa del Mar"
+  },
+  {
+    "id": "stop_014",
+    "number": 14,
+    "nameRu": "Остановка 14 · Av. Madrid (frente H. Oropesa Sol)",
+    "nameEs": "Parada 14 · Av. Madrid (frente H. Oropesa Sol)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.1410612137551965,
+      "lat": 40.0881047386627
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1410612137551965,
+      "lat": 40.0881047386627
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 219
+    },
+    "card": {
+      "image": "media/cards/stop_014.jpg",
+      "titleRu": "Остановка 14 · Av. Madrid (frente H. Oropesa Sol)",
+      "titleEs": "Parada 14 · Av. Madrid (frente H. Oropesa Sol)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Av. Madrid (frente H. Oropesa Sol)"
+  },
+  {
+    "id": "stop_015",
+    "number": 15,
+    "nameRu": "Остановка 15 · Playa de la Concha (frente Plaza París)",
+    "nameEs": "Parada 15 · Playa de la Concha (frente Plaza París)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.1412321560250698,
+      "lat": 40.08413622254931
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1412321560250698,
+      "lat": 40.08413622254931
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 243
+    },
+    "card": {
+      "image": "media/cards/stop_015.jpg",
+      "titleRu": "Остановка 15 · Playa de la Concha (frente Plaza París)",
+      "titleEs": "Parada 15 · Playa de la Concha (frente Plaza París)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Playa de la Concha (frente Plaza París)"
+  },
+  {
+    "id": "stop_016",
+    "number": 16,
+    "nameRu": "Остановка 16 · P. la Estación (Estación RENFE)",
+    "nameEs": "Parada 16 · P. la Estación (Estación RENFE)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.1396062839481683,
+      "lat": 40.09214259803522
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1396062839481683,
+      "lat": 40.09214259803522
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 272
+    },
+    "card": {
+      "image": "media/cards/stop_016.jpg",
+      "titleRu": "Остановка 16 · P. la Estación (Estación RENFE)",
+      "titleEs": "Parada 16 · P. la Estación (Estación RENFE)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "P. la Estación (Estación RENFE)"
+  },
+  {
+    "id": "stop_017",
+    "number": 17,
+    "nameRu": "Остановка 17 · Av. la Plana (cruce Plaza Constitución)",
+    "nameEs": "Parada 17 · Av. la Plana (cruce Plaza Constitución)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.13479815939455456,
+      "lat": 40.09120119374506
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.13479815939455456,
+      "lat": 40.09120119374506
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 283
+    },
+    "card": {
+      "image": "media/cards/stop_017.jpg",
+      "titleRu": "Остановка 17 · Av. la Plana (cruce Plaza Constitución)",
+      "titleEs": "Parada 17 · Av. la Plana (cruce Plaza Constitución)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Av. la Plana (cruce Plaza Constitución)"
+  },
+  {
+    "id": "stop_018",
+    "number": 18,
+    "nameRu": "Остановка 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
+    "nameEs": "Parada 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.13085061190114272,
+      "lat": 40.09134821940218
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.13085061190114272,
+      "lat": 40.09134821940218
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 300
+    },
+    "card": {
+      "image": "media/cards/stop_018.jpg",
+      "titleRu": "Остановка 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
+      "titleEs": "Parada 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Urb. Balcó (Av. Benicassim - C/ Almendros)"
+  },
+  {
+    "id": "stop_019",
+    "number": 19,
+    "nameRu": "Остановка 19 · Av. la Plana (Frente Guardia Civil)",
+    "nameEs": "Parada 19 · Av. la Plana (Frente Guardia Civil)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.1305698939832058,
+      "lat": 40.09178256178185
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.1305698939832058,
+      "lat": 40.09178256178185
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 356
+    },
+    "card": {
+      "image": "media/cards/stop_019.jpg",
+      "titleRu": "Остановка 19 · Av. la Plana (Frente Guardia Civil)",
+      "titleEs": "Parada 19 · Av. la Plana (Frente Guardia Civil)",
+      "descriptionRu": "Описание можно отредактировать в stops.json.",
+      "descriptionEs": "La descripción se puede editar en stops.json."
+    },
+    "active": true,
+    "officialName": "Av. la Plana (Frente Guardia Civil)"
+  },
+  {
+    "id": "stop_020",
+    "number": 20,
+    "nameRu": "Остановка 20 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
+    "nameEs": "Parada 20 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
+    "categoryId": "main_stop",
+    "marker": {
+      "lng": 0.13303780940246113,
+      "lat": 40.094315715531984
+    },
+    "icon": {
+      "svg": "media/icons/stop_main.svg",
+      "lng": 0.13303780940246113,
+      "lat": 40.094315715531984
+    },
+    "routeAnchor": {
+      "routeId": "main_route",
+      "pointIndex": 0
+    },
+    "card": {
+      "image": "media/cards/stop_020.jpg",
+      "titleRu": "Остановка 20 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
+      "titleEs": "Parada 20 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
+      "descriptionRu": "Возврат к начальной остановке.",
+      "descriptionEs": "Vuelta a la parada inicial."
+    },
+    "active": true,
+    "officialName": "C/ Jose Rivera Forner (esq. Leoncio Serrano)",
+    "returnFromRoutePointIndex": 381
+  }
+]
