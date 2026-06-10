@@ -1,0 +1,41 @@
+{
+  "version": "1.1",
+  "categories": [
+    {
+      "id": "info",
+      "name": "Информация",
+      "icon": "icons/info.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "info_001",
+          "title": "Тестовая информационная точка",
+          "subtitle": "Проверка универсальных меток",
+          "coordinates": [
+            0.1436845,
+            40.0910133
+          ],
+          "card": {
+            "title": "Тестовая информационная точка",
+            "text": "Это тестовая карточка. Если она открывается, значит универсальный слой меток работает.",
+            "image": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "parking",
+      "name": "Парковки",
+      "icon": "icons/parking.png",
+      "visible": false,
+      "items": []
+    },
+    {
+      "id": "ticket",
+      "name": "Билеты",
+      "icon": "icons/ticket.png",
+      "visible": false,
+      "items": []
+    }
+  ]
+}
