@@ -1,5 +1,13 @@
 {
-  "version": "1.2",
+  "version": "1.3",
+  "visibilityRules": {
+    "categoryVisible": "category.visible=false скрывает всю категорию",
+    "itemVisible": "item.visible=false / item.displayOnMap=false / item.markerVisible=false скрывает одну метку",
+    "recommendedHiddenItem": {
+      "visible": false,
+      "displayOnMap": false
+    }
+  },
   "categories": [
     {
       "id": "info",
@@ -9,6 +17,9 @@
       "items": [
         {
           "id": "info_001",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
           "title": "Тестовая информационная точка",
           "subtitle": "Проверка универсальных меток",
           "coordinates": [
@@ -19,14 +30,13 @@
             "title": "Тестовая информационная точка",
             "text": "Это тестовая карточка. Если она открывается, значит универсальный слой меток работает.",
             "image": ""
-          },
-          "visible": true,
-          "displayOnMap": true
+          }
         },
         {
           "id": "info_hidden_example",
           "visible": false,
           "displayOnMap": false,
+          "markerVisible": false,
           "title": "Скрытая тестовая метка",
           "subtitle": "Есть в JSON, но не отображается на карте",
           "coordinates": [
@@ -35,7 +45,7 @@
           ],
           "card": {
             "title": "Скрытая тестовая метка",
-            "text": "Эта метка оставлена как пример. Она не должна отображаться на карте, потому что visible=false.",
+            "text": "Эта метка есть в markers.json, но не отображается на карте, потому что visible=false.",
             "image": ""
           }
         }

@@ -585,8 +585,10 @@
     "markerVisible": false,
     "displayOnMap": false,
     "meta": {
-      "hiddenReasonRu": "Конечная техническая остановка для завершения кольца. На карте не отображается.",
-      "hiddenReasonEs": "Parada técnica final para cerrar el recorrido. No se muestra en el mapa."
-    }
+      "hiddenReasonRu": "Техническая конечная остановка для завершения кольца. Участвует в маршруте и расписании, но не отображается на карте.",
+      "hiddenReasonEs": "Parada técnica final para cerrar el recorrido. Participa en la ruta y el horario, pero no se muestra en el mapa."
+    },
+    "showOnMap": false,
+    "visible": false
   }
 ]
