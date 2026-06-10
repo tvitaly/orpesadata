@@ -559,12 +559,14 @@
     "categoryId": "main_stop",
     "marker": {
       "lng": 0.13303780940246113,
-      "lat": 40.094315715531984
+      "lat": 40.094315715531984,
+      "visible": false
     },
     "icon": {
       "svg": "media/icons/stop_main.svg",
       "lng": 0.13303780940246113,
-      "lat": 40.094315715531984
+      "lat": 40.094315715531984,
+      "visible": false
     },
     "routeAnchor": {
       "routeId": "main_route",
@@ -579,6 +581,12 @@
     },
     "active": true,
     "officialName": "C/ Jose Rivera Forner (esq. Leoncio Serrano)",
-    "returnFromRoutePointIndex": 381
+    "returnFromRoutePointIndex": 381,
+    "markerVisible": false,
+    "displayOnMap": false,
+    "meta": {
+      "hiddenReasonRu": "Конечная техническая остановка для завершения кольца. На карте не отображается.",
+      "hiddenReasonEs": "Parada técnica final para cerrar el recorrido. No se muestra en el mapa."
+    }
   }
 ]
