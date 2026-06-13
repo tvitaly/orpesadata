@@ -1,5 +1,27 @@
 [
   {
+    "id": "bus_card",
+    "number": 0,
+    "nameRu": "Автобус Оропесы",
+    "nameEs": "Autobús de Oropesa",
+    "categoryId": "bus_card",
+    "active": true,
+    "visible": false,
+    "markerVisible": false,
+    "displayOnMap": false,
+    "showOnMap": false,
+    "isBusCard": true,
+    "card": {
+      "image": "media/cards/bus_card.jpg",
+      "infoRu": "Автобусный маршрут",
+      "infoEs": "Ruta de autobús",
+      "titleRu": "Автобус Оропесы",
+      "titleEs": "Autobús de Oropesa",
+      "descriptionRu": "Информация об автобусе. Текст можно отредактировать в stops.json.",
+      "descriptionEs": "Información del autobús. El texto se puede editar en stops.json."
+    }
+  },
+  {
     "id": "stop_001",
     "number": 1,
     "nameRu": "Остановка 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
