@@ -12,7 +12,7 @@
     "showOnMap": false,
     "isBusCard": true,
     "card": {
-      "image": "media/cards/bus_card.jpg",
+      "image": "media/cards/Bus_card.jpg",
       "infoRu": "Автобусный маршрут",
       "infoEs": "Ruta de autobús",
       "titleRu": "Автобус Оропесы",
