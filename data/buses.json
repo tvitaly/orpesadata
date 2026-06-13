@@ -4,7 +4,7 @@
     "name": "Bus 1",
     "active": true,
     "routeId": "main_route",
-    "icon": "media/icons/bus_1.svg",
+    "icon": "media/icons/Bus_01.png",
     "color": "#FFD84D"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Bus 2",
     "active": false,
     "routeId": "main_route",
-    "icon": "media/icons/bus_2.svg",
+    "icon": "media/icons/Bus_01.png",
     "color": "#FF6B6B"
   }
 ]
