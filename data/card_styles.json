@@ -1,0 +1,188 @@
+{
+  "version": "1.0",
+  "_commentRu": "Этот файл управляет дизайном нижних карточек без перепрошивки APK. HTML должен игнорировать все поля, которые начинаются с подчёркивания.",
+  "_helpRu": {
+    "language": "Настройка языка карточек.",
+    "language.mode": "device — брать язык телефона, если он поддерживается; fixed — всегда показывать language.active; android — ждать язык от Android через window.setCardLanguage().",
+    "language.active": "Язык, который используется при mode=fixed. Основной язык приложения — es.",
+    "language.default": "Основной язык приложения, если другой язык не выбран.",
+    "language.fallback": "Запасной язык, если в карточке нет текста на выбранном языке.",
+    "styles": "Три готовых дизайна карточек: bus, stop, marker. В stops.json/markers.json карточка просто указывает style.",
+    "backgroundColor": "Цвет фона карточки.",
+    "textColor": "Базовый цвет текста карточки.",
+    "cardMaxHeightVh": "Максимальная высота карточки в процентах от высоты экрана. 33 ≈ треть экрана.",
+    "image.show": "Показывать картинку: true/false.",
+    "image.fit": "contain — картинка полностью помещается, не обрезается; cover — заполняет ширину/высоту и может обрезаться.",
+    "image.radius": "Скругление углов картинки в px. 0 — без скругления.",
+    "image.marginBottom": "Расстояние от картинки до первого абзаца.",
+    "content.paddingX": "Отступ текста слева и справа.",
+    "content.paddingTop": "Верхний отступ текста, если картинки нет.",
+    "content.paddingBottom": "Нижний отступ текста.",
+    "paragraphStyles": "Настройки абзацев по порядку: первый стиль для первого абзаца, второй для второго и так далее. Если абзацев больше, берётся последний стиль.",
+    "paragraphStyles.fontSize": "Размер текста абзаца в px.",
+    "paragraphStyles.fontWeight": "Жирность текста: 400 обычный, 600 полужирный, 800 жирный.",
+    "paragraphStyles.color": "Цвет текста конкретного абзаца.",
+    "paragraphStyles.lineHeight": "Высота строки. Обычно 1.2–1.45.",
+    "paragraphStyles.maxLines": "Максимальное количество строк абзаца. 0 — не ограничивать.",
+    "paragraphStyles.marginBottom": "Расстояние после абзаца до следующего абзаца."
+  },
+  "language": {
+    "_commentRu": "Основной язык приложения — испанский. В режиме device язык берётся с телефона, если он есть в supported. Если языка нет, используется fallback: es.",
+    "mode": "device",
+    "active": "es",
+    "default": "es",
+    "fallback": "es",
+    "supported": [
+      "es",
+      "en",
+      "de",
+      "fr",
+      "it",
+      "ru",
+      "uk"
+    ]
+  },
+  "styles": {
+    "bus": {
+      "_commentRu": "Стиль карточки автобуса.",
+      "backgroundColor": "#f7f3ea",
+      "textColor": "#111111",
+      "cardMaxHeightVh": 33,
+      "image": {
+        "_commentRu": "Картинка автобуса сверху. contain не обрезает картинку.",
+        "show": true,
+        "fit": "contain",
+        "radius": 0,
+        "marginBottom": 14
+      },
+      "content": {
+        "paddingX": 16,
+        "paddingTop": 16,
+        "paddingBottom": 18
+      },
+      "paragraphStyles": [
+        {
+          "_commentRu": "1-й абзац: заголовок автобуса.",
+          "fontSize": 18,
+          "fontWeight": 800,
+          "color": "#111111",
+          "lineHeight": 1.2,
+          "maxLines": 2,
+          "marginBottom": 8
+        },
+        {
+          "_commentRu": "2-й абзац: следующая остановка.",
+          "fontSize": 14,
+          "fontWeight": 650,
+          "color": "#222222",
+          "lineHeight": 1.35,
+          "maxLines": 3,
+          "marginBottom": 6
+        },
+        {
+          "_commentRu": "3-й и следующие абзацы: время прибытия и доп.информация.",
+          "fontSize": 14,
+          "fontWeight": 400,
+          "color": "#333333",
+          "lineHeight": 1.38,
+          "maxLines": 4,
+          "marginBottom": 0
+        }
+      ]
+    },
+    "stop": {
+      "_commentRu": "Стиль карточек остановок.",
+      "backgroundColor": "#f4efe4",
+      "textColor": "#111111",
+      "cardMaxHeightVh": 33,
+      "image": {
+        "_commentRu": "Картинка остановки сверху, без обрезки.",
+        "show": true,
+        "fit": "contain",
+        "radius": 0,
+        "marginBottom": 14
+      },
+      "content": {
+        "paddingX": 14,
+        "paddingTop": 14,
+        "paddingBottom": 16
+      },
+      "paragraphStyles": [
+        {
+          "_commentRu": "1-й абзац: название остановки.",
+          "fontSize": 17,
+          "fontWeight": 800,
+          "color": "#111111",
+          "lineHeight": 1.2,
+          "maxLines": 2,
+          "marginBottom": 8
+        },
+        {
+          "_commentRu": "2-й абзац: живое время прибытия автобуса.",
+          "fontSize": 14,
+          "fontWeight": 650,
+          "color": "#202020",
+          "lineHeight": 1.35,
+          "maxLines": 3,
+          "marginBottom": 7
+        },
+        {
+          "_commentRu": "3-й и следующие абзацы: описание, plus code или служебный текст.",
+          "fontSize": 13,
+          "fontWeight": 400,
+          "color": "#555555",
+          "lineHeight": 1.35,
+          "maxLines": 3,
+          "marginBottom": 0
+        }
+      ]
+    },
+    "marker": {
+      "_commentRu": "Стиль карточек объектов/маркеров.",
+      "backgroundColor": "#ffffff",
+      "textColor": "#111111",
+      "cardMaxHeightVh": 33,
+      "image": {
+        "_commentRu": "Картинка объекта сверху, без обрезки.",
+        "show": true,
+        "fit": "contain",
+        "radius": 0,
+        "marginBottom": 12
+      },
+      "content": {
+        "paddingX": 16,
+        "paddingTop": 16,
+        "paddingBottom": 18
+      },
+      "paragraphStyles": [
+        {
+          "_commentRu": "1-й абзац: название объекта.",
+          "fontSize": 18,
+          "fontWeight": 800,
+          "color": "#111111",
+          "lineHeight": 1.2,
+          "maxLines": 2,
+          "marginBottom": 8
+        },
+        {
+          "_commentRu": "2-й абзац: основное описание.",
+          "fontSize": 14,
+          "fontWeight": 400,
+          "color": "#333333",
+          "lineHeight": 1.4,
+          "maxLines": 5,
+          "marginBottom": 8
+        },
+        {
+          "_commentRu": "3-й и следующие абзацы: дополнительная информация.",
+          "fontSize": 13,
+          "fontWeight": 400,
+          "color": "#666666",
+          "lineHeight": 1.35,
+          "maxLines": 3,
+          "marginBottom": 0
+        }
+      ]
+    }
+  }
+}

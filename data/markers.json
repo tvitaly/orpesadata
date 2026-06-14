@@ -21,7 +21,38 @@
           "card": {
             "title": "Тестовая информационная точка",
             "text": "Это тестовая карточка. Если она открывается, значит универсальный слой меток работает.",
-            "image": "media/cards/Zamok_card.jpg"
+            "image": "media/cards/Zamok_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Punto de información de prueba",
+                "Esta es una tarjeta de prueba. Si se abre, la capa universal de marcadores funciona."
+              ],
+              "en": [
+                "Test information point",
+                "This is a test card. If it opens, the universal marker layer works."
+              ],
+              "de": [
+                "Test-Informationspunkt",
+                "Dies ist eine Testkarte. Wenn sie sich öffnet, funktioniert die universelle Markerebene."
+              ],
+              "fr": [
+                "Point d’information de test",
+                "Ceci est une carte de test. Si elle s’ouvre, la couche universelle de marqueurs fonctionne."
+              ],
+              "it": [
+                "Punto informativo di prova",
+                "Questa è una scheda di prova. Se si apre, il livello universale dei marcatori funziona."
+              ],
+              "ru": [
+                "Тестовая информационная точка",
+                "Это тестовая карточка. Если она открывается, значит универсальный слой меток работает."
+              ],
+              "uk": [
+                "Тестова інформаційна точка",
+                "Це тестова картка. Якщо вона відкривається, універсальний шар міток працює."
+              ]
+            }
           }
         },
         {
@@ -38,7 +69,38 @@
           "card": {
             "title": "Скрытая тестовая метка",
             "text": "Эта метка есть в markers.json, но не отображается на карте.",
-            "image": "media/cards/Zamok_card.jpg"
+            "image": "media/cards/Zamok_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Marcador de prueba oculto",
+                "Este marcador está en markers.json, pero no se muestra en el mapa."
+              ],
+              "en": [
+                "Hidden test marker",
+                "This marker exists in markers.json, but it is not shown on the map."
+              ],
+              "de": [
+                "Ausgeblendeter Testmarker",
+                "Dieser Marker befindet sich in markers.json, wird aber nicht auf der Karte angezeigt."
+              ],
+              "fr": [
+                "Marqueur de test masqué",
+                "Ce marqueur existe dans markers.json, mais il n’est pas affiché sur la carte."
+              ],
+              "it": [
+                "Marcatore di prova nascosto",
+                "Questo marcatore è presente in markers.json, ma non viene mostrato sulla mappa."
+              ],
+              "ru": [
+                "Скрытая тестовая метка",
+                "Эта метка есть в markers.json, но не отображается на карте."
+              ],
+              "uk": [
+                "Прихована тестова мітка",
+                "Ця мітка є в markers.json, але не відображається на карті."
+              ]
+            }
           }
         }
       ]
