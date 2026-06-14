@@ -38,7 +38,7 @@
           "card": {
             "title": "Скрытая тестовая метка",
             "text": "Эта метка есть в markers.json, но не отображается на карте.",
-            "image": ""
+            "image": "media/cards/Zamok_card.jpg"
           }
         }
       ]
