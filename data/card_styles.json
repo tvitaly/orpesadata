@@ -47,7 +47,7 @@
       "_commentRu": "Стиль карточки автобуса.",
       "backgroundColor": "#f7f3ea",
       "textColor": "#111111",
-      "cardMaxHeightVh": 33,
+      "cardMaxHeightVh": 40,
       "image": {
         "_commentRu": "Картинка автобуса сверху. contain не обрезает картинку.",
         "show": true,
@@ -94,7 +94,7 @@
       "_commentRu": "Стиль карточек остановок.",
       "backgroundColor": "#f4efe4",
       "textColor": "#111111",
-      "cardMaxHeightVh": 33,
+      "cardMaxHeightVh": 40,
       "image": {
         "_commentRu": "Картинка остановки сверху, без обрезки.",
         "show": true,
@@ -141,7 +141,7 @@
       "_commentRu": "Стиль карточек объектов/маркеров.",
       "backgroundColor": "#ffffff",
       "textColor": "#111111",
-      "cardMaxHeightVh": 33,
+      "cardMaxHeightVh": 40,
       "image": {
         "_commentRu": "Картинка объекта сверху, без обрезки.",
         "show": true,
