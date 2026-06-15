@@ -79,7 +79,7 @@
       "pointIndex": 0
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop01_card.jpg",
       "titleRu": "Остановка 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
       "titleEs": "Parada 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -146,7 +146,7 @@
       "pointIndex": 23
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop02_card.jpg",
       "titleRu": "Остановка 2 · C/ Torreblanca (centro médico)",
       "titleEs": "Parada 2 · C/ Torreblanca (centro médico)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -213,7 +213,7 @@
       "pointIndex": 35
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop03_card.jpg",
       "titleRu": "Остановка 3 · P. España (cruce C/ Fco. Sevillano)",
       "titleEs": "Parada 3 · P. España (cruce C/ Fco. Sevillano)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -280,7 +280,7 @@
       "pointIndex": 45
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop04_card.jpg",
       "titleRu": "Остановка 4 · P. Principe de Asturias (frente ed. Florida)",
       "titleEs": "Parada 4 · P. Principe de Asturias (frente ed. Florida)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -347,7 +347,7 @@
       "pointIndex": 58
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop05_card.jpg",
       "titleRu": "Остановка 5 · P.M. Mediterráneo (frente H Koral)",
       "titleEs": "Parada 5 · P.M. Mediterráneo (frente H Koral)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -414,7 +414,7 @@
       "pointIndex": 87
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop06_card.jpg",
       "titleRu": "Остановка 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
       "titleEs": "Parada 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -481,7 +481,7 @@
       "pointIndex": 99
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop07_card.jpg",
       "titleRu": "Остановка 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
       "titleEs": "Parada 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -548,7 +548,7 @@
       "pointIndex": 109
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop08_card.jpg",
       "titleRu": "Остановка 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
       "titleEs": "Parada 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -615,7 +615,7 @@
       "pointIndex": 138
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop09_card.jpg",
       "titleRu": "Остановка 9 · Av. Barcelona (Ro. Ratlla Terme)",
       "titleEs": "Parada 9 · Av. Barcelona (Ro. Ratlla Terme)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -749,7 +749,7 @@
       "pointIndex": 174
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop11_card.jpg",
       "titleRu": "Остановка 11 · Av. Barcelona (frente Hotel Magic Sport)",
       "titleEs": "Parada 11 · Av. Barcelona (frente Hotel Magic Sport)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -816,7 +816,7 @@
       "pointIndex": 209
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop12_card.jpg",
       "titleRu": "Остановка 12 · Av. Valencia (frente Urb Trebol)",
       "titleEs": "Parada 12 · Av. Valencia (frente Urb Trebol)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -883,7 +883,7 @@
       "pointIndex": 211
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop13_card.jpg",
       "titleRu": "Остановка 13 · Av. Valencia (altura C/ Berlín)",
       "titleEs": "Parada 13 · Av. Valencia (altura C/ Berlín)",
       "descriptionRu": "Новая остановка: 34RV+CCG Oropesa del Mar. Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -951,7 +951,7 @@
       "pointIndex": 219
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop14_card.jpg",
       "titleRu": "Остановка 14 · Av. Madrid (frente H. Oropesa Sol)",
       "titleEs": "Parada 14 · Av. Madrid (frente H. Oropesa Sol)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -1018,7 +1018,7 @@
       "pointIndex": 243
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop15_card.jpg",
       "titleRu": "Остановка 15 · Playa de la Concha (frente Plaza París)",
       "titleEs": "Parada 15 · Playa de la Concha (frente Plaza París)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -1085,7 +1085,7 @@
       "pointIndex": 272
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop16_card.jpg",
       "titleRu": "Остановка 16 · P. la Estación (Estación RENFE)",
       "titleEs": "Parada 16 · P. la Estación (Estación RENFE)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -1152,7 +1152,7 @@
       "pointIndex": 283
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop17_card.jpg",
       "titleRu": "Остановка 17 · Av. la Plana (cruce Plaza Constitución)",
       "titleEs": "Parada 17 · Av. la Plana (cruce Plaza Constitución)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -1219,7 +1219,7 @@
       "pointIndex": 300
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop18_card.jpg",
       "titleRu": "Остановка 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
       "titleEs": "Parada 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -1286,7 +1286,7 @@
       "pointIndex": 356
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop19_card.jpg",
       "titleRu": "Остановка 19 · Av. la Plana (Frente Guardia Civil)",
       "titleEs": "Parada 19 · Av. la Plana (Frente Guardia Civil)",
       "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -1355,7 +1355,7 @@
       "pointIndex": 0
     },
     "card": {
-      "image": "media/cards/Stop10_card.jpg",
+      "image": "media/cards/Stop01_card.jpg",
       "titleRu": "Остановка 20 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
       "titleEs": "Parada 20 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
       "descriptionRu": "Возврат к начальной остановке.",
