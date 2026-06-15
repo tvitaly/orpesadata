@@ -52,7 +52,7 @@
         "_commentRu": "Картинка автобуса сверху. contain не обрезает картинку.",
         "show": true,
         "fit": "contain",
-        "radius": 0,
+        "radius": 10,
         "marginBottom": 14
       },
       "content": {
@@ -99,7 +99,7 @@
         "_commentRu": "Картинка остановки сверху, без обрезки.",
         "show": true,
         "fit": "contain",
-        "radius": 0,
+        "radius": 10,
         "marginBottom": 14
       },
       "content": {
@@ -146,7 +146,7 @@
         "_commentRu": "Картинка объекта сверху, без обрезки.",
         "show": true,
         "fit": "contain",
-        "radius": 0,
+        "radius": 10,
         "marginBottom": 12
       },
       "content": {
