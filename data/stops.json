@@ -25,42 +25,49 @@
           "Autobús urbano de Oropesa",
           "Siguiente parada: {{next_stop_title}}",
           "Llegada a las {{next_stop_time}} dentro de {{next_stop_duration}} ± 5 minutos.",
+          "",
           ""
         ],
         "en": [
           "Oropesa urban bus",
           "Next stop: {{next_stop_title}}",
           "Arrival at {{next_stop_time}} in {{next_stop_duration}} ± 5 minutes.",
+          "",
           ""
         ],
         "de": [
           "Stadtbus Oropesa",
           "Nächste Haltestelle: {{next_stop_title}}",
           "Ankunft um {{next_stop_time}} in {{next_stop_duration}} ± 5 Minuten.",
+          "",
           ""
         ],
         "fr": [
           "Bus urbain d’Oropesa",
           "Prochain arrêt : {{next_stop_title}}",
           "Arrivée à {{next_stop_time}} dans {{next_stop_duration}} ± 5 minutes.",
+          "",
           ""
         ],
         "it": [
           "Autobus urbano di Oropesa",
           "Prossima fermata: {{next_stop_title}}",
           "Arrivo alle {{next_stop_time}} tra {{next_stop_duration}} ± 5 minuti.",
+          "",
           ""
         ],
         "ru": [
           "Автобус Оропесы",
           "Следующая остановка: {{next_stop_title}}",
           "Прибытие в {{next_stop_time}} через {{next_stop_duration}} ± 5 минут.",
+          "",
           ""
         ],
         "uk": [
           "Автобус Оропеси",
           "Наступна зупинка: {{next_stop_title}}",
           "Прибуття о {{next_stop_time}} через {{next_stop_duration}} ± 5 хвилин.",
+          "",
           ""
         ]
       }
