@@ -19,8 +19,8 @@
             40.0926370429413
           ],
           "card": {
-            "title": "Тестовая информационная точка",
-            "text": "Это тестовая карточка. Если она открывается, значит универсальный слой меток работает.",
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
             "image": "media/cards/Zamok_card.jpg",
             "style": "marker",
             "paragraphs": {
@@ -54,51 +54,107 @@
               ]
             }
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "Medicina",
+      "name": "Медицинские учреждения",
+      "icon": "media/icons/Med.png",
+      "visible": true,
+      "items": [
         {
-          "id": "info_hidden_example",
-          "visible": false,
-          "displayOnMap": false,
-          "markerVisible": false,
-          "title": "Скрытая тестовая метка",
-          "subtitle": "Есть в JSON, но не отображается на карте",
+          "id": "Poliklinika",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Поликлиника",
+          "subtitle": "Поликлиника",
           "coordinates": [
-            0.1439,
-            40.0912
+            0.1376642847499752,
+            40.09588803250298
           ],
           "card": {
-            "title": "Скрытая тестовая метка",
-            "text": "Эта метка есть в markers.json, но не отображается на карте.",
-            "image": "media/cards/Zamok_card.jpg",
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Poliklinika_card.jpg",
             "style": "marker",
             "paragraphs": {
               "es": [
-                "Marcador de prueba oculto",
-                "Este marcador está en markers.json, pero no se muestra en el mapa."
+                "Centro de salud",
+                ""
               ],
               "en": [
-                "Hidden test marker",
-                "This marker exists in markers.json, but it is not shown on the map."
+                "Health centre",
+                ""
               ],
               "de": [
-                "Ausgeblendeter Testmarker",
-                "Dieser Marker befindet sich in markers.json, wird aber nicht auf der Karte angezeigt."
+                "Gesundheitszentrum",
+                ""
               ],
               "fr": [
-                "Marqueur de test masqué",
-                "Ce marqueur existe dans markers.json, mais il n’est pas affiché sur la carte."
+                "Centre de santé",
+                ""
               ],
               "it": [
-                "Marcatore di prova nascosto",
-                "Questo marcatore è presente in markers.json, ma non viene mostrato sulla mappa."
+                "Centro sanitario",
+                ""
               ],
               "ru": [
-                "Скрытая тестовая метка",
-                "Эта метка есть в markers.json, но не отображается на карте."
+                "Медицинский центр",
+                ""
               ],
               "uk": [
-                "Прихована тестова мітка",
-                "Ця мітка є в markers.json, але не відображається на карті."
+                "Медичний центр",
+                ""
+              ]
+            }
+          }
+        },
+        {
+          "id": "Apteka01",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Аптека",
+          "subtitle": "Аптека в Маринадор",
+          "coordinates": [
+            0.15356003814623853,
+            40.113367306995926
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Apteka01_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Farmacia Marina d’Or",
+                ""
+              ],
+              "en": [
+                "Marina d’Or Pharmacy",
+                ""
+              ],
+              "de": [
+                "Apotheke Marina d’Or",
+                ""
+              ],
+              "fr": [
+                "Pharmacie Marina d’Or",
+                ""
+              ],
+              "it": [
+                "Farmacia Marina d’Or",
+                ""
+              ],
+              "ru": [
+                "Аптека Marina d’Or",
+                ""
+              ],
+              "uk": [
+                "Аптека Marina d’Or",
+                ""
               ]
             }
           }
@@ -106,18 +162,116 @@
       ]
     },
     {
-      "id": "parking",
-      "name": "Парковки",
-      "icon": "No.png",
-      "visible": false,
-      "items": []
+      "id": "GD",
+      "name": "Вокзал",
+      "icon": "media/icons/GD.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "Vokzal",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Вокзал",
+          "subtitle": "Вокзал",
+          "coordinates": [
+            0.13993558044440615,
+            40.092350091594504
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Vokzal_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Estación de tren de Oropesa del Mar",
+                ""
+              ],
+              "en": [
+                "Oropesa del Mar Train Station",
+                ""
+              ],
+              "de": [
+                "Bahnhof Oropesa del Mar",
+                ""
+              ],
+              "fr": [
+                "Gare d’Oropesa del Mar",
+                ""
+              ],
+              "it": [
+                "Stazione ferroviaria di Oropesa del Mar",
+                ""
+              ],
+              "ru": [
+                "Железнодорожный вокзал Оропеса-дель-Мар",
+                ""
+              ],
+              "uk": [
+                "Залізничний вокзал Оропеса-дель-Мар",
+                ""
+              ]
+            }
+          }
+        }
+      ]
     },
     {
-      "id": "ticket",
-      "name": "Билеты",
-      "icon": "No.png",
-      "visible": false,
-      "items": []
+      "id": "Gos",
+      "name": "Госорганы",
+      "icon": "media/icons/Gos.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "Meria",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Мэрия",
+          "subtitle": "Мэрия",
+          "coordinates": [
+            0.13492694030974783,
+            40.09452888311581
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Meria_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Ayuntamiento de Oropesa del Mar",
+                ""
+              ],
+              "en": [
+                "Oropesa del Mar Town Hall",
+                ""
+              ],
+              "de": [
+                "Rathaus von Oropesa del Mar",
+                ""
+              ],
+              "fr": [
+                "Mairie d’Oropesa del Mar",
+                ""
+              ],
+              "it": [
+                "Municipio di Oropesa del Mar",
+                ""
+              ],
+              "ru": [
+                "Мэрия Оропеса-дель-Мар",
+                ""
+              ],
+              "uk": [
+                "Мерія Оропеса-дель-Мар",
+                ""
+              ]
+            }
+          }
+        }
+      ]
     }
   ]
 }
