@@ -17,44 +17,51 @@
       "infoEs": "Ruta de autobús",
       "titleRu": "Автобус Оропесы",
       "titleEs": "Autobús de Oropesa",
-      "descriptionRu": "Информация об автобусе. Текст можно отредактировать в stops.json.\nСледующая остановка: {{next_stop_title}}\nПрибытие в {{next_stop_time}} через {{next_stop_duration}} ± 5 минут.",
-      "descriptionEs": "Información del autobús. El texto se puede editar en stops.json.\nSiguiente parada: {{next_stop_title}}\nLlegada a las {{next_stop_time}} dentro de {{next_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Следующая остановка: {{next_stop_title}}\nПрибытие в {{next_stop_time}} через {{next_stop_duration}} ± 5 минут.",
+      "descriptionEs": "Siguiente parada: {{next_stop_title}}\nLlegada a las {{next_stop_time}} dentro de {{next_stop_duration_es}} ± 5 minutos.",
       "style": "bus",
       "paragraphs": {
         "es": [
           "Autobús urbano de Oropesa",
           "Siguiente parada: {{next_stop_title}}",
-          "Llegada a las {{next_stop_time}} dentro de {{next_stop_duration}} ± 5 minutos."
+          "Llegada a las {{next_stop_time}} dentro de {{next_stop_duration}} ± 5 minutos.",
+          ""
         ],
         "en": [
           "Oropesa urban bus",
           "Next stop: {{next_stop_title}}",
-          "Arrival at {{next_stop_time}} in {{next_stop_duration}} ± 5 minutes."
+          "Arrival at {{next_stop_time}} in {{next_stop_duration}} ± 5 minutes.",
+          ""
         ],
         "de": [
           "Stadtbus Oropesa",
           "Nächste Haltestelle: {{next_stop_title}}",
-          "Ankunft um {{next_stop_time}} in {{next_stop_duration}} ± 5 Minuten."
+          "Ankunft um {{next_stop_time}} in {{next_stop_duration}} ± 5 Minuten.",
+          ""
         ],
         "fr": [
           "Bus urbain d’Oropesa",
           "Prochain arrêt : {{next_stop_title}}",
-          "Arrivée à {{next_stop_time}} dans {{next_stop_duration}} ± 5 minutes."
+          "Arrivée à {{next_stop_time}} dans {{next_stop_duration}} ± 5 minutes.",
+          ""
         ],
         "it": [
           "Autobus urbano di Oropesa",
           "Prossima fermata: {{next_stop_title}}",
-          "Arrivo alle {{next_stop_time}} tra {{next_stop_duration}} ± 5 minuti."
+          "Arrivo alle {{next_stop_time}} tra {{next_stop_duration}} ± 5 minuti.",
+          ""
         ],
         "ru": [
           "Автобус Оропесы",
           "Следующая остановка: {{next_stop_title}}",
-          "Прибытие в {{next_stop_time}} через {{next_stop_duration}} ± 5 минут."
+          "Прибытие в {{next_stop_time}} через {{next_stop_duration}} ± 5 минут.",
+          ""
         ],
         "uk": [
           "Автобус Оропеси",
           "Наступна зупинка: {{next_stop_title}}",
-          "Прибуття о {{next_stop_time}} через {{next_stop_duration}} ± 5 хвилин."
+          "Прибуття о {{next_stop_time}} через {{next_stop_duration}} ± 5 хвилин.",
+          ""
         ]
       }
     }
@@ -82,44 +89,51 @@
       "image": "media/cards/Stop01_card.jpg",
       "titleRu": "Остановка 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
       "titleEs": "Parada 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -149,44 +163,51 @@
       "image": "media/cards/Stop02_card.jpg",
       "titleRu": "Остановка 2 · C/ Torreblanca (centro médico)",
       "titleEs": "Parada 2 · C/ Torreblanca (centro médico)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 2 · C/ Torreblanca (centro médico)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 2 · C/ Torreblanca (centro médico)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 2 · C/ Torreblanca (centro médico)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 2 · C/ Torreblanca (centro médico)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 2 · C/ Torreblanca (centro médico)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 2 · C/ Torreblanca (centro médico)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 2 · C/ Torreblanca (centro médico)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -216,44 +237,51 @@
       "image": "media/cards/Stop03_card.jpg",
       "titleRu": "Остановка 3 · P. España (cruce C/ Fco. Sevillano)",
       "titleEs": "Parada 3 · P. España (cruce C/ Fco. Sevillano)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 3 · P. España (cruce C/ Fco. Sevillano)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 3 · P. España (cruce C/ Fco. Sevillano)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 3 · P. España (cruce C/ Fco. Sevillano)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 3 · P. España (cruce C/ Fco. Sevillano)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 3 · P. España (cruce C/ Fco. Sevillano)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 3 · P. España (cruce C/ Fco. Sevillano)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 3 · P. España (cruce C/ Fco. Sevillano)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -283,44 +311,51 @@
       "image": "media/cards/Stop04_card.jpg",
       "titleRu": "Остановка 4 · P. Principe de Asturias (frente ed. Florida)",
       "titleEs": "Parada 4 · P. Principe de Asturias (frente ed. Florida)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 4 · P. Principe de Asturias (frente ed. Florida)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 4 · P. Principe de Asturias (frente ed. Florida)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 4 · P. Principe de Asturias (frente ed. Florida)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 4 · P. Principe de Asturias (frente ed. Florida)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 4 · P. Principe de Asturias (frente ed. Florida)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 4 · P. Principe de Asturias (frente ed. Florida)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 4 · P. Principe de Asturias (frente ed. Florida)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -350,44 +385,51 @@
       "image": "media/cards/Stop05_card.jpg",
       "titleRu": "Остановка 5 · P.M. Mediterráneo (frente H Koral)",
       "titleEs": "Parada 5 · P.M. Mediterráneo (frente H Koral)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 5 · P.M. Mediterráneo (frente H Koral)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 5 · P.M. Mediterráneo (frente H Koral)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 5 · P.M. Mediterráneo (frente H Koral)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 5 · P.M. Mediterráneo (frente H Koral)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 5 · P.M. Mediterráneo (frente H Koral)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 5 · P.M. Mediterráneo (frente H Koral)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 5 · P.M. Mediterráneo (frente H Koral)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -417,44 +459,51 @@
       "image": "media/cards/Stop06_card.jpg",
       "titleRu": "Остановка 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
       "titleEs": "Parada 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -484,44 +533,51 @@
       "image": "media/cards/Stop07_card.jpg",
       "titleRu": "Остановка 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
       "titleEs": "Parada 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -551,44 +607,51 @@
       "image": "media/cards/Stop08_card.jpg",
       "titleRu": "Остановка 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
       "titleEs": "Parada 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -618,44 +681,51 @@
       "image": "media/cards/Stop09_card.jpg",
       "titleRu": "Остановка 9 · Av. Barcelona (Ro. Ratlla Terme)",
       "titleEs": "Parada 9 · Av. Barcelona (Ro. Ratlla Terme)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -685,44 +755,51 @@
       "image": "media/cards/Stop10_card.jpg",
       "titleRu": "Остановка 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
       "titleEs": "Parada 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -752,44 +829,51 @@
       "image": "media/cards/Stop11_card.jpg",
       "titleRu": "Остановка 11 · Av. Barcelona (frente Hotel Magic Sport)",
       "titleEs": "Parada 11 · Av. Barcelona (frente Hotel Magic Sport)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -819,44 +903,51 @@
       "image": "media/cards/Stop12_card.jpg",
       "titleRu": "Остановка 12 · Av. Valencia (frente Urb Trebol)",
       "titleEs": "Parada 12 · Av. Valencia (frente Urb Trebol)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 12 · Av. Valencia (frente Urb Trebol)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 12 · Av. Valencia (frente Urb Trebol)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 12 · Av. Valencia (frente Urb Trebol)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 12 · Av. Valencia (frente Urb Trebol)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 12 · Av. Valencia (frente Urb Trebol)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 12 · Av. Valencia (frente Urb Trebol)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 12 · Av. Valencia (frente Urb Trebol)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -886,44 +977,51 @@
       "image": "media/cards/Stop13_card.jpg",
       "titleRu": "Остановка 13 · Av. Valencia (altura C/ Berlín)",
       "titleEs": "Parada 13 · Av. Valencia (altura C/ Berlín)",
-      "descriptionRu": "Новая остановка: 34RV+CCG Oropesa del Mar. Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "Nueva parada: 34RV+CCG Oropesa del Mar. La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 13 · Av. Valencia (altura C/ Berlín)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Nueva parada: 34RV+CCG Oropesa del Mar. La descripción se puede editar en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 13 · Av. Valencia (altura C/ Berlín)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "New stop: 34RV+CCG Oropesa del Mar. The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 13 · Av. Valencia (altura C/ Berlín)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Neue Haltestelle: 34RV+CCG Oropesa del Mar. Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 13 · Av. Valencia (altura C/ Berlín)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "Nouvel arrêt : 34RV+CCG Oropesa del Mar. La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 13 · Av. Valencia (altura C/ Berlín)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "Nuova fermata: 34RV+CCG Oropesa del Mar. La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 13 · Av. Valencia (altura C/ Berlín)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Новая остановка: 34RV+CCG Oropesa del Mar. Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 13 · Av. Valencia (altura C/ Berlín)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Нова зупинка: 34RV+CCG Oropesa del Mar. Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -954,44 +1052,51 @@
       "image": "media/cards/Stop14_card.jpg",
       "titleRu": "Остановка 14 · Av. Madrid (frente H. Oropesa Sol)",
       "titleEs": "Parada 14 · Av. Madrid (frente H. Oropesa Sol)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 14 · Av. Madrid (frente H. Oropesa Sol)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 14 · Av. Madrid (frente H. Oropesa Sol)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 14 · Av. Madrid (frente H. Oropesa Sol)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 14 · Av. Madrid (frente H. Oropesa Sol)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 14 · Av. Madrid (frente H. Oropesa Sol)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 14 · Av. Madrid (frente H. Oropesa Sol)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 14 · Av. Madrid (frente H. Oropesa Sol)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -1021,44 +1126,51 @@
       "image": "media/cards/Stop15_card.jpg",
       "titleRu": "Остановка 15 · Playa de la Concha (frente Plaza París)",
       "titleEs": "Parada 15 · Playa de la Concha (frente Plaza París)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 15 · Playa de la Concha (frente Plaza París)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 15 · Playa de la Concha (frente Plaza París)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 15 · Playa de la Concha (frente Plaza París)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 15 · Playa de la Concha (frente Plaza París)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 15 · Playa de la Concha (frente Plaza París)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 15 · Playa de la Concha (frente Plaza París)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 15 · Playa de la Concha (frente Plaza París)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -1088,44 +1200,51 @@
       "image": "media/cards/Stop16_card.jpg",
       "titleRu": "Остановка 16 · P. la Estación (Estación RENFE)",
       "titleEs": "Parada 16 · P. la Estación (Estación RENFE)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 16 · P. la Estación (Estación RENFE)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 16 · P. la Estación (Estación RENFE)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 16 · P. la Estación (Estación RENFE)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 16 · P. la Estación (Estación RENFE)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 16 · P. la Estación (Estación RENFE)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 16 · P. la Estación (Estación RENFE)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 16 · P. la Estación (Estación RENFE)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -1155,44 +1274,51 @@
       "image": "media/cards/Stop17_card.jpg",
       "titleRu": "Остановка 17 · Av. la Plana (cruce Plaza Constitución)",
       "titleEs": "Parada 17 · Av. la Plana (cruce Plaza Constitución)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 17 · Av. la Plana (cruce Plaza Constitución)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 17 · Av. la Plana (cruce Plaza Constitución)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 17 · Av. la Plana (cruce Plaza Constitución)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 17 · Av. la Plana (cruce Plaza Constitución)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 17 · Av. la Plana (cruce Plaza Constitución)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 17 · Av. la Plana (cruce Plaza Constitución)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 17 · Av. la Plana (cruce Plaza Constitución)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -1222,44 +1348,51 @@
       "image": "media/cards/Stop18_card.jpg",
       "titleRu": "Остановка 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
       "titleEs": "Parada 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
@@ -1289,44 +1422,51 @@
       "image": "media/cards/Stop19_card.jpg",
       "titleRu": "Остановка 19 · Av. la Plana (Frente Guardia Civil)",
       "titleEs": "Parada 19 · Av. la Plana (Frente Guardia Civil)",
-      "descriptionRu": "Описание можно отредактировать в stops.json.\nАвтобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-      "descriptionEs": "La descripción se puede editar en stops.json.\nEl autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
+      "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
+      "descriptionEs": "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration_es}} ± 5 minutos.",
       "style": "stop",
       "paragraphs": {
         "es": [
           "Parada 19 · Av. la Plana (Frente Guardia Civil)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "Descripción editable en stops.json."
+          "",
+          ""
         ],
         "en": [
           "Stop 19 · Av. la Plana (Frente Guardia Civil)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The description can be edited in stops.json."
+          "",
+          ""
         ],
         "de": [
           "Haltestelle 19 · Av. la Plana (Frente Guardia Civil)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Beschreibung kann in stops.json bearbeitet werden."
+          "",
+          ""
         ],
         "fr": [
           "Arrêt 19 · Av. la Plana (Frente Guardia Civil)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "La description peut être modifiée dans stops.json."
+          "",
+          ""
         ],
         "it": [
           "Fermata 19 · Av. la Plana (Frente Guardia Civil)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "La descrizione può essere modificata in stops.json."
+          "",
+          ""
         ],
         "ru": [
           "Остановка 19 · Av. la Plana (Frente Guardia Civil)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Описание можно отредактировать в stops.json."
+          "",
+          ""
         ],
         "uk": [
           "Зупинка 19 · Av. la Plana (Frente Guardia Civil)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Опис можна відредагувати в stops.json."
+          "",
+          ""
         ]
       }
     },
