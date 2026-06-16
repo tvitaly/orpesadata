@@ -4,16 +4,16 @@
     {
       "id": "info",
       "name": "Информация",
-      "icon": "icons/info.png",
+      "icon": "no.png",
       "visible": true,
       "items": [
         {
-          "id": "info_001",
+          "id": "Zamok",
           "visible": true,
           "displayOnMap": true,
           "markerVisible": true,
-          "title": "Тестовая информационная точка",
-          "subtitle": "Проверка универсальных меток",
+          "title": "Замок",
+          "subtitle": "Замок в Оропеса дель Мар",
           "coordinates": [
             0.13172761689918683,
             40.0926370429413
@@ -21,36 +21,36 @@
           "card": {
             "title": "Тестовая информационная точка",
             "text": "Это тестовая карточка. Если она открывается, значит универсальный слой меток работает.",
-            "image": "media/cards/Zamok_card.jpg",
+            "image": "media/icons/Ist.png",
             "style": "marker",
             "paragraphs": {
               "es": [
-                "Punto de información de prueba",
-                "Esta es una tarjeta de prueba. Si se abre, la capa universal de marcadores funciona."
+                "Castillo de Oropesa del Mar",
+                ""
               ],
               "en": [
-                "Test information point",
-                "This is a test card. If it opens, the universal marker layer works."
+                "Oropesa del Mar Castle",
+                ""
               ],
               "de": [
-                "Test-Informationspunkt",
-                "Dies ist eine Testkarte. Wenn sie sich öffnet, funktioniert die universelle Markerebene."
+                "Burg von Oropesa del Mar",
+                ""
               ],
               "fr": [
-                "Point d’information de test",
-                "Ceci est une carte de test. Si elle s’ouvre, la couche universelle de marqueurs fonctionne."
+                "Château d’Oropesa del Mar",
+                ""
               ],
               "it": [
-                "Punto informativo di prova",
-                "Questa è una scheda di prova. Se si apre, il livello universale dei marcatori funziona."
+                "Castello di Oropesa del Mar",
+                ""
               ],
               "ru": [
-                "Тестовая информационная точка",
-                "Это тестовая карточка. Если она открывается, значит универсальный слой меток работает."
+                "Замок Оропеса дель Мар",
+                ""
               ],
               "uk": [
-                "Тестова інформаційна точка",
-                "Це тестова картка. Якщо вона відкривається, універсальний шар міток працює."
+                "Замок Оропеса дель Мар",
+                ""
               ]
             }
           }
