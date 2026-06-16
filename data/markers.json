@@ -2,8 +2,8 @@
   "version": "1.4",
   "categories": [
     {
-      "id": "info",
-      "name": "Информация",
+      "id": "Istoria",
+      "name": "Исторические объекты",
       "icon": "media/icons/Ist.png",
       "visible": true,
       "items": [
