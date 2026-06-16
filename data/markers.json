@@ -4,7 +4,7 @@
     {
       "id": "info",
       "name": "Информация",
-      "icon": "no.png",
+      "icon": "media/icons/Ist.png",
       "visible": true,
       "items": [
         {
