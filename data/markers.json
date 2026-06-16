@@ -108,14 +108,14 @@
     {
       "id": "parking",
       "name": "Парковки",
-      "icon": "icons/parking.png",
+      "icon": "No.png",
       "visible": false,
       "items": []
     },
     {
       "id": "ticket",
       "name": "Билеты",
-      "icon": "icons/ticket.png",
+      "icon": "No.png",
       "visible": false,
       "items": []
     }
