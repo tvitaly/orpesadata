@@ -21,7 +21,7 @@
           "card": {
             "title": "Тестовая информационная точка",
             "text": "Это тестовая карточка. Если она открывается, значит универсальный слой меток работает.",
-            "image": "media/icons/Ist.png",
+            "image": "media/cards/Zamok_card.jpg",
             "style": "marker",
             "paragraphs": {
               "es": [
