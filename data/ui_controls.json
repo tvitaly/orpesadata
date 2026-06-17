@@ -4,7 +4,7 @@
   "buttons": {
     "_helpRu": "rightOffsetPx — отступ от правого края; sizePx — размер кнопки; gapPx — расстояние между кнопками. Колонка ставится так, чтобы центр экрана был между двумя нижними кнопками Nav и Avt.",
     "rightOffsetPx": 24,
-    "sizePx": 54,
+    "sizePx": 42,
     "gapPx": 12,
     "borderRadiusPx": 0,
     "opacity": 1
