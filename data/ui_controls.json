@@ -1,0 +1,19 @@
+{
+  "version": "v8.78",
+  "_commentRu": "Настройки правой вертикальной колонки из 4 кнопок. Иконки лежат на GitHub в media/logo/. HTML игнорирует поля _commentRu/_helpRu.",
+  "buttons": {
+    "_helpRu": "rightOffsetPx — отступ от правого края; sizePx — размер кнопки; gapPx — расстояние между кнопками. Колонка ставится так, чтобы центр экрана был между двумя нижними кнопками Nav и Avt.",
+    "rightOffsetPx": 24,
+    "sizePx": 54,
+    "gapPx": 12,
+    "borderRadiusPx": 0,
+    "opacity": 1
+  },
+  "icons": {
+    "_helpRu": "Порядок сверху вниз: info/Vopr, schedule/Rasp, location/Nav, bus/Avt.",
+    "info": "media/logo/Vopr.png",
+    "schedule": "media/logo/Rasp.png",
+    "location": "media/logo/Nav.png",
+    "bus": "media/logo/Avt.png"
+  }
+}

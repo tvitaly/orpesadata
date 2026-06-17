@@ -1,0 +1,32 @@
+{
+  "version": "v8.78",
+  "_commentRu": "Стиль и тексты полноэкранной панели расписания. Сами времена HTML берёт из data/schedule.json, а названия остановок — из data/stops.json.",
+  "title": "Horario de hoy",
+  "subtitle": "Autobús urbano de Oropesa del Mar",
+  "note": "Horario calculado para el día actual según el servicio activo. Fecha: {{date}}.",
+  "noDataText": "No hay datos de horario disponibles.",
+  "labels": {
+    "departure": "Salida",
+    "nextTrip": "Próximo",
+    "noService": "No hay servicio activo para hoy."
+  },
+  "style": {
+    "_helpRu": "Цвета и размеры полноэкранного расписания. Панель сама учитывает верхний status bar и нижнюю Android navigation bar.",
+    "backgroundColor": "#f4efe4",
+    "textColor": "#111111",
+    "headerBackgroundColor": "#1f2a2d",
+    "headerTextColor": "#ffffff",
+    "paddingX": 18,
+    "headerPaddingTop": 16,
+    "headerPaddingBottom": 14,
+    "contentPaddingTop": 18,
+    "contentPaddingBottom": 26,
+    "titleSize": 20,
+    "subtitleSize": 12,
+    "bodySize": 14,
+    "tableSize": 13,
+    "tableHeadBackgroundColor": "rgba(0,0,0,0.06)",
+    "tableBorderColor": "rgba(0,0,0,0.14)",
+    "nextTripBackgroundColor": "rgba(255,216,74,0.28)"
+  }
+}
