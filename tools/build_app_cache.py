@@ -1,37 +1,42 @@
 #!/usr/bin/env python3
 """
-Builds a deterministic ZIP bundle and a JSON manifest for the Oropesa Bus app.
+Build GitHub Pages output for the Oropesa del Mar urban bus app data repository.
 
-The Android app can later fetch cache_manifest.json, compare bundle.sha256 with
-its stored value, and download orpesadata_bundle.zip only when the hash changes.
+This script creates:
+  dist/orpesadata_bundle.zip  - deterministic ZIP with data/ and media/
+  dist/cache_manifest.json    - manifest with current bundle SHA-256
+  dist/index.html             - simple public status page
+  dist/privacy.html           - public privacy policy for Google Play
+
+Important:
+  The ZIP is deterministic. If data/ and media/ do not change, bundle.sha256
+  should stay the same even after a new workflow run.
 """
 
 from __future__ import annotations
 
+import datetime as _dt
 import hashlib
 import html
 import json
 import os
-import subprocess
+import shutil
 import zipfile
-from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List
+from typing import Iterable
 
-ROOT = Path(os.environ.get("GITHUB_WORKSPACE", ".")).resolve()
+REPO_NAME = "orpesadata"
+PAGES_BASE_URL = "https://tvitaly.github.io/orpesadata/"
+BUNDLE_FILE_NAME = "orpesadata_bundle.zip"
+MANIFEST_FILE_NAME = "cache_manifest.json"
+PRIVACY_FILE_NAME = "privacy.html"
+
+ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
-BUNDLE_NAME = "orpesadata_bundle.zip"
-MANIFEST_NAME = "cache_manifest.json"
-INCLUDE_DIRS = ["data", "media"]
 
-# ZIP timestamps are fixed so the same files produce the same ZIP hash.
-ZIP_FIXED_DATE_TIME = (1980, 1, 1, 0, 0, 0)
-
-
-def sha256_bytes(data: bytes) -> str:
-    h = hashlib.sha256()
-    h.update(data)
-    return h.hexdigest()
+INCLUDED_DIRS = ("data", "media")
+IGNORED_FILE_NAMES = {".DS_Store", "Thumbs.db", "desktop.ini"}
+FIXED_ZIP_DATETIME = (1980, 1, 1, 0, 0, 0)
 
 
 def sha256_file(path: Path) -> str:
@@ -42,177 +47,228 @@ def sha256_file(path: Path) -> str:
     return h.hexdigest()
 
 
-def git_value(args: List[str], default: str = "") -> str:
-    try:
-        return subprocess.check_output(["git", *args], cwd=ROOT, text=True).strip()
-    except Exception:
-        return default
-
-
-def should_include(path: Path) -> bool:
-    if not path.is_file():
-        return False
-    rel = path.relative_to(ROOT).as_posix()
-    if rel.startswith("."):
-        return False
-    if "/." in rel:
-        return False
-    return True
-
-
-def collect_files() -> List[Path]:
-    files: List[Path] = []
-    missing_dirs: List[str] = []
-
-    for folder in INCLUDE_DIRS:
-        folder_path = ROOT / folder
-        if not folder_path.exists():
-            missing_dirs.append(folder)
+def iter_included_files() -> Iterable[Path]:
+    for dirname in INCLUDED_DIRS:
+        folder = ROOT / dirname
+        if not folder.exists():
             continue
-        for path in folder_path.rglob("*"):
-            if should_include(path):
-                files.append(path)
-
-    if not files:
-        raise SystemExit(
-            "No files found for the app bundle. Expected folders: "
-            + ", ".join(INCLUDE_DIRS)
-            + (f". Missing: {', '.join(missing_dirs)}" if missing_dirs else "")
-        )
-
-    return sorted(files, key=lambda p: p.relative_to(ROOT).as_posix())
+        for path in sorted(folder.rglob("*")):
+            if not path.is_file():
+                continue
+            if path.name in IGNORED_FILE_NAMES:
+                continue
+            if any(part.startswith(".") for part in path.relative_to(ROOT).parts):
+                continue
+            yield path
 
 
-def build_bundle(files: List[Path], bundle_path: Path) -> List[Dict[str, object]]:
-    manifest_files: List[Dict[str, object]] = []
-
-    with zipfile.ZipFile(bundle_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
+def write_deterministic_zip(zip_path: Path, files: list[Path]) -> None:
+    with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=9) as zf:
         for path in files:
             rel = path.relative_to(ROOT).as_posix()
-            data = path.read_bytes()
-            file_hash = sha256_bytes(data)
-
-            info = zipfile.ZipInfo(rel)
-            info.date_time = ZIP_FIXED_DATE_TIME
+            info = zipfile.ZipInfo(rel, FIXED_ZIP_DATETIME)
             info.compress_type = zipfile.ZIP_DEFLATED
+            # Stable Unix-like file permission: rw-r--r--
             info.external_attr = 0o644 << 16
-            zf.writestr(info, data)
-
-            manifest_files.append(
-                {
-                    "path": rel,
-                    "sha256": file_hash,
-                    "sizeBytes": len(data),
-                }
-            )
-
-    return manifest_files
+            zf.writestr(info, path.read_bytes())
 
 
-def content_hash_for_files(manifest_files: List[Dict[str, object]]) -> str:
-    h = hashlib.sha256()
-    for item in manifest_files:
-        h.update(str(item["path"]).encode("utf-8"))
-        h.update(b"\0")
-        h.update(str(item["sha256"]).encode("ascii"))
-        h.update(b"\n")
-    return h.hexdigest()
+def copy_privacy_page() -> None:
+    src = ROOT / "legal" / "privacy_policy.html"
+    dst = DIST / PRIVACY_FILE_NAME
+    if src.exists():
+        shutil.copyfile(src, dst)
+    else:
+        dst.write_text(
+            "<!doctype html><html lang='es'><meta charset='utf-8'>"
+            "<title>Política de privacidad</title>"
+            "<h1>Política de privacidad</h1>"
+            "<p>Privacy policy file not found: legal/privacy_policy.html</p>"
+            "</html>",
+            encoding="utf-8",
+        )
 
 
-def write_index(manifest: Dict[str, object], index_path: Path) -> None:
-    bundle = manifest["bundle"]
-    assert isinstance(bundle, dict)
-    repo = html.escape(str(manifest.get("repository", "")))
-    commit = html.escape(str(manifest.get("commitSha", ""))[:12])
-    sha = html.escape(str(bundle.get("sha256", "")))
-    size = int(bundle.get("sizeBytes", 0))
-    files = int(bundle.get("fileCount", 0))
+def build_index(manifest: dict) -> None:
+    generated = html.escape(manifest.get("generatedAtUtc", ""))
+    bundle_sha = html.escape(manifest["bundle"]["sha256"])
+    bundle_size = int(manifest["bundle"]["sizeBytes"])
+    file_count = int(manifest["bundle"]["fileCount"])
 
-    index_path.write_text(
-        f"""<!doctype html>
-<html lang=\"es\">
+    index = f"""<!doctype html>
+<html lang="es">
 <head>
-  <meta charset=\"utf-8\">
-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-  <title>Oropesa Bus app cache</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oropesa del Mar autobús urbano — app data</title>
   <style>
-    body {{ font-family: system-ui, -apple-system, Segoe UI, sans-serif; margin: 24px; line-height: 1.45; color: #1f2933; }}
-    code {{ background: #f2f4f7; padding: 2px 5px; border-radius: 5px; word-break: break-all; }}
-    .card {{ max-width: 860px; border: 1px solid #d8dee7; border-radius: 14px; padding: 20px; }}
-    a {{ color: #0b63ce; }}
+    :root {{
+      color-scheme: light;
+      --bg: #fbefe3;
+      --card: #fff8f0;
+      --text: #243034;
+      --muted: #58676d;
+      --line: #d9c8b6;
+      --accent: #0b6ea8;
+    }}
+    body {{
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }}
+    main {{
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }}
+    .card {{
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 22px;
+      margin: 18px 0;
+    }}
+    h1 {{
+      margin: 0 0 8px;
+      font-size: 28px;
+    }}
+    h2 {{
+      margin: 0 0 10px;
+      font-size: 20px;
+    }}
+    p {{
+      margin: 8px 0;
+    }}
+    a {{
+      color: var(--accent);
+      font-weight: 650;
+    }}
+    code {{
+      background: rgba(255,255,255,.65);
+      border: 1px solid var(--line);
+      padding: 2px 6px;
+      border-radius: 6px;
+      overflow-wrap: anywhere;
+    }}
+    .muted {{
+      color: var(--muted);
+    }}
+    .sha {{
+      overflow-wrap: anywhere;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 13px;
+    }}
   </style>
 </head>
 <body>
-  <main class=\"card\">
-    <h1>Oropesa Bus app cache</h1>
-    <p>Static bundle for the Android app.</p>
-    <p><strong>Repository:</strong> {repo}</p>
-    <p><strong>Commit:</strong> <code>{commit}</code></p>
-    <p><strong>Files in ZIP:</strong> {files}</p>
-    <p><strong>ZIP size:</strong> {size} bytes</p>
-    <p><strong>ZIP SHA-256:</strong><br><code>{sha}</code></p>
-    <p>
-      <a href=\"{MANIFEST_NAME}\">Open manifest</a><br>
-      <a href=\"{BUNDLE_NAME}\">Download ZIP bundle</a>
-    </p>
+  <main>
+    <h1>Oropesa del Mar autobús urbano</h1>
+    <p class="muted">Public app data, cache manifest and privacy policy.</p>
+
+    <section class="card">
+      <h2>App cache</h2>
+      <p><a href="{MANIFEST_FILE_NAME}">cache_manifest.json</a></p>
+      <p><a href="{BUNDLE_FILE_NAME}">orpesadata_bundle.zip</a></p>
+      <p>Bundle files: <strong>{file_count}</strong></p>
+      <p>Bundle size: <strong>{bundle_size} bytes</strong></p>
+      <p>Bundle SHA-256:</p>
+      <p class="sha"><code>{bundle_sha}</code></p>
+    </section>
+
+    <section class="card">
+      <h2>Privacy policy / Política de privacidad</h2>
+      <p><a href="{PRIVACY_FILE_NAME}">Open privacy policy</a></p>
+      <p class="muted">This public URL can be used in Google Play Console.</p>
+    </section>
+
+    <section class="card">
+      <h2>Status</h2>
+      <p>Generated at: <code>{generated}</code></p>
+      <p class="muted">If the content of <code>data/</code> and <code>media/</code> does not change, the bundle SHA-256 should stay the same.</p>
+    </section>
   </main>
 </body>
 </html>
-""",
-        encoding="utf-8",
-    )
+"""
+    (DIST / "index.html").write_text(index, encoding="utf-8")
 
 
 def main() -> None:
+    if DIST.exists():
+        shutil.rmtree(DIST)
     DIST.mkdir(parents=True, exist_ok=True)
-    bundle_path = DIST / BUNDLE_NAME
-    manifest_path = DIST / MANIFEST_NAME
 
-    files = collect_files()
-    manifest_files = build_bundle(files, bundle_path)
+    files = list(iter_included_files())
+
+    bundle_path = DIST / BUNDLE_FILE_NAME
+    write_deterministic_zip(bundle_path, files)
 
     bundle_sha = sha256_file(bundle_path)
-    content_sha = content_hash_for_files(manifest_files)
-    bundle_size = bundle_path.stat().st_size
+    generated_at = _dt.datetime.now(_dt.timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
-    repository = os.environ.get("GITHUB_REPOSITORY") or git_value(["config", "--get", "remote.origin.url"])
-    branch = os.environ.get("GITHUB_REF_NAME") or git_value(["rev-parse", "--abbrev-ref", "HEAD"])
-    commit_sha = os.environ.get("GITHUB_SHA") or git_value(["rev-parse", "HEAD"])
-    run_id = os.environ.get("GITHUB_RUN_ID", "")
+    file_entries = []
+    for path in files:
+        rel = path.relative_to(ROOT).as_posix()
+        file_entries.append(
+            {
+                "path": rel,
+                "sizeBytes": path.stat().st_size,
+                "sha256": sha256_file(path),
+            }
+        )
 
-    manifest: Dict[str, object] = {
-        "_helpRu": "Автоматически создано GitHub Actions. Приложение проверяет bundle.sha256. Если он изменился, нужно скачать orpesadata_bundle.zip и обновить локальный кеш.",
-        "schemaVersion": 1,
-        "generatedAtUtc": datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z"),
-        "repository": repository,
-        "branch": branch,
-        "commitSha": commit_sha,
-        "githubRunId": run_id,
+    manifest = {
+        "schemaVersion": 2,
+        "project": REPO_NAME,
+        "generatedAtUtc": generated_at,
+        "source": {
+            "repository": "https://github.com/tvitaly/orpesadata",
+            "branch": os.getenv("GITHUB_REF_NAME", "main"),
+            "commit": os.getenv("GITHUB_SHA", ""),
+            "runId": os.getenv("GITHUB_RUN_ID", ""),
+        },
+        "pages": {
+            "baseUrl": PAGES_BASE_URL,
+            "indexUrl": PAGES_BASE_URL,
+            "manifestUrl": PAGES_BASE_URL + MANIFEST_FILE_NAME,
+        },
+        "legal": {
+            "privacyPolicyUrl": PAGES_BASE_URL + PRIVACY_FILE_NAME,
+            "privacyPolicyRelativeUrl": PRIVACY_FILE_NAME,
+        },
         "bundle": {
-            "fileName": BUNDLE_NAME,
-            "relativeUrl": BUNDLE_NAME,
+            "fileName": BUNDLE_FILE_NAME,
+            "relativeUrl": BUNDLE_FILE_NAME,
+            "url": PAGES_BASE_URL + BUNDLE_FILE_NAME,
             "sha256": bundle_sha,
-            "contentSha256": content_sha,
-            "sizeBytes": bundle_size,
-            "fileCount": len(manifest_files),
-            "includedFolders": INCLUDE_DIRS,
+            "sizeBytes": bundle_path.stat().st_size,
+            "fileCount": len(files),
+            "includedDirectories": list(INCLUDED_DIRS),
         },
-        "files": manifest_files,
-        "appHints": {
-            "manifestPath": MANIFEST_NAME,
-            "bundlePath": BUNDLE_NAME,
-            "compareField": "bundle.sha256",
-            "downloadField": "bundle.relativeUrl",
-        },
+        "files": file_entries,
+        "_helpRu": (
+            "Приложение должно сравнивать bundle.sha256 с сохранённым локальным хешем. "
+            "Если sha256 не изменился — ZIP скачивать не нужно. "
+            "privacyPolicyUrl — публичная ссылка для Google Play и раздела политики в приложении."
+        ),
     }
 
-    manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    (DIST / ".nojekyll").write_text("", encoding="utf-8")
-    write_index(manifest, DIST / "index.html")
+    (DIST / MANIFEST_FILE_NAME).write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
-    print(f"Built {bundle_path} ({bundle_size} bytes)")
-    print(f"Built {manifest_path}")
-    print(f"bundle.sha256={bundle_sha}")
+    copy_privacy_page()
+    build_index(manifest)
+
+    print("Built GitHub Pages output:")
+    print(f"  {bundle_path.relative_to(ROOT)}")
+    print(f"  {(DIST / MANIFEST_FILE_NAME).relative_to(ROOT)}")
+    print(f"  {(DIST / PRIVACY_FILE_NAME).relative_to(ROOT)}")
+    print(f"  {(DIST / 'index.html').relative_to(ROOT)}")
+    print(f"Bundle SHA-256: {bundle_sha}")
 
 
 if __name__ == "__main__":
