@@ -1,6 +1,6 @@
 {
-  "version": "v8.78",
-  "_commentRu": "Настройки правой вертикальной колонки из 4 кнопок. Иконки лежат на GitHub в media/logo/. HTML игнорирует поля _commentRu/_helpRu.",
+  "version": "v8.84",
+  "_commentRu": "Настройки правой вертикальной колонки из 4 кнопок и стартовой заставки. Иконки/картинки лежат на GitHub в media/logo/. HTML игнорирует служебные поля с подчёркиванием: _commentRu/_helpRu и похожие.",
   "buttons": {
     "_helpRu": "rightOffsetPx — отступ от правого края; sizePx — размер кнопки; gapPx — расстояние между кнопками. Колонка ставится так, чтобы центр экрана был между двумя нижними кнопками Nav и Avt.",
     "rightOffsetPx": 24,
@@ -15,5 +15,10 @@
     "schedule": "media/logo/Rasp.png",
     "location": "media/logo/Nav.png",
     "bus": "media/logo/Avt.png"
+  },
+  "splash": {
+    "_helpRu": "Настройки стартовой обложки. posterImage — путь к картинке заставки; edgeColor — цвет заливки пустых полей вокруг картинки, когда Poster.jpg полностью вписывается через object-fit: contain. Если поменять обложку и у неё другой цвет края, достаточно поменять edgeColor здесь на GitHub без пересборки APK.",
+    "posterImage": "media/logo/Poster.jpg",
+    "edgeColor": "#fbefe3"
   }
 }
