@@ -1,121 +1,42 @@
 {
-    "version": "v8.86",
-    "_commentRu": "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0439 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f. \u0424\u0430\u0439\u043b \u043b\u0435\u0436\u0438\u0442 \u043d\u0430 GitHub \u0432 data/update_policy.json. HTML \u0438\u0433\u043d\u043e\u0440\u0438\u0440\u0443\u0435\u0442 \u043f\u043e\u043b\u044f, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043d\u0430\u0447\u0438\u043d\u0430\u044e\u0442\u0441\u044f \u0441 \u043f\u043e\u0434\u0447\u0451\u0440\u043a\u0438\u0432\u0430\u043d\u0438\u044f.",
-    "enabled": true,
-    "_enabledRu": "true \u2014 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0439 \u0432\u043a\u043b\u044e\u0447\u0435\u043d\u0430; false \u2014 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0432\u043e\u043e\u0431\u0449\u0435 \u043d\u0435 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442 \u044d\u043a\u0440\u0430\u043d \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f.",
-    "app": {
-        "_helpRu": "\u0413\u043b\u0430\u0432\u043d\u044b\u0435 \u0447\u0438\u0441\u043b\u0430 \u0434\u043b\u044f \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435\u043c. installed version \u0431\u0435\u0440\u0451\u0442\u0441\u044f \u0438\u0437 \u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e APK/HTML. latestVersionCode \u2014 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f. minimumRequiredVersionCode \u2014 \u043c\u0438\u043d\u0438\u043c\u0430\u043b\u044c\u043d\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f, \u043a\u043e\u0442\u043e\u0440\u0443\u044e \u043c\u043e\u0436\u043d\u043e \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0442\u044c. \u0415\u0441\u043b\u0438 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f \u043d\u0438\u0436\u0435 minimumRequiredVersionCode, \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0431\u043b\u043e\u043a\u0438\u0440\u0443\u0435\u0442\u0441\u044f \u0434\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f.",
-        "latestVersionCode": 86,
-        "latestVersionName": "v8.86",
-        "minimumRequiredVersionCode": 1,
-        "minimumRequiredVersionName": "v1.0",
-        "updateUrl": "",
-        "releaseDate": "2026-06-19"
+  "version": "v1_google_play_update_policy",
+  "_commentRu": "Сервисный файл управления обновлениями приложения через Google Play. Это НЕ тексты интерфейса и НЕ ссылка на APK. Языки, кнопки и системное окно обновления должны обрабатываться Android / Google Play, а этот JSON только говорит приложению, нужно ли обновление и можно ли его пропустить.",
+  "_quickEditRu": {
+    "noUpdate": "Нет обновления: latestVersionCode равен текущему versionCode приложения, minimumRequiredVersionCode не выше текущей версии.",
+    "optionalUpdate": "Необязательное обновление: latestVersionCode выше текущей версии, minimumRequiredVersionCode не выше текущей версии, allowSkip = true.",
+    "requiredUpdate": "Обязательное обновление: minimumRequiredVersionCode выше текущей версии ИЛИ allowSkip = false при наличии новой версии. Приложение должно запускать Google Play immediate update и не пускать дальше.",
+    "disableCheck": "Отключить проверку: enabled = false. Тогда приложение вообще не показывает обновление."
+  },
+  "enabled": true,
+  "_enabledRu": "true — проверять обновления; false — полностью отключить проверку обновлений.",
+  "latestVersionCode": 86,
+  "_latestVersionCodeRu": "Код самой свежей версии в Google Play. Когда выпустишь новую версию, увеличь это число, например 87.",
+  "minimumRequiredVersionCode": 86,
+  "_minimumRequiredVersionCodeRu": "Минимальная версия, которой разрешено работать. Если установленная версия ниже этого числа — обновление обязательное.",
+  "allowSkip": true,
+  "_allowSkipRu": "true — необязательное обновление можно пропустить; false — если есть новая версия, пользоваться старой нельзя, нужно обновиться через Google Play.",
+  "playUpdateType": "flexible",
+  "_playUpdateTypeRu": "Подсказка для Android: flexible — мягкое обновление, immediate — обязательное полноэкранное обновление. Обычно Android может сам выбрать immediate, если установленная версия ниже minimumRequiredVersionCode.",
+  "checkOnStart": true,
+  "_checkOnStartRu": "true — проверять при запуске приложения. Это поле для MainActivity.kt, map.html его не использует.",
+  "_examplesRu": {
+    "currentVersion86_noUpdate": {
+      "latestVersionCode": 86,
+      "minimumRequiredVersionCode": 86,
+      "allowSkip": true,
+      "playUpdateType": "flexible"
     },
-    "behavior": {
-        "_helpRu": "\u041a\u0430\u043a \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0434\u043e\u043b\u0436\u043d\u043e \u0440\u0435\u0430\u0433\u0438\u0440\u043e\u0432\u0430\u0442\u044c. \u0414\u043b\u044f \u043e\u0431\u044b\u0447\u043d\u043e\u0433\u043e \u043d\u0435\u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0443\u0432\u0435\u043b\u0438\u0447\u044c latestVersionCode, \u043d\u043e \u043d\u0435 \u0442\u0440\u043e\u0433\u0430\u0439 minimumRequiredVersionCode. \u0414\u043b\u044f \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0443\u0432\u0435\u043b\u0438\u0447\u044c minimumRequiredVersionCode \u0434\u043e \u0432\u0435\u0440\u0441\u0438\u0438, \u043d\u0438\u0436\u0435 \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u043d\u0435\u043b\u044c\u0437\u044f \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0442\u044c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435.",
-        "showOptionalUpdate": true,
-        "allowSkipOptionalUpdate": true,
-        "rememberSkipForLatestVersion": true,
-        "blockIfBelowMinimum": true
+    "currentVersion86_optionalUpdateTo87": {
+      "latestVersionCode": 87,
+      "minimumRequiredVersionCode": 86,
+      "allowSkip": true,
+      "playUpdateType": "flexible"
     },
-    "messages": {
-        "_helpRu": "\u0422\u0435\u043a\u0441\u0442\u044b \u043e\u043a\u043d\u0430 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043d\u0430 \u044f\u0437\u044b\u043a\u0430\u0445 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f. optional \u2014 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u043c\u043e\u0436\u043d\u043e \u043f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u0442\u044c. required \u2014 \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435, \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u043d\u0435 \u043f\u0443\u0441\u043a\u0430\u0435\u0442 \u0434\u0430\u043b\u044c\u0448\u0435.",
-        "es": {
-            "optionalBadge": "Actualizaci\u00f3n",
-            "requiredBadge": "Actualizaci\u00f3n obligatoria",
-            "optionalTitle": "Hay una nueva versi\u00f3n",
-            "requiredTitle": "Actualizaci\u00f3n necesaria",
-            "optionalMessage": "Hay una nueva versi\u00f3n de la aplicaci\u00f3n. Puedes actualizar ahora o continuar usando esta versi\u00f3n.",
-            "requiredMessage": "Esta versi\u00f3n de la aplicaci\u00f3n ya no puede iniciarse. Actualiza la aplicaci\u00f3n para continuar.",
-            "versionText": "Versi\u00f3n instalada: {{currentVersionName}} \u00b7 Nueva versi\u00f3n: {{latestVersionName}}"
-        },
-        "en": {
-            "optionalBadge": "Update",
-            "requiredBadge": "Required update",
-            "optionalTitle": "A new version is available",
-            "requiredTitle": "Update required",
-            "optionalMessage": "A new version of the app is available. You can update now or keep using this version.",
-            "requiredMessage": "This version of the app can no longer be opened. Update the app to continue.",
-            "versionText": "Installed version: {{currentVersionName}} \u00b7 New version: {{latestVersionName}}"
-        },
-        "de": {
-            "optionalBadge": "Update",
-            "requiredBadge": "Pflichtupdate",
-            "optionalTitle": "Eine neue Version ist verf\u00fcgbar",
-            "requiredTitle": "Update erforderlich",
-            "optionalMessage": "Eine neue Version der App ist verf\u00fcgbar. Du kannst jetzt aktualisieren oder diese Version weiter nutzen.",
-            "requiredMessage": "Diese Version der App kann nicht mehr gestartet werden. Aktualisiere die App, um fortzufahren.",
-            "versionText": "Installierte Version: {{currentVersionName}} \u00b7 Neue Version: {{latestVersionName}}"
-        },
-        "fr": {
-            "optionalBadge": "Mise \u00e0 jour",
-            "requiredBadge": "Mise \u00e0 jour obligatoire",
-            "optionalTitle": "Une nouvelle version est disponible",
-            "requiredTitle": "Mise \u00e0 jour n\u00e9cessaire",
-            "optionalMessage": "Une nouvelle version de l\u2019application est disponible. Vous pouvez la mettre \u00e0 jour maintenant ou continuer avec cette version.",
-            "requiredMessage": "Cette version de l\u2019application ne peut plus \u00eatre lanc\u00e9e. Mettez l\u2019application \u00e0 jour pour continuer.",
-            "versionText": "Version install\u00e9e : {{currentVersionName}} \u00b7 Nouvelle version : {{latestVersionName}}"
-        },
-        "it": {
-            "optionalBadge": "Aggiornamento",
-            "requiredBadge": "Aggiornamento obbligatorio",
-            "optionalTitle": "\u00c8 disponibile una nuova versione",
-            "requiredTitle": "Aggiornamento necessario",
-            "optionalMessage": "\u00c8 disponibile una nuova versione dell\u2019app. Puoi aggiornare ora o continuare a usare questa versione.",
-            "requiredMessage": "Questa versione dell\u2019app non pu\u00f2 pi\u00f9 essere avviata. Aggiorna l\u2019app per continuare.",
-            "versionText": "Versione installata: {{currentVersionName}} \u00b7 Nuova versione: {{latestVersionName}}"
-        },
-        "ru": {
-            "optionalBadge": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435",
-            "requiredBadge": "\u041e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435",
-            "optionalTitle": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u043d\u043e\u0432\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f",
-            "requiredTitle": "\u041d\u0443\u0436\u043d\u043e \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u044c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435",
-            "optionalMessage": "\u0415\u0441\u0442\u044c \u043d\u043e\u0432\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f. \u041c\u043e\u0436\u043d\u043e \u043e\u0431\u043d\u043e\u0432\u0438\u0442\u044c\u0441\u044f \u0441\u0435\u0439\u0447\u0430\u0441 \u0438\u043b\u0438 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0438\u0442\u044c \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u044d\u0442\u043e\u0439 \u0432\u0435\u0440\u0441\u0438\u0435\u0439.",
-            "requiredMessage": "\u042d\u0442\u0430 \u0432\u0435\u0440\u0441\u0438\u044f \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0442\u044c\u0441\u044f. \u041e\u0431\u043d\u043e\u0432\u0438\u0442\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435, \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0438\u0442\u044c.",
-            "versionText": "\u0423\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f: {{currentVersionName}} \u00b7 \u041d\u043e\u0432\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f: {{latestVersionName}}"
-        },
-        "uk": {
-            "optionalBadge": "\u041e\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044f",
-            "requiredBadge": "\u041e\u0431\u043e\u0432\u2019\u044f\u0437\u043a\u043e\u0432\u0435 \u043e\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u044f",
-            "optionalTitle": "\u0414\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u043d\u043e\u0432\u0430 \u0432\u0435\u0440\u0441\u0456\u044f",
-            "requiredTitle": "\u041f\u043e\u0442\u0440\u0456\u0431\u043d\u043e \u043e\u043d\u043e\u0432\u0438\u0442\u0438 \u0437\u0430\u0441\u0442\u043e\u0441\u0443\u043d\u043e\u043a",
-            "optionalMessage": "\u0404 \u043d\u043e\u0432\u0430 \u0432\u0435\u0440\u0441\u0456\u044f \u0437\u0430\u0441\u0442\u043e\u0441\u0443\u043d\u043a\u0443. \u041c\u043e\u0436\u043d\u0430 \u043e\u043d\u043e\u0432\u0438\u0442\u0438 \u0437\u0430\u0440\u0430\u0437 \u0430\u0431\u043e \u043f\u0440\u043e\u0434\u043e\u0432\u0436\u0438\u0442\u0438 \u043a\u043e\u0440\u0438\u0441\u0442\u0443\u0432\u0430\u0442\u0438\u0441\u044f \u0446\u0456\u0454\u044e \u0432\u0435\u0440\u0441\u0456\u0454\u044e.",
-            "requiredMessage": "\u0426\u044e \u0432\u0435\u0440\u0441\u0456\u044e \u0437\u0430\u0441\u0442\u043e\u0441\u0443\u043d\u043a\u0443 \u0431\u0456\u043b\u044c\u0448\u0435 \u043d\u0435 \u043c\u043e\u0436\u043d\u0430 \u0437\u0430\u043f\u0443\u0441\u043a\u0430\u0442\u0438. \u041e\u043d\u043e\u0432\u0456\u0442\u044c \u0437\u0430\u0441\u0442\u043e\u0441\u0443\u043d\u043e\u043a, \u0449\u043e\u0431 \u043f\u0440\u043e\u0434\u043e\u0432\u0436\u0438\u0442\u0438.",
-            "versionText": "\u0412\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0430 \u0432\u0435\u0440\u0441\u0456\u044f: {{currentVersionName}} \u00b7 \u041d\u043e\u0432\u0430 \u0432\u0435\u0440\u0441\u0456\u044f: {{latestVersionName}}"
-        }
-    },
-    "buttons": {
-        "_helpRu": "\u041d\u0430\u0434\u043f\u0438\u0441\u0438 \u043a\u043d\u043e\u043f\u043e\u043a. \u041a\u043d\u043e\u043f\u043a\u0430 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u0435\u0441\u043b\u0438 \u0437\u0430\u043f\u043e\u043b\u043d\u0435\u043d app.updateUrl. \u041a\u043d\u043e\u043f\u043a\u0430 \u043f\u043e\u0437\u0436\u0435 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u043d\u0435\u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f.",
-        "update": {
-            "es": "Actualizar",
-            "en": "Update",
-            "de": "Aktualisieren",
-            "fr": "Mettre \u00e0 jour",
-            "it": "Aggiorna",
-            "ru": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u044c",
-            "uk": "\u041e\u043d\u043e\u0432\u0438\u0442\u0438"
-        },
-        "later": {
-            "es": "M\u00e1s tarde",
-            "en": "Later",
-            "de": "Sp\u00e4ter",
-            "fr": "Plus tard",
-            "it": "Pi\u00f9 tardi",
-            "ru": "\u041f\u043e\u0437\u0436\u0435",
-            "uk": "\u041f\u0456\u0437\u043d\u0456\u0448\u0435"
-        }
-    },
-    "style": {
-        "_helpRu": "\u0426\u0432\u0435\u0442\u0430 \u0438 \u0432\u043d\u0435\u0448\u043d\u0438\u0439 \u0432\u0438\u0434 \u043e\u043a\u043d\u0430 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f. \u041c\u043e\u0436\u043d\u043e \u043c\u0435\u043d\u044f\u0442\u044c \u043d\u0430 GitHub \u0431\u0435\u0437 \u043f\u0435\u0440\u0435\u0441\u0431\u043e\u0440\u043a\u0438 APK.",
-        "backdropColor": "rgba(20,24,25,0.76)",
-        "forceBackdropColor": "rgba(20,24,25,0.92)",
-        "cardBackgroundColor": "#f4efe4",
-        "cardTextColor": "#111111",
-        "badgeBackgroundColor": "#ffd84d",
-        "badgeTextColor": "#111111",
-        "buttonBackgroundColor": "#1f2a2d",
-        "buttonTextColor": "#ffffff",
-        "cardRadiusPx": 0
+    "currentVersion86_requiredUpdateTo87": {
+      "latestVersionCode": 87,
+      "minimumRequiredVersionCode": 87,
+      "allowSkip": false,
+      "playUpdateType": "immediate"
     }
+  }
 }
