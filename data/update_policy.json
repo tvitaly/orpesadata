@@ -1,42 +1,22 @@
 {
-  "version": "v1_google_play_update_policy",
-  "_commentRu": "Сервисный файл управления обновлениями приложения через Google Play. Это НЕ тексты интерфейса и НЕ ссылка на APK. Языки, кнопки и системное окно обновления должны обрабатываться Android / Google Play, а этот JSON только говорит приложению, нужно ли обновление и можно ли его пропустить.",
-  "_quickEditRu": {
-    "noUpdate": "Нет обновления: latestVersionCode равен текущему versionCode приложения, minimumRequiredVersionCode не выше текущей версии.",
-    "optionalUpdate": "Необязательное обновление: latestVersionCode выше текущей версии, minimumRequiredVersionCode не выше текущей версии, allowSkip = true.",
-    "requiredUpdate": "Обязательное обновление: minimumRequiredVersionCode выше текущей версии ИЛИ allowSkip = false при наличии новой версии. Приложение должно запускать Google Play immediate update и не пускать дальше.",
-    "disableCheck": "Отключить проверку: enabled = false. Тогда приложение вообще не показывает обновление."
-  },
   "enabled": true,
-  "_enabledRu": "true — проверять обновления; false — полностью отключить проверку обновлений.",
-  "latestVersionCode": 86,
-  "_latestVersionCodeRu": "Код самой свежей версии в Google Play. Когда выпустишь новую версию, увеличь это число, например 87.",
-  "minimumRequiredVersionCode": 86,
-  "_minimumRequiredVersionCodeRu": "Минимальная версия, которой разрешено работать. Если установленная версия ниже этого числа — обновление обязательное.",
   "allowSkip": true,
-  "_allowSkipRu": "true — необязательное обновление можно пропустить; false — если есть новая версия, пользоваться старой нельзя, нужно обновиться через Google Play.",
-  "playUpdateType": "flexible",
-  "_playUpdateTypeRu": "Подсказка для Android: flexible — мягкое обновление, immediate — обязательное полноэкранное обновление. Обычно Android может сам выбрать immediate, если установленная версия ниже minimumRequiredVersionCode.",
-  "checkOnStart": true,
-  "_checkOnStartRu": "true — проверять при запуске приложения. Это поле для MainActivity.kt, map.html его не использует.",
+  "_helpRu": "Сервисная политика обновлений через Google Play. Сам JSON не проверяет наличие обновления. Наличие обновления проверяет Android через Google Play In-App Updates.",
+  "_enabledRu": "true — Android-приложение использует эту политику, если Google Play сообщил, что обновление доступно. false — приложение игнорирует эту политику и не запускает in-app update.",
+  "_allowSkipRu": "Главная кнопка. true — если Google Play найдёт обновление, пользователь может продолжить без обновления. false — если Google Play найдёт обновление, обновление обязательное.",
+  "_safeFirstReleaseRu": "Для первого релиза лучше оставить allowSkip:true. После публикации в Google Play можно менять только этот JSON на GitHub: true = мягкое обновление, false = обязательное.",
   "_examplesRu": {
-    "currentVersion86_noUpdate": {
-      "latestVersionCode": 86,
-      "minimumRequiredVersionCode": 86,
-      "allowSkip": true,
-      "playUpdateType": "flexible"
+    "Мягкое обновление, можно пропустить": {
+      "enabled": true,
+      "allowSkip": true
     },
-    "currentVersion86_optionalUpdateTo87": {
-      "latestVersionCode": 87,
-      "minimumRequiredVersionCode": 86,
-      "allowSkip": true,
-      "playUpdateType": "flexible"
+    "Обязательное обновление": {
+      "enabled": true,
+      "allowSkip": false
     },
-    "currentVersion86_requiredUpdateTo87": {
-      "latestVersionCode": 87,
-      "minimumRequiredVersionCode": 87,
-      "allowSkip": false,
-      "playUpdateType": "immediate"
+    "Отключить политику обновлений": {
+      "enabled": false,
+      "allowSkip": true
     }
   }
 }
