@@ -19,6 +19,6 @@
   "splash": {
     "_helpRu": "Настройки стартовой обложки. posterImage — путь к картинке заставки; edgeColor — цвет заливки пустых полей вокруг картинки, когда Poster.jpg полностью вписывается через object-fit: contain. Если поменять обложку и у неё другой цвет края, достаточно поменять edgeColor здесь на GitHub без пересборки APK.",
     "posterImage": "media/logo/Poster.jpg",
-    "edgeColor": "#fbefe3"
+    "edgeColor": "#ffffff"
   }
 }
