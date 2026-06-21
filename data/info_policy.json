@@ -34,10 +34,13 @@
       "type": "paragraphs",
       "title": "Política de privacidad",
       "paragraphs": [
-        "Esta aplicación muestra información del autobús urbano de Oropesa del Mar: mapa, ruta, paradas, horario e información relacionada.",
-        "La aplicación puede usar la ubicación del dispositivo únicamente para mostrar la posición del usuario en el mapa y centrar la vista cuando el usuario pulsa el botón de ubicación.",
-        "La ubicación se utiliza en el dispositivo para la visualización en el mapa. La aplicación no vende datos personales a terceros.",
-        "La aplicación carga datos públicos de ruta, paradas, horarios, estilos, iconos e imágenes desde el repositorio remoto configurado para el proyecto."
+        "Esta aplicación muestra información del autobús urbano de Oropesa del Mar: mapa, ruta, paradas, horarios e información relacionada.",
+        "La aplicación puede solicitar acceso a la ubicación del dispositivo al abrir la aplicación o al utilizar la función de ubicación.",
+        "La ubicación se utiliza únicamente para mostrar la posición actual del usuario en el mapa, centrar la vista y ayudar al usuario a orientarse respecto a la ruta y las paradas.",
+        "La aplicación no utiliza la ubicación para publicidad, no vende datos personales y no crea perfiles comerciales de los usuarios.",
+        "La aplicación no solicita acceso a la ubicación en segundo plano. La ubicación se usa solo mientras la aplicación está abierta o visible para el usuario.",
+        "Si el usuario no concede el permiso de ubicación, la aplicación puede seguir mostrando el mapa, las paradas, los horarios y la información general, pero no podrá mostrar la posición actual del usuario.",
+        "Política de privacidad completa: https://tvitaly.github.io/orpesadata/privacy.html"
       ]
     },
     {
