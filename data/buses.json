@@ -10,7 +10,7 @@
   {
     "id": "bus_2",
     "name": "Bus 2",
-    "active": false,
+    "active": true,
     "routeId": "main_route",
     "icon": "media/icons/Bus_01.png",
     "color": "#FF6B6B"

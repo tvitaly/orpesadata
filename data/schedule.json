@@ -1,18 +1,14 @@
 {
-  "version": "v8.4_season_june_september_2026_correct_numbering",
+  "version": "v8.105_july_august_2026_two_buses_30_minutes",
   "timezone": "Europe/Madrid",
   "season": {
-    "id": "june_september_2026",
-    "nameRu": "Июнь и сентябрь 2026",
-    "nameEs": "Junio y septiembre 2026",
+    "id": "july_august_2026",
+    "nameRu": "Июль и август 2026",
+    "nameEs": "Julio y agosto 2026",
     "dateRanges": [
       {
-        "from": "2026-06-01",
-        "to": "2026-06-30"
-      },
-      {
-        "from": "2026-09-01",
-        "to": "2026-09-30"
+        "from": "2026-07-01",
+        "to": "2026-08-31"
       }
     ],
     "days": "monday_to_sunday"
@@ -21,7 +17,9 @@
     "method": "route_distance_progress",
     "distanceSource": "auto_from_route_coordinates",
     "animation": "smooth",
-    "defaultDwellSeconds": 30
+    "defaultDwellSeconds": 30,
+    "busCountMode": "from_active_schedule_blocks",
+    "_helpRu": "map.html создаёт только автобусы, для которых сегодня есть активные blocks и active:true в buses.json. Один block/busId = один автобус, два busId = два автобуса."
   },
   "calendarTypes": {
     "weekday": {
@@ -39,9 +37,9 @@
   },
   "tripPatterns": [
     {
-      "id": "main_loop_season_2026",
-      "nameRu": "Сезонный круг июнь/сентябрь 2026",
-      "nameEs": "Ruta temporada junio/septiembre 2026",
+      "id": "main_loop_july_august_2026",
+      "nameRu": "Летний круг июль/август 2026",
+      "nameEs": "Ruta julio/agosto 2026",
       "routeId": "main_route",
       "loop": true,
       "knownOffsets": [
@@ -50,28 +48,28 @@
           "offsetMinutes": 0,
           "official": true,
           "officialStopNumber": 1,
-          "officialName": "C/ Jose Rivera Forner (esq. Leoncio Serrano)"
+          "officialName": "C/ Jose Rivera Forner (Esq. Leoncio Serrano)"
         },
         {
           "stopId": "stop_011",
           "offsetMinutes": 20,
           "official": true,
           "officialStopNumber": 14,
-          "officialName": "Av. Barcelona (frente Hotel Magic Sport)"
+          "officialName": "Av. Barcelona (Frente hotel Gran Duque)"
         },
         {
           "stopId": "stop_015",
           "offsetMinutes": 30,
           "official": true,
           "officialStopNumber": 18,
-          "officialName": "Playa de la Concha (frente Plaza París)"
+          "officialName": "Plaza de la Concha (Frente Plaza París)"
         },
         {
           "stopId": "stop_016",
           "offsetMinutes": 40,
           "official": true,
           "officialStopNumber": 20,
-          "officialName": "P. la Estación (Estación RENFE)"
+          "officialName": "Plaza la Estación (Estación RENFE)"
         }
       ],
       "endOffsetMinutes": 50
@@ -79,88 +77,172 @@
   ],
   "serviceDays": [
     {
-      "id": "weekday_season_2026",
+      "id": "weekday_july_august_2026",
       "calendarType": "weekday",
       "active": true,
       "blocks": [
         {
-          "id": "season_all_day_weekday",
-          "nameRu": "Сезонное расписание",
-          "nameEs": "Horario de temporada",
+          "id": "summer_weekday_bus_1",
+          "nameRu": "Летнее расписание — автобус 1",
+          "nameEs": "Horario de verano — autobús 1",
           "busId": "bus_1",
-          "patternId": "main_loop_season_2026",
+          "patternId": "main_loop_july_august_2026",
+          "active": true,
           "startTimes": [
-            "08:30",
-            "09:20",
-            "10:10",
+            "08:00",
+            "09:00",
+            "10:00",
             "11:00",
             "12:00",
             "13:00",
+            "14:00",
+            "15:00",
+            "16:00",
             "17:00",
-            "17:50",
-            "18:40",
-            "19:30",
-            "20:20",
-            "21:10",
+            "18:00",
+            "19:00",
+            "20:00",
+            "21:00",
             "22:00"
+          ]
+        },
+        {
+          "id": "summer_weekday_bus_2",
+          "nameRu": "Летнее расписание — автобус 2",
+          "nameEs": "Horario de verano — autobús 2",
+          "busId": "bus_2",
+          "patternId": "main_loop_july_august_2026",
+          "active": true,
+          "startTimes": [
+            "08:30",
+            "09:30",
+            "10:30",
+            "11:30",
+            "12:30",
+            "13:30",
+            "14:30",
+            "15:30",
+            "16:30",
+            "17:30",
+            "18:30",
+            "19:30",
+            "20:30",
+            "21:30",
+            "22:30"
           ]
         }
       ]
     },
     {
-      "id": "weekend_season_2026",
+      "id": "weekend_july_august_2026",
       "calendarType": "weekend",
       "active": true,
       "blocks": [
         {
-          "id": "season_all_day_weekend",
-          "nameRu": "Сезонное расписание",
-          "nameEs": "Horario de temporada",
+          "id": "summer_weekend_bus_1",
+          "nameRu": "Летнее расписание — автобус 1",
+          "nameEs": "Horario de verano — autobús 1",
           "busId": "bus_1",
-          "patternId": "main_loop_season_2026",
+          "patternId": "main_loop_july_august_2026",
+          "active": true,
           "startTimes": [
-            "08:30",
-            "09:20",
-            "10:10",
+            "08:00",
+            "09:00",
+            "10:00",
             "11:00",
             "12:00",
             "13:00",
+            "14:00",
+            "15:00",
+            "16:00",
             "17:00",
-            "17:50",
-            "18:40",
-            "19:30",
-            "20:20",
-            "21:10",
+            "18:00",
+            "19:00",
+            "20:00",
+            "21:00",
             "22:00"
+          ]
+        },
+        {
+          "id": "summer_weekend_bus_2",
+          "nameRu": "Летнее расписание — автобус 2",
+          "nameEs": "Horario de verano — autobús 2",
+          "busId": "bus_2",
+          "patternId": "main_loop_july_august_2026",
+          "active": true,
+          "startTimes": [
+            "08:30",
+            "09:30",
+            "10:30",
+            "11:30",
+            "12:30",
+            "13:30",
+            "14:30",
+            "15:30",
+            "16:30",
+            "17:30",
+            "18:30",
+            "19:30",
+            "20:30",
+            "21:30",
+            "22:30"
           ]
         }
       ]
     },
     {
-      "id": "holiday_season_2026",
+      "id": "holiday_july_august_2026",
       "calendarType": "holiday",
       "active": true,
       "blocks": [
         {
-          "id": "season_all_day_holiday",
-          "nameRu": "Сезонное расписание",
-          "nameEs": "Horario de temporada",
+          "id": "summer_holiday_bus_1",
+          "nameRu": "Летнее расписание — автобус 1",
+          "nameEs": "Horario de verano — autobús 1",
           "busId": "bus_1",
-          "patternId": "main_loop_season_2026",
+          "patternId": "main_loop_july_august_2026",
+          "active": true,
           "startTimes": [
-            "08:30",
-            "09:20",
-            "10:10",
+            "08:00",
+            "09:00",
+            "10:00",
             "11:00",
             "12:00",
             "13:00",
+            "14:00",
+            "15:00",
+            "16:00",
             "17:00",
-            "17:50",
-            "18:40",
-            "19:30",
-            "20:20",
-            "21:10",
+            "18:00",
+            "19:00",
+            "20:00",
+            "21:00",
             "22:00"
+          ]
+        },
+        {
+          "id": "summer_holiday_bus_2",
+          "nameRu": "Летнее расписание — автобус 2",
+          "nameEs": "Horario de verano — autobús 2",
+          "busId": "bus_2",
+          "patternId": "main_loop_july_august_2026",
+          "active": true,
+          "startTimes": [
+            "08:30",
+            "09:30",
+            "10:30",
+            "11:30",
+            "12:30",
+            "13:30",
+            "14:30",
+            "15:30",
+            "16:30",
+            "17:30",
+            "18:30",
+            "19:30",
+            "20:30",
+            "21:30",
+            "22:30"
           ]
         }
       ]
@@ -177,177 +259,10 @@
     ]
   },
   "editingNotesRu": [
-    "Исправлена внутренняя нумерация остановок по Name02.txt.",
-    "Новая остановка 13: Av. Valencia (altura C/ Berlín), 34RV+CCG Oropesa del Mar, routeAnchor.pointIndex 211.",
-    "Остановка 14 теперь: Av. Madrid (frente H. Oropesa Sol), routeAnchor.pointIndex 219.",
-    "Контрольные точки расписания: stop_001 +0 мин, stop_011 +20 мин, stop_015 +30 мин, stop_016 +40 мин.",
-    "Полный круг считается 50 минут.",
-    "Метры вручную не заполняются: приложение считает длину маршрута само по route.json."
-  ],
-  "stopNumberNotes": {
-    "userConfirmedInternalStops": [
-      {
-        "number": 1,
-        "name": "C/ Jose Rivera Forner (esq. Leoncio Serrano)"
-      },
-      {
-        "number": 2,
-        "name": "C/ Torreblanca (centro médico)"
-      },
-      {
-        "number": 3,
-        "name": "P. España (cruce C/ Fco. Sevillano)"
-      },
-      {
-        "number": 4,
-        "name": "P. Principe de Asturias (frente ed. Florida)"
-      },
-      {
-        "number": 5,
-        "name": "P.M. Mediterráneo (frente H Koral)"
-      },
-      {
-        "number": 6,
-        "name": "Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)"
-      },
-      {
-        "number": 7,
-        "name": "Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)"
-      },
-      {
-        "number": 8,
-        "name": "Av. Barcelona (Rotonda Barco direcc. campings)"
-      },
-      {
-        "number": 9,
-        "name": "Av. Barcelona (Ro. Ratlla Terme)"
-      },
-      {
-        "number": 10,
-        "name": "Av. Barcelona (Rotonda Barco VUELTA-Mercadona)"
-      },
-      {
-        "number": 11,
-        "name": "Av. Barcelona (frente Hotel Magic Sport)"
-      },
-      {
-        "number": 12,
-        "name": "Av. Valencia (frente Urb Trebol)"
-      },
-      {
-        "number": 13,
-        "name": "Av. Valencia (altura C/ Berlín)"
-      },
-      {
-        "number": 14,
-        "name": "Av. Madrid (frente H. Oropesa Sol)"
-      },
-      {
-        "number": 15,
-        "name": "Playa de la Concha (frente Plaza París)"
-      },
-      {
-        "number": 16,
-        "name": "P. la Estación (Estación RENFE)"
-      },
-      {
-        "number": 17,
-        "name": "Av. la Plana (cruce Plaza Constitución)"
-      },
-      {
-        "number": 18,
-        "name": "Urb. Balcó (Av. Benicassim - C/ Almendros)"
-      },
-      {
-        "number": 19,
-        "name": "Av. la Plana (Frente Guardia Civil)"
-      },
-      {
-        "number": 20,
-        "name": "C/ Jose Rivera Forner (esq. Leoncio Serrano)"
-      }
-    ],
-    "routeAnchorPointIndexes": [
-      {
-        "number": 1,
-        "pointIndex": 0
-      },
-      {
-        "number": 2,
-        "pointIndex": 23
-      },
-      {
-        "number": 3,
-        "pointIndex": 35
-      },
-      {
-        "number": 4,
-        "pointIndex": 45
-      },
-      {
-        "number": 5,
-        "pointIndex": 58
-      },
-      {
-        "number": 6,
-        "pointIndex": 87
-      },
-      {
-        "number": 7,
-        "pointIndex": 99
-      },
-      {
-        "number": 8,
-        "pointIndex": 109
-      },
-      {
-        "number": 9,
-        "pointIndex": 138
-      },
-      {
-        "number": 10,
-        "pointIndex": 163
-      },
-      {
-        "number": 11,
-        "pointIndex": 174
-      },
-      {
-        "number": 12,
-        "pointIndex": 209
-      },
-      {
-        "number": 13,
-        "pointIndex": 211
-      },
-      {
-        "number": 14,
-        "pointIndex": 219
-      },
-      {
-        "number": 15,
-        "pointIndex": 243
-      },
-      {
-        "number": 16,
-        "pointIndex": 272
-      },
-      {
-        "number": 17,
-        "pointIndex": 283
-      },
-      {
-        "number": 18,
-        "pointIndex": 300
-      },
-      {
-        "number": 19,
-        "pointIndex": 356
-      },
-      {
-        "number": 20,
-        "pointIndex": 0
-      }
-    ]
-  }
+    "Официальное расписание действует с 01.07.2026 по 31.08.2026, с понедельника по воскресенье.",
+    "Общий интервал на остановке 1 — 30 минут: с 08:00 до 22:30.",
+    "bus_1 отправляется каждый час с 08:00 до 22:00; bus_2 — каждый час с 08:30 до 22:30.",
+    "Контрольные точки: stop_001 +0, stop_011 +20, stop_015 +30, stop_016 +40 минут.",
+    "Полный круг сохранён 50 минут. Количество автобусов map.html определяет по busId в активных блоках расписания."
+  ]
 }
