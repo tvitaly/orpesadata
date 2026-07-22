@@ -1,5 +1,5 @@
 {
-  "version": "v8.105_july_august_2026_two_buses_30_minutes",
+  "version": "v8.107_july_august_2026_two_buses_30min_60min_loop",
   "timezone": "Europe/Madrid",
   "season": {
     "id": "july_august_2026",
@@ -19,7 +19,9 @@
     "animation": "smooth",
     "defaultDwellSeconds": 30,
     "busCountMode": "from_active_schedule_blocks",
-    "_helpRu": "map.html создаёт только автобусы, для которых сегодня есть активные blocks и active:true в buses.json. Один block/busId = один автобус, два busId = два автобуса."
+    "_helpRu": "map.html создаёт только автобусы, для которых сегодня есть активные blocks и active:true в buses.json. Один block/busId = один автобус, два busId = два автобуса.",
+    "cycleMinutes": 60,
+    "_cycleHelpRu": "Один автобус проходит полный круг за 60 минут. bus_1 и bus_2 отправляются с разницей 30 минут, поэтому общий интервал составляет 30 минут."
   },
   "calendarTypes": {
     "weekday": {
@@ -38,8 +40,8 @@
   "tripPatterns": [
     {
       "id": "main_loop_july_august_2026",
-      "nameRu": "Летний круг июль/август 2026",
-      "nameEs": "Ruta julio/agosto 2026",
+      "nameRu": "Летний круг июль/август 2026 — 60 минут",
+      "nameEs": "Ruta julio/agosto 2026 — 60 minutos",
       "routeId": "main_route",
       "loop": true,
       "knownOffsets": [
@@ -72,7 +74,7 @@
           "officialName": "Plaza la Estación (Estación RENFE)"
         }
       ],
-      "endOffsetMinutes": 50
+      "endOffsetMinutes": 60
     }
   ],
   "serviceDays": [
@@ -262,7 +264,9 @@
     "Официальное расписание действует с 01.07.2026 по 31.08.2026, с понедельника по воскресенье.",
     "Общий интервал на остановке 1 — 30 минут: с 08:00 до 22:30.",
     "bus_1 отправляется каждый час с 08:00 до 22:00; bus_2 — каждый час с 08:30 до 22:30.",
-    "Контрольные точки: stop_001 +0, stop_011 +20, stop_015 +30, stop_016 +40 минут.",
-    "Полный круг сохранён 50 минут. Количество автобусов map.html определяет по busId в активных блоках расписания."
+    "Каждый автобус проходит полный круг за 60 минут, поэтому после первого запуска оба автобуса движутся непрерывно без 10-минутного ожидания на конечной.",
+    "Контрольные точки одного круга: stop_001 +0, stop_011 +20, stop_015 +30, stop_016 +40, возврат к stop_001 +60 минут.",
+    "Время для промежуточных остановок map.html рассчитывает по расстоянию вдоль route.json между соседними контрольными точками.",
+    "Количество автобусов map.html определяет по busId в активных блоках расписания: один активный busId — один автобус, два — два."
   ]
 }
