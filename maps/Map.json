@@ -2,14 +2,14 @@
   "format": "orpesa-svg-simple-georef-v2",
   "projection": "EPSG:3857",
   "topLeft": {
-    "lon": 0.11353795447843522,
-    "lat": 40.13448674584661
+    "lon": 0.10805660401777024,
+    "lat": 40.138657511990914
   },
-  "metersPerSvgUnit": 1.222189324475844,
+  "metersPerSvgUnit": 1.2217225092258375,
   "viewBox": [
     0,
     0,
-    5000,
-    8000
+    6000,
+    9000
   ]
 }
