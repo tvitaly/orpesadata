@@ -49,27 +49,31 @@
           "stopId": "stop_001",
           "offsetMinutes": 0,
           "official": true,
+          "MyStopNumber": 1,
           "officialStopNumber": 1,
           "officialName": "C/ Jose Rivera Forner (Esq. Leoncio Serrano)"
         },
         {
           "stopId": "stop_011",
-          "offsetMinutes": 20,
+          "offsetMinutes": 30,
           "official": true,
+          "MyStopNumber": 11,
           "officialStopNumber": 14,
           "officialName": "Av. Barcelona (Frente hotel Gran Duque)"
         },
         {
           "stopId": "stop_015",
-          "offsetMinutes": 30,
+          "offsetMinutes": 45,
           "official": true,
+          "MyStopNumber": 15,
           "officialStopNumber": 18,
           "officialName": "Plaza de la Concha (Frente Plaza París)"
         },
         {
           "stopId": "stop_016",
-          "offsetMinutes": 40,
+          "offsetMinutes": 50,
           "official": true,
+          "MyStopNumber": 16,
           "officialStopNumber": 20,
           "officialName": "Plaza la Estación (Estación RENFE)"
         }

@@ -45,7 +45,7 @@
   "styles": {
     "bus": {
       "_commentRu": "Стиль карточки автобуса.",
-      "backgroundColor": "#f7f3ea",
+      "backgroundColor": "#ffffff",
       "textColor": "#111111",
       "cardMaxHeightVh": 35,
       "image": {
@@ -67,7 +67,7 @@
           "fontWeight": 800,
           "color": "#111111",
           "lineHeight": 1.2,
-          "maxLines": 2,
+          "maxLines": 0,
           "marginBottom": 8
         },
         {
@@ -76,7 +76,7 @@
           "fontWeight": 650,
           "color": "#222222",
           "lineHeight": 1.35,
-          "maxLines": 3,
+          "maxLines": 0,
           "marginBottom": 6
         },
         {
@@ -85,14 +85,14 @@
           "fontWeight": 400,
           "color": "#333333",
           "lineHeight": 1.38,
-          "maxLines": 4,
+          "maxLines": 0,
           "marginBottom": 0
         }
       ]
     },
     "stop": {
       "_commentRu": "Стиль карточек остановок.",
-      "backgroundColor": "#f4efe4",
+      "backgroundColor": "#ffffff",
       "textColor": "#111111",
       "cardMaxHeightVh": 35,
       "image": {
@@ -114,7 +114,7 @@
           "fontWeight": 800,
           "color": "#111111",
           "lineHeight": 1.2,
-          "maxLines": 2,
+          "maxLines": 0,
           "marginBottom": 8
         },
         {
@@ -123,7 +123,7 @@
           "fontWeight": 650,
           "color": "#202020",
           "lineHeight": 1.35,
-          "maxLines": 3,
+          "maxLines": 0,
           "marginBottom": 7
         },
         {
@@ -132,7 +132,7 @@
           "fontWeight": 400,
           "color": "#555555",
           "lineHeight": 1.35,
-          "maxLines": 3,
+          "maxLines": 0,
           "marginBottom": 0
         }
       ]
@@ -161,7 +161,7 @@
           "fontWeight": 800,
           "color": "#111111",
           "lineHeight": 1.2,
-          "maxLines": 2,
+          "maxLines": 0,
           "marginBottom": 8
         },
         {
@@ -170,7 +170,7 @@
           "fontWeight": 400,
           "color": "#333333",
           "lineHeight": 1.4,
-          "maxLines": 5,
+          "maxLines": 0,
           "marginBottom": 8
         },
         {
@@ -179,7 +179,7 @@
           "fontWeight": 400,
           "color": "#666666",
           "lineHeight": 1.35,
-          "maxLines": 3,
+          "maxLines": 0,
           "marginBottom": 0
         }
       ]

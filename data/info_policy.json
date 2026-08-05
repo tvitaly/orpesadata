@@ -5,7 +5,12 @@
   "subtitle": "Autobús urbano de Oropesa del Mar",
   "style": {
     "_helpRu": "Настройки внешнего вида полноэкранной панели. Панель скроллится пальцем и учитывает верхний и нижний Android inset.",
-    "backgroundColor": "#f4efe4",
+
+    "unifiedPanel": true,
+    "panelCornerRadius": 22,
+    "panelOuterMargin": 8,
+
+    "backgroundColor": "#ffffff",
     "textColor": "#111111",
     "headerBackgroundColor": "#1f2a2d",
     "headerTextColor": "#ffffff",
