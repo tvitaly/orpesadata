@@ -9,6 +9,7 @@ on:
       - 'media/**'
       - 'maps/**'
       - 'legal/**'
+      - 'train/**'
       - 'tools/build_app_cache.py'
       - '.github/workflows/build-cache-pages.yml'
 
