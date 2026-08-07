@@ -2,10 +2,7 @@ name: Update Orpesa train schedule
 
 on:
   schedule:
-    # Каждый день в 04:15 UTC
-    # Испания:
-    # летом примерно 06:15
-    # зимой примерно 05:15
+    # Каждый день в 02:15 UTC
     - cron: "15 2 * * *"
 
   workflow_dispatch:
@@ -73,7 +70,7 @@ jobs:
 
       - name: Commit updated schedule
         run: |
-          if git diff --quiet -- train/orpesa_train_schedule.json; then
+          if [ -z "$(git status --porcelain -- train/orpesa_train_schedule.json)" ]; then
             echo "Train schedule has not changed."
             exit 0
           fi
