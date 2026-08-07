@@ -1,0 +1,89 @@
+name: Update Orpesa train schedule
+
+on:
+  schedule:
+    # Каждый день в 04:15 UTC
+    # Испания:
+    # летом примерно 06:15
+    # зимой примерно 05:15
+    - cron: "15 2 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-train-schedule:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Download Renfe GTFS
+        run: |
+          mkdir -p .tmp_train
+
+          curl \
+            --fail \
+            --location \
+            --retry 3 \
+            --retry-delay 5 \
+            --connect-timeout 30 \
+            --max-time 180 \
+            "https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip" \
+            --output .tmp_train/google_transit.zip
+
+      - name: Generate Orpesa train schedule
+        run: |
+          python scripts/generate_orpesa_train_schedule.py \
+            --gtfs .tmp_train/google_transit.zip \
+            --output train/orpesa_train_schedule.json \
+            --days 3
+
+      - name: Show generated schedule summary
+        run: |
+          python - <<'PY'
+          import json
+
+          with open(
+              "train/orpesa_train_schedule.json",
+              "r",
+              encoding="utf-8"
+          ) as f:
+              data = json.load(f)
+
+          print("Station:", data["station"]["name"])
+          print("Generated:", data["generatedAt"])
+
+          for day in data["days"]:
+              print(
+                  day["date"],
+                  "-",
+                  len(day["trips"]),
+                  "trains"
+              )
+          PY
+
+      - name: Commit updated schedule
+        run: |
+          if git diff --quiet -- train/orpesa_train_schedule.json; then
+            echo "Train schedule has not changed."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add train/orpesa_train_schedule.json
+
+          git commit \
+            -m "Update Orpesa train schedule"
+
+          git push
