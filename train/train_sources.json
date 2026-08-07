@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "realtime": {
+    "enabled": true,
+    "url": "https://gtfsrt.renfe.com/trip_updates_LD.json",
+    "refreshSeconds": 60
+  }
+}
