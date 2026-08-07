@@ -5,11 +5,9 @@
   "subtitle": "Autobús urbano de Oropesa del Mar",
   "style": {
     "_helpRu": "Настройки внешнего вида полноэкранной панели. Панель скроллится пальцем и учитывает верхний и нижний Android inset.",
-
     "unifiedPanel": true,
     "panelCornerRadius": 22,
     "panelOuterMargin": 8,
-
     "backgroundColor": "#ffffff",
     "textColor": "#111111",
     "headerBackgroundColor": "#1f2a2d",
@@ -52,6 +50,16 @@
         "La aplicación no solicita acceso a la ubicación en segundo plano. La ubicación se usa solo mientras la aplicación está abierta o visible para el usuario.",
         "Si el usuario no concede el permiso de ubicación, la aplicación puede seguir mostrando el mapa, las paradas, los horarios y la información general, pero no podrá mostrar la posición actual del usuario.",
         "Política de privacidad completa: https://tvitaly.github.io/orpesadata/privacy.html"
+      ]
+    },
+    {
+      "type": "paragraphs",
+      "title": "Información ferroviaria y fuente de datos",
+      "paragraphs": [
+        "Los horarios ferroviarios y la información en tiempo real mostrados en OrpesaBus se elaboran a partir de datos abiertos publicados en Renfe Data.",
+        "Origen de los datos: Renfe Operadora.",
+        "OrpesaBus es una aplicación independiente. Renfe Operadora no participa, patrocina ni apoya esta aplicación ni la reutilización de sus datos.",
+        "Renfe Operadora no garantiza la continuidad, exactitud o ausencia de errores u omisiones en los datos reutilizados. Para información oficial y definitiva sobre horarios, incidencias y servicios ferroviarios, consulte los canales oficiales de Renfe."
       ]
     },
     {
