@@ -1,6 +1,6 @@
 {
   "version": "v8.84",
-  "_commentRu": "Настройки правой вертикальной колонки из 4 кнопок и стартовой заставки. Иконки/картинки лежат на GitHub в media/logo/. HTML игнорирует служебные поля с подчёркиванием: _commentRu/_helpRu и похожие.",
+  "_commentRu": "Настройки правой вертикальной колонки из 5 кнопок и стартовой заставки. Порядок кнопок: Vopr, Train, Rasp, Nav, Avt. Иконки/картинки лежат на GitHub в media/logo/. HTML/Kotlin игнорирует служебные поля с подчёркиванием: _commentRu/_helpRu и похожие.",
   "buttons": {
     "_helpRu": "rightOffsetPx — отступ от правого края; sizePx — размер кнопки; gapPx — расстояние между кнопками. Колонка ставится так, чтобы центр экрана был между двумя нижними кнопками Nav и Avt.",
     "rightOffsetPx": 24,
@@ -10,8 +10,9 @@
     "opacity": 1
   },
   "icons": {
-    "_helpRu": "Порядок сверху вниз: info/Vopr, schedule/Rasp, location/Nav, bus/Avt.",
+    "_helpRu": "Порядок сверху вниз: info/Vopr, train/Train, schedule/Rasp, location/Nav, bus/Avt.",
     "info": "media/logo/Vopr.png",
+    "train": "media/logo/Train.png",
     "schedule": "media/logo/Rasp.png",
     "location": "media/logo/Nav.png",
     "bus": "media/logo/Avt.png"
