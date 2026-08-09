@@ -16,7 +16,7 @@
   "noDataText": "No hay datos de horario disponibles.",
   "labels": {
     "_helpRu": "Тексты подписей внутри расписания.",
-    "stopPrefix": "Parada",
+    "stopPrefix": "",
     "_stopPrefixRu": "Слово перед номером остановки в шапке таблицы. Сейчас получается Parada 1, Parada 11. Можно заменить на P. или Stop.",
     "nextTrip": "Próximo",
     "_nextTripRu": "Метка ближайшего рейса под временем первой остановки.",
