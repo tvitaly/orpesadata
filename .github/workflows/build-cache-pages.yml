@@ -15,6 +15,12 @@ on:
 
   workflow_dispatch:
 
+  workflow_run:
+    workflows:
+      - "Update Orpesa train schedule"
+    types:
+      - completed
+
 permissions:
   contents: read
   pages: write
@@ -27,11 +33,20 @@ concurrency:
 jobs:
   build:
     name: Build ZIP, manifest and legal pages
+
+    if: >-
+      ${{
+        github.event_name != 'workflow_run' ||
+        github.event.workflow_run.conclusion == 'success'
+      }}
+
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
