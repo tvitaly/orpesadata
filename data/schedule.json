@@ -55,7 +55,7 @@
         },
         {
           "stopId": "stop_011",
-          "offsetMinutes": 30,
+          "offsetMinutes": 20,
           "official": true,
           "MyStopNumber": 11,
           "officialStopNumber": 14,
@@ -63,7 +63,7 @@
         },
         {
           "stopId": "stop_015",
-          "offsetMinutes": 45,
+          "offsetMinutes": 30,
           "official": true,
           "MyStopNumber": 15,
           "officialStopNumber": 18,
@@ -71,14 +71,14 @@
         },
         {
           "stopId": "stop_016",
-          "offsetMinutes": 50,
+          "offsetMinutes": 35,
           "official": true,
           "MyStopNumber": 16,
           "officialStopNumber": 20,
           "officialName": "Plaza la Estación (Estación RENFE)"
         }
       ],
-      "endOffsetMinutes": 60
+      "endOffsetMinutes": 50
     }
   ],
   "serviceDays": [
