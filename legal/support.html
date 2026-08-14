@@ -1,56 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>OrpesaBus — Soporte</title>
 
     <style>
-        body {
-            margin: 0;
-            padding: 40px 20px;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-            background: #f7f7f7;
-            color: #222;
+        :root {
+            color-scheme: light;
+            --background: #fbefe3;
+            --card: #ffffff;
+            --text: #243034;
+            --muted: #58676d;
+            --link: #0b6ea8;
         }
 
-        .container {
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 32px 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Roboto, Arial, sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        main {
             max-width: 720px;
             margin: 0 auto;
-            background: #ffffff;
-            padding: 32px;
+            padding: 28px;
+            background: var(--card);
             border-radius: 16px;
         }
 
         h1 {
             margin-top: 0;
+            margin-bottom: 16px;
             font-size: 30px;
         }
 
+        h2 {
+            margin-top: 28px;
+            margin-bottom: 8px;
+            font-size: 21px;
+        }
+
         p {
-            font-size: 17px;
-            line-height: 1.6;
+            margin: 8px 0;
         }
 
         a {
-            color: #0066cc;
-        }
-
-        .section {
-            margin-top: 28px;
+            color: var(--link);
         }
 
         .footer {
-            margin-top: 40px;
+            margin-top: 36px;
+            color: var(--muted);
             font-size: 14px;
-            color: #777;
         }
     </style>
 </head>
 
 <body>
-    <main class="container">
-
+    <main>
         <h1>OrpesaBus — Soporte</h1>
 
         <p>
@@ -59,33 +76,27 @@
             puedes ponerte en contacto con nosotros.
         </p>
 
-        <div class="section">
-            <h2>Contacto</h2>
+        <h2>Contacto</h2>
 
-            <p>
-                Correo electrónico:
-                <a href="mailto:orpesabus@gmail.com">
-                    orpesabus@gmail.com
-                </a>
-            </p>
-        </div>
+        <p>
+            Correo electrónico:
+            <a href="mailto:orpesabus@gmail.com">
+                orpesabus@gmail.com
+            </a>
+        </p>
 
-        <div class="section">
-            <h2>Política de privacidad</h2>
+        <h2>Política de privacidad</h2>
 
-            <p>
-                Puedes consultar nuestra política de privacidad aquí:
-                <br>
-                <a href="https://tvitaly.github.io/orpesadata/privacy.html">
-                    Política de privacidad de OrpesaBus
-                </a>
-            </p>
-        </div>
+        <p>
+            Puedes consultar nuestra política de privacidad aquí:
+            <a href="https://tvitaly.github.io/orpesadata/privacy.html">
+                Política de privacidad de OrpesaBus
+            </a>
+        </p>
 
-        <div class="footer">
+        <p class="footer">
             OrpesaBus · Oropesa del Mar, Castellón, España
-        </div>
-
+        </p>
     </main>
 </body>
 </html>
