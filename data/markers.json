@@ -15,7 +15,7 @@
           "title": "Замок",
           "subtitle": "Замок в Оропеса дель Мар",
           "coordinates": [
-            0.133237654420,
+            0.13323765442,
             40.092529576494
           ],
           "card": {
@@ -50,6 +50,54 @@
               ],
               "uk": [
                 "Замок Оропеса дель Мар",
+                ""
+              ]
+            }
+          }
+        },
+        {
+          "id": "TorreDelRey",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Torre Del Rey",
+          "subtitle": "Torre Del Rey",
+          "coordinates": [
+            0.14577681955347643,
+            40.08280185914611
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Torre_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Torre del Rey",
+                ""
+              ],
+              "en": [
+                "Torre del Rey",
+                ""
+              ],
+              "de": [
+                "Torre del Rey",
+                ""
+              ],
+              "fr": [
+                "Torre del Rey",
+                ""
+              ],
+              "it": [
+                "Torre del Rey",
+                ""
+              ],
+              "ru": [
+                "Башня короля (Torre del Rey)",
+                ""
+              ],
+              "uk": [
+                "Королівська вежа (Torre del Rey)",
                 ""
               ]
             }
@@ -266,6 +314,118 @@
               ],
               "uk": [
                 "Мерія Оропеса-дель-Мар",
+                ""
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Bomberos",
+      "name": "Пожарная часть",
+      "icon": "media/icons/Pogar.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "PogarnayaChast",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Пожарная часть",
+          "subtitle": "Пожарная часть",
+          "coordinates": [
+            0.13535751727856807,
+            40.09836502255842
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Pogar_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Parque de bomberos",
+                ""
+              ],
+              "en": [
+                "Fire station",
+                ""
+              ],
+              "de": [
+                "Feuerwache",
+                ""
+              ],
+              "fr": [
+                "Caserne de pompiers",
+                ""
+              ],
+              "it": [
+                "Caserma dei vigili del fuoco",
+                ""
+              ],
+              "ru": [
+                "Пожарная часть",
+                ""
+              ],
+              "uk": [
+                "Пожежна частина",
+                ""
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "GuardiaCivil",
+      "name": "Гвардия Сивиль",
+      "icon": "media/icons/Pol.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "GuardiaCivil",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Guardia Civil",
+          "subtitle": "Guardia Civil",
+          "coordinates": [
+            0.12972418863938823,
+            40.0915383153225
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Pol_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Guardia Civil",
+                ""
+              ],
+              "en": [
+                "Guardia Civil",
+                ""
+              ],
+              "de": [
+                "Guardia Civil",
+                ""
+              ],
+              "fr": [
+                "Guardia Civil",
+                ""
+              ],
+              "it": [
+                "Guardia Civil",
+                ""
+              ],
+              "ru": [
+                "Гражданская гвардия (Guardia Civil)",
+                ""
+              ],
+              "uk": [
+                "Цивільна гвардія (Guardia Civil)",
                 ""
               ]
             }
