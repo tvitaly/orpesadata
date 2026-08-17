@@ -102,6 +102,54 @@
               ]
             }
           }
+        },
+        {
+          "id": "Museo",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Museo",
+          "subtitle": "Museo",
+          "coordinates": [
+            0.13430085822507645,
+            40.09220977380492
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Muzey_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Museo",
+                ""
+              ],
+              "en": [
+                "Museum",
+                ""
+              ],
+              "de": [
+                "Museum",
+                ""
+              ],
+              "fr": [
+                "Musée",
+                ""
+              ],
+              "it": [
+                "Museo",
+                ""
+              ],
+              "ru": [
+                "Музей",
+                ""
+              ],
+              "uk": [
+                "Музей",
+                ""
+              ]
+            }
+          }
         }
       ]
     },
@@ -318,6 +366,54 @@
               ]
             }
           }
+        },
+        {
+          "id": "CentroIntegralDeMayores",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Centro Integral De Mayores",
+          "subtitle": "Centro Integral De Mayores",
+          "coordinates": [
+            0.13483028470461955,
+            40.09162406303599
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Stariki_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Centro Integral de Mayores",
+                ""
+              ],
+              "en": [
+                "Comprehensive Senior Centre",
+                ""
+              ],
+              "de": [
+                "Seniorenzentrum",
+                ""
+              ],
+              "fr": [
+                "Centre intégral pour personnes âgées",
+                ""
+              ],
+              "it": [
+                "Centro integrale per anziani",
+                ""
+              ],
+              "ru": [
+                "Комплексный центр для пожилых людей",
+                ""
+              ],
+              "uk": [
+                "Комплексний центр для людей похилого віку",
+                ""
+              ]
+            }
+          }
         }
       ]
     },
@@ -426,6 +522,454 @@
               ],
               "uk": [
                 "Цивільна гвардія (Guardia Civil)",
+                ""
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "PlazaDeToros",
+      "name": "Арена для корриды",
+      "icon": "media/icons/Bik.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "PlazaDeToros",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Plaza De Toros",
+          "subtitle": "Plaza De Toros",
+          "coordinates": [
+            0.132077882269829,
+            40.0927577413405
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Bik_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Plaza de Toros",
+                ""
+              ],
+              "en": [
+                "Bullring",
+                ""
+              ],
+              "de": [
+                "Stierkampfarena",
+                ""
+              ],
+              "fr": [
+                "Arènes",
+                ""
+              ],
+              "it": [
+                "Arena per corride",
+                ""
+              ],
+              "ru": [
+                "Арена для корриды",
+                ""
+              ],
+              "uk": [
+                "Арена для кориди",
+                ""
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Iglesia",
+      "name": "Церковь",
+      "icon": "media/icons/Cerkov.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "ParroquiaSanJaimeApostol",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Parroquia de San Jaime Apóstol",
+          "subtitle": "Parroquia de San Jaime Apóstol",
+          "coordinates": [
+            0.13615592691290865,
+            40.091805494669465
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Cerkov_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Parroquia de San Jaime Apóstol",
+                ""
+              ],
+              "en": [
+                "Parish Church of Saint James the Apostle",
+                ""
+              ],
+              "de": [
+                "Pfarrkirche des Heiligen Jakobus des Apostels",
+                ""
+              ],
+              "fr": [
+                "Paroisse Saint-Jacques-Apôtre",
+                ""
+              ],
+              "it": [
+                "Parrocchia di San Giacomo Apostolo",
+                ""
+              ],
+              "ru": [
+                "Приходская церковь Святого Иакова Апостола",
+                ""
+              ],
+              "uk": [
+                "Парафіяльна церква Святого Якова Апостола",
+                ""
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Faro",
+      "name": "Маяк",
+      "icon": "media/icons/Mayak.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "Faro",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Faro",
+          "subtitle": "Faro",
+          "coordinates": [
+            0.14672417025033316,
+            40.083206409062484
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Mayak_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Faro",
+                ""
+              ],
+              "en": [
+                "Lighthouse",
+                ""
+              ],
+              "de": [
+                "Leuchtturm",
+                ""
+              ],
+              "fr": [
+                "Phare",
+                ""
+              ],
+              "it": [
+                "Faro",
+                ""
+              ],
+              "ru": [
+                "Маяк",
+                ""
+              ],
+              "uk": [
+                "Маяк",
+                ""
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Cultura",
+      "name": "Культурные объекты",
+      "icon": "media/icons/Muz.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "EspaiCultural",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Espai Cultural",
+          "subtitle": "Espai Cultural",
+          "coordinates": [
+            0.14209568881815673,
+            40.091889078005295
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Muz_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Espai Cultural",
+                ""
+              ],
+              "en": [
+                "Espai Cultural",
+                ""
+              ],
+              "de": [
+                "Espai Cultural",
+                ""
+              ],
+              "fr": [
+                "Espai Cultural",
+                ""
+              ],
+              "it": [
+                "Espai Cultural",
+                ""
+              ],
+              "ru": [
+                "Культурный центр Espai Cultural",
+                ""
+              ],
+              "uk": [
+                "Культурний центр Espai Cultural",
+                ""
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Biblioteca",
+      "name": "Библиотека",
+      "icon": "media/icons/Bibl.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "Biblioteca",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Biblioteca",
+          "subtitle": "Biblioteca",
+          "coordinates": [
+            0.1350981144253324,
+            40.09349760741516
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Bibl_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Biblioteca",
+                ""
+              ],
+              "en": [
+                "Library",
+                ""
+              ],
+              "de": [
+                "Bibliothek",
+                ""
+              ],
+              "fr": [
+                "Bibliothèque",
+                ""
+              ],
+              "it": [
+                "Biblioteca",
+                ""
+              ],
+              "ru": [
+                "Библиотека",
+                ""
+              ],
+              "uk": [
+                "Бібліотека",
+                ""
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "CampoDeFutbol",
+      "name": "Футбольное поле",
+      "icon": "media/icons/Socer.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "CampoDeFutbol",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Campo de futbol",
+          "subtitle": "Campo de futbol",
+          "coordinates": [
+            0.14220642627441535,
+            40.095081811346304
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Socer_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Campo de fútbol",
+                ""
+              ],
+              "en": [
+                "Football Field",
+                ""
+              ],
+              "de": [
+                "Fußballplatz",
+                ""
+              ],
+              "fr": [
+                "Terrain de football",
+                ""
+              ],
+              "it": [
+                "Campo da calcio",
+                ""
+              ],
+              "ru": [
+                "Футбольное поле",
+                ""
+              ],
+              "uk": [
+                "Футбольне поле",
+                ""
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Parques",
+      "name": "Парки и сады",
+      "icon": "media/icons/Pavl.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "JardinesMarinaDor",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Jardines Marina d'Or",
+          "subtitle": "Marina d'Or",
+          "coordinates": [
+            0.1529705618977702,
+            40.107681305219195
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Pavl_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Jardines Marina d’Or",
+                ""
+              ],
+              "en": [
+                "Marina d’Or Gardens",
+                ""
+              ],
+              "de": [
+                "Gärten von Marina d’Or",
+                ""
+              ],
+              "fr": [
+                "Jardins de Marina d’Or",
+                ""
+              ],
+              "it": [
+                "Giardini di Marina d’Or",
+                ""
+              ],
+              "ru": [
+                "Сады Marina d’Or",
+                ""
+              ],
+              "uk": [
+                "Сади Marina d’Or",
+                ""
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "Correos",
+      "name": "Почта",
+      "icon": "media/icons/Pochta.png",
+      "visible": true,
+      "items": [
+        {
+          "id": "OficinaDeCorreos",
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
+          "title": "Oficina de Correos",
+          "subtitle": "Oficina de Correos",
+          "coordinates": [
+            0.13715845167756233,
+            40.09094948865191
+          ],
+          "card": {
+            "title": "Метка",
+            "text": "Если метка открывается, значит слой меток работает.",
+            "image": "media/cards/Pochta_card.jpg",
+            "style": "marker",
+            "paragraphs": {
+              "es": [
+                "Oficina de Correos",
+                ""
+              ],
+              "en": [
+                "Post Office",
+                ""
+              ],
+              "de": [
+                "Postamt",
+                ""
+              ],
+              "fr": [
+                "Bureau de poste",
+                ""
+              ],
+              "it": [
+                "Ufficio postale",
+                ""
+              ],
+              "ru": [
+                "Почтовое отделение",
+                ""
+              ],
+              "uk": [
+                "Поштове відділення",
                 ""
               ]
             }
