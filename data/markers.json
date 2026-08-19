@@ -929,9 +929,9 @@
       "items": [
         {
           "id": "OficinaDeCorreos",
-          "visible": false,
-          "displayOnMap": false,
-          "markerVisible": false,
+          "visible": true,
+          "displayOnMap": true,
+          "markerVisible": true,
           "title": "Oficina de Correos",
           "subtitle": "Oficina de Correos",
           "coordinates": [
