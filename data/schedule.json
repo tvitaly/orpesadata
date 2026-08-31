@@ -1,14 +1,14 @@
 {
-  "version": "v8.107_july_august_2026_two_buses_30min_60min_loop",
+  "version": "v9_septiembre_2026_50min_loop",
   "timezone": "Europe/Madrid",
   "season": {
-    "id": "july_august_2026",
-    "nameRu": "Июль и август 2026",
-    "nameEs": "Julio y agosto 2026",
+    "id": "septiembre_2026",
+    "nameRu": "сентябрь 2026",
+    "nameEs": "septiembre 2026",
     "dateRanges": [
       {
-        "from": "2026-07-01",
-        "to": "2026-08-31"
+        "from": "2026-09-01",
+        "to": "2026-09-30"
       }
     ],
     "days": "monday_to_sunday"
@@ -17,11 +17,11 @@
     "method": "route_distance_progress",
     "distanceSource": "auto_from_route_coordinates",
     "animation": "smooth",
-    "defaultDwellSeconds": 30,
+    "defaultDwellSeconds": 60,
     "busCountMode": "from_active_schedule_blocks",
-    "_helpRu": "map.html создаёт только автобусы, для которых сегодня есть активные blocks и active:true в buses.json. Один block/busId = один автобус, два busId = два автобуса.",
-    "cycleMinutes": 60,
-    "_cycleHelpRu": "Один автобус проходит полный круг за 60 минут. bus_1 и bus_2 отправляются с разницей 30 минут, поэтому общий интервал составляет 30 минут."
+    "_helpRu": "Один block/busId = один автобус, два busId = два автобуса.",
+    "cycleMinutes": 50,
+    "_cycleHelpRu": "Один автобус проходит полный круг за 50 минут."
   },
   "calendarTypes": {
     "weekday": {
@@ -39,9 +39,9 @@
   },
   "tripPatterns": [
     {
-      "id": "main_loop_july_august_2026",
-      "nameRu": "Летний круг июль/август 2026 — 60 минут",
-      "nameEs": "Ruta julio/agosto 2026 — 60 minutos",
+      "id": "main_loop_septiembre_2026",
+      "nameRu": "Сентябрь круг — 50 минут",
+      "nameEs": "Ruta septiembre — 50 minutos",
       "routeId": "main_route",
       "loop": true,
       "knownOffsets": [
@@ -71,7 +71,7 @@
         },
         {
           "stopId": "stop_016",
-          "offsetMinutes": 35,
+          "offsetMinutes": 40,
           "official": true,
           "MyStopNumber": 16,
           "officialStopNumber": 20,
@@ -83,172 +83,160 @@
   ],
   "serviceDays": [
     {
-      "id": "weekday_july_august_2026",
+      "id": "weekday_septiembre_2026",
       "calendarType": "weekday",
       "active": true,
       "blocks": [
         {
           "id": "summer_weekday_bus_1",
-          "nameRu": "Летнее расписание — автобус 1",
-          "nameEs": "Horario de verano — autobús 1",
+          "nameRu": "Сентябрьское расписание — автобус 1",
+          "nameEs": "Horario de septiembre — autobús 1",
           "busId": "bus_1",
-          "patternId": "main_loop_july_august_2026",
+          "patternId": "main_loop_septiembre_2026",
           "active": true,
           "startTimes": [
-            "08:00",
-            "09:00",
-            "10:00",
+            "08:30",
+            "09:20",
+            "10:10",
             "11:00",
             "12:00",
             "13:00",
-            "14:00",
-            "15:00",
-            "16:00",
             "17:00",
-            "18:00",
-            "19:00",
-            "20:00",
-            "21:00",
+            "17:50",
+            "18:40",
+            "19:30",
+            "20:20",
+            "21:10",
             "22:00"
           ]
         },
         {
           "id": "summer_weekday_bus_2",
-          "nameRu": "Летнее расписание — автобус 2",
-          "nameEs": "Horario de verano — autobús 2",
+          "nameRu": "Сентябрьское расписание — автобус 2",
+          "nameEs": "Horario de septiembre — autobús 2",
           "busId": "bus_2",
-          "patternId": "main_loop_july_august_2026",
-          "active": true,
-          "startTimes": [
+          "patternId": "main_loop_septiembre_2026",
+          "active": false,
+          "startTimes":  [
             "08:30",
-            "09:30",
-            "10:30",
-            "11:30",
-            "12:30",
-            "13:30",
-            "14:30",
-            "15:30",
-            "16:30",
-            "17:30",
-            "18:30",
+            "09:20",
+            "10:10",
+            "11:00",
+            "12:00",
+            "13:00",
+            "17:00",
+            "17:50",
+            "18:40",
             "19:30",
-            "20:30",
-            "21:30",
-            "22:30"
+            "20:20",
+            "21:10",
+            "22:00"
           ]
         }
       ]
     },
     {
-      "id": "weekend_july_august_2026",
+      "id": "weekend_septiembre_2026",
       "calendarType": "weekend",
       "active": true,
       "blocks": [
         {
           "id": "summer_weekend_bus_1",
-          "nameRu": "Летнее расписание — автобус 1",
-          "nameEs": "Horario de verano — autobús 1",
+          "nameRu": "Сентябрьское расписание — автобус 1",
+          "nameEs": "Horario de septiembre — autobús 1",
           "busId": "bus_1",
-          "patternId": "main_loop_july_august_2026",
+          "patternId": "main_loop_septiembre_2026",
           "active": true,
-          "startTimes": [
-            "08:00",
-            "09:00",
-            "10:00",
+          "startTimes":  [
+            "08:30",
+            "09:20",
+            "10:10",
             "11:00",
             "12:00",
             "13:00",
-            "14:00",
-            "15:00",
-            "16:00",
             "17:00",
-            "18:00",
-            "19:00",
-            "20:00",
-            "21:00",
+            "17:50",
+            "18:40",
+            "19:30",
+            "20:20",
+            "21:10",
             "22:00"
           ]
         },
         {
           "id": "summer_weekend_bus_2",
-          "nameRu": "Летнее расписание — автобус 2",
-          "nameEs": "Horario de verano — autobús 2",
+          "nameRu": "Сентябрьское расписание — автобус 2",
+          "nameEs": "Horario de septiembre — autobús 2",
           "busId": "bus_2",
-          "patternId": "main_loop_july_august_2026",
-          "active": true,
-          "startTimes": [
+          "patternId": "main_loop_septiembre_2026",
+          "active": false,
+          "startTimes":  [
             "08:30",
-            "09:30",
-            "10:30",
-            "11:30",
-            "12:30",
-            "13:30",
-            "14:30",
-            "15:30",
-            "16:30",
-            "17:30",
-            "18:30",
+            "09:20",
+            "10:10",
+            "11:00",
+            "12:00",
+            "13:00",
+            "17:00",
+            "17:50",
+            "18:40",
             "19:30",
-            "20:30",
-            "21:30",
-            "22:30"
+            "20:20",
+            "21:10",
+            "22:00"
           ]
         }
       ]
     },
     {
-      "id": "holiday_july_august_2026",
+      "id": "holiday_septiembre_2026",
       "calendarType": "holiday",
       "active": true,
       "blocks": [
         {
           "id": "summer_holiday_bus_1",
-          "nameRu": "Летнее расписание — автобус 1",
-          "nameEs": "Horario de verano — autobús 1",
+          "nameRu": "Сентябрьское расписание — автобус 1",
+          "nameEs": "Horario de septiembre — autobús 1",
           "busId": "bus_1",
-          "patternId": "main_loop_july_august_2026",
+          "patternId": "main_loop_septiembre_2026",
           "active": true,
-          "startTimes": [
-            "08:00",
-            "09:00",
-            "10:00",
+          "startTimes":  [
+            "08:30",
+            "09:20",
+            "10:10",
             "11:00",
             "12:00",
             "13:00",
-            "14:00",
-            "15:00",
-            "16:00",
             "17:00",
-            "18:00",
-            "19:00",
-            "20:00",
-            "21:00",
+            "17:50",
+            "18:40",
+            "19:30",
+            "20:20",
+            "21:10",
             "22:00"
           ]
         },
         {
           "id": "summer_holiday_bus_2",
-          "nameRu": "Летнее расписание — автобус 2",
-          "nameEs": "Horario de verano — autobús 2",
+          "nameRu": "Сентябрьское расписание — автобус 2",
+          "nameEs": "Horario de septiembre — autobús 2",
           "busId": "bus_2",
-          "patternId": "main_loop_july_august_2026",
-          "active": true,
-          "startTimes": [
+          "patternId": "main_loop_septiembre_2026",
+          "active": false,
+          "startTimes":  [
             "08:30",
-            "09:30",
-            "10:30",
-            "11:30",
-            "12:30",
-            "13:30",
-            "14:30",
-            "15:30",
-            "16:30",
-            "17:30",
-            "18:30",
+            "09:20",
+            "10:10",
+            "11:00",
+            "12:00",
+            "13:00",
+            "17:00",
+            "17:50",
+            "18:40",
             "19:30",
-            "20:30",
-            "21:30",
-            "22:30"
+            "20:20",
+            "21:10",
+            "22:00"
           ]
         }
       ]
@@ -265,12 +253,10 @@
     ]
   },
   "editingNotesRu": [
-    "Официальное расписание действует с 01.07.2026 по 31.08.2026, с понедельника по воскресенье.",
-    "Общий интервал на остановке 1 — 30 минут: с 08:00 до 22:30.",
-    "bus_1 отправляется каждый час с 08:00 до 22:00; bus_2 — каждый час с 08:30 до 22:30.",
-    "Каждый автобус проходит полный круг за 60 минут, поэтому после первого запуска оба автобуса движутся непрерывно без 10-минутного ожидания на конечной.",
-    "Контрольные точки одного круга: stop_001 +0, stop_011 +20, stop_015 +30, stop_016 +40, возврат к stop_001 +60 минут.",
-    "Время для промежуточных остановок map.html рассчитывает по расстоянию вдоль route.json между соседними контрольными точками.",
-    "Количество автобусов map.html определяет по busId в активных блоках расписания: один активный busId — один автобус, два — два."
+    "Официальное расписание действует с 01.09.2026 по 30.09.2026, с понедельника по воскресенье.",
+    "Автобус проходит полный круг за 50 минут.",
+    "Контрольные точки одного круга: stop_001 +0, stop_011 +20, stop_015 +30, stop_016 +40, возврат к stop_001 +50 минут.",
+    "Время для промежуточных остановок рассчитывается по расстоянию вдоль route.json между соседними контрольными точками.",
+    "Количество автобусов определяется по busId в активных блоках расписания: один активный busId — один автобус, два — два."
   ]
 }
