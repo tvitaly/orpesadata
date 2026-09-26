@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T09:44:00+02:00",
+  "generatedAt": "2026-09-26T09:37:10+02:00",
   "station": {
     "id": "65304",
     "name": "Orpesa",
@@ -14,809 +14,6 @@
     "REGIONAL"
   ],
   "days": [
-    {
-      "date": "2026-09-25",
-      "trips": [
-        {
-          "departure": "06:54",
-          "arrival": "06:53",
-          "destination": "València",
-          "destinationRaw": "València-Estació del Nord",
-          "destinationStopId": "65000",
-          "direction": "south",
-          "tripId": "1443312026-09-23",
-          "relatedTripIds": [
-            "1443312026-09-23"
-          ],
-          "trainNumber": "14433",
-          "relatedTrainNumbers": [
-            "14433"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6531265000VRR",
-          "relatedRouteIds": [
-            "6531265000VRR"
-          ],
-          "serviceId": "2026-09-232026-10-04144331",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-04144331"
-          ],
-          "originRaw": "Vinaròs",
-          "originStopId": "65312",
-          "orpesaStopSequence": 5
-        },
-        {
-          "departure": "07:23",
-          "arrival": "07:22",
-          "destination": "Vinaròs",
-          "destinationRaw": "Vinaròs",
-          "destinationStopId": "65312",
-          "direction": "north",
-          "tripId": "1443012026-09-23",
-          "relatedTripIds": [
-            "1443012026-09-23"
-          ],
-          "trainNumber": "14430",
-          "relatedTrainNumbers": [
-            "14430"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6500065312VRR",
-          "relatedRouteIds": [
-            "6500065312VRR"
-          ],
-          "serviceId": "2026-09-232026-10-04144301",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-04144301"
-          ],
-          "originRaw": "València-Estació del Nord",
-          "originStopId": "65000",
-          "orpesaStopSequence": 10
-        },
-        {
-          "departure": "08:11",
-          "arrival": "08:10",
-          "destination": "València",
-          "destinationRaw": "València-Estació del Nord",
-          "destinationStopId": "65000",
-          "direction": "south",
-          "tripId": "1401812026-09-23",
-          "relatedTripIds": [
-            "1401812026-09-23",
-            "3801812026-09-23"
-          ],
-          "trainNumber": "14018",
-          "relatedTrainNumbers": [
-            "14018",
-            "38018"
-          ],
-          "service": "REG.EXP.",
-          "relatedServices": [
-            "REG.EXP.",
-            "REGIONAL"
-          ],
-          "routeId": "6540065000VRE",
-          "relatedRouteIds": [
-            "6540065000VRE",
-            "6531265000VRR"
-          ],
-          "serviceId": "2026-09-232026-10-04140181",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-04140181",
-            "2026-09-232026-10-04380181"
-          ],
-          "originRaw": "Tortosa",
-          "originStopId": "65400",
-          "orpesaStopSequence": 8
-        },
-        {
-          "departure": "08:19",
-          "arrival": "08:18",
-          "destination": "Vinaròs",
-          "destinationRaw": "Vinaròs",
-          "destinationStopId": "65312",
-          "direction": "north",
-          "tripId": "1443212026-09-23",
-          "relatedTripIds": [
-            "1443212026-09-23"
-          ],
-          "trainNumber": "14432",
-          "relatedTrainNumbers": [
-            "14432"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6500065312VRR",
-          "relatedRouteIds": [
-            "6500065312VRR"
-          ],
-          "serviceId": "2026-09-232026-10-30144321",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-30144321"
-          ],
-          "originRaw": "València-Estació del Nord",
-          "originStopId": "65000",
-          "orpesaStopSequence": 16
-        },
-        {
-          "departure": "08:59",
-          "arrival": "08:58",
-          "destination": "València",
-          "destinationRaw": "València-Estació del Nord",
-          "destinationStopId": "65000",
-          "direction": "south",
-          "tripId": "1443512026-09-23",
-          "relatedTripIds": [
-            "1443512026-09-23"
-          ],
-          "trainNumber": "14435",
-          "relatedTrainNumbers": [
-            "14435"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6531265000VRR",
-          "relatedRouteIds": [
-            "6531265000VRR"
-          ],
-          "serviceId": "2026-09-232026-10-04144351",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-04144351"
-          ],
-          "originRaw": "Vinaròs",
-          "originStopId": "65312",
-          "orpesaStopSequence": 5
-        },
-        {
-          "departure": "09:15",
-          "arrival": "09:14",
-          "destination": "Tortosa",
-          "destinationRaw": "Tortosa",
-          "destinationStopId": "65400",
-          "direction": "north",
-          "tripId": "1402012026-09-23",
-          "relatedTripIds": [
-            "1402012026-09-23",
-            "3802012026-09-23"
-          ],
-          "trainNumber": "14020",
-          "relatedTrainNumbers": [
-            "14020",
-            "38020"
-          ],
-          "service": "REG.EXP.",
-          "relatedServices": [
-            "REG.EXP.",
-            "REGIONAL"
-          ],
-          "routeId": "6500065400VRE",
-          "relatedRouteIds": [
-            "6500065400VRE",
-            "6500065312VRR"
-          ],
-          "serviceId": "2026-09-232026-10-30140201",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-30140201",
-            "2026-09-232026-10-30380201"
-          ],
-          "originRaw": "València-Estació del Nord",
-          "originStopId": "65000",
-          "orpesaStopSequence": 8
-        },
-        {
-          "departure": "09:59",
-          "arrival": "09:58",
-          "destination": "València",
-          "destinationRaw": "València-Estació del Nord",
-          "destinationStopId": "65000",
-          "direction": "south",
-          "tripId": "1443712026-09-23",
-          "relatedTripIds": [
-            "1443712026-09-23"
-          ],
-          "trainNumber": "14437",
-          "relatedTrainNumbers": [
-            "14437"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6531265000VRR",
-          "relatedRouteIds": [
-            "6531265000VRR"
-          ],
-          "serviceId": "2026-09-232026-10-04144371",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-04144371"
-          ],
-          "originRaw": "Vinaròs",
-          "originStopId": "65312",
-          "orpesaStopSequence": 5
-        },
-        {
-          "departure": "11:15",
-          "arrival": "11:14",
-          "destination": "Vinaròs",
-          "destinationRaw": "Vinaròs",
-          "destinationStopId": "65312",
-          "direction": "north",
-          "tripId": "1446212026-09-23",
-          "relatedTripIds": [
-            "1446212026-09-23"
-          ],
-          "trainNumber": "14462",
-          "relatedTrainNumbers": [
-            "14462"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6500065312VRR",
-          "relatedRouteIds": [
-            "6500065312VRR"
-          ],
-          "serviceId": "2026-09-232026-10-30144621",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-30144621"
-          ],
-          "originRaw": "València-Estació del Nord",
-          "originStopId": "65000",
-          "orpesaStopSequence": 21
-        },
-        {
-          "departure": "12:59",
-          "arrival": "12:58",
-          "destination": "València",
-          "destinationRaw": "València-Estació del Nord",
-          "destinationStopId": "65000",
-          "direction": "south",
-          "tripId": "1446112026-09-23",
-          "relatedTripIds": [
-            "1446112026-09-23"
-          ],
-          "trainNumber": "14461",
-          "relatedTrainNumbers": [
-            "14461"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6531265000VRR",
-          "relatedRouteIds": [
-            "6531265000VRR"
-          ],
-          "serviceId": "2026-09-232026-10-04144611",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-04144611"
-          ],
-          "originRaw": "Vinaròs",
-          "originStopId": "65312",
-          "orpesaStopSequence": 5
-        },
-        {
-          "departure": "13:52",
-          "arrival": "13:52",
-          "destination": "València",
-          "destinationRaw": "València-Estació del Nord",
-          "destinationStopId": "65000",
-          "direction": "south",
-          "tripId": "1809312026-09-23",
-          "relatedTripIds": [
-            "1809312026-09-23",
-            "3809312026-09-23"
-          ],
-          "trainNumber": "18093",
-          "relatedTrainNumbers": [
-            "18093",
-            "38093"
-          ],
-          "service": "REG.EXP.",
-          "relatedServices": [
-            "REG.EXP.",
-            "REGIONAL"
-          ],
-          "routeId": "7940065000VRE",
-          "relatedRouteIds": [
-            "7940065000VRE",
-            "6531265000VRR"
-          ],
-          "serviceId": "2026-09-232026-11-03180931",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-11-03180931",
-            "2026-09-232026-11-03380931"
-          ],
-          "originRaw": "Barcelona Estació de França",
-          "originStopId": "79400",
-          "orpesaStopSequence": 21
-        },
-        {
-          "departure": "14:08",
-          "arrival": "14:07",
-          "destination": "Vinaròs",
-          "destinationRaw": "Vinaròs",
-          "destinationStopId": "65312",
-          "direction": "north",
-          "tripId": "1444412026-09-23",
-          "relatedTripIds": [
-            "1444412026-09-23"
-          ],
-          "trainNumber": "14444",
-          "relatedTrainNumbers": [
-            "14444"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6500065312VRR",
-          "relatedRouteIds": [
-            "6500065312VRR"
-          ],
-          "serviceId": "2026-09-232026-10-04144441",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-04144441"
-          ],
-          "originRaw": "València-Estació del Nord",
-          "originStopId": "65000",
-          "orpesaStopSequence": 20
-        },
-        {
-          "departure": "14:53",
-          "arrival": "14:52",
-          "destination": "València",
-          "destinationRaw": "València-Estació del Nord",
-          "destinationStopId": "65000",
-          "direction": "south",
-          "tripId": "1402212026-09-23",
-          "relatedTripIds": [
-            "1402212026-09-23",
-            "3802212026-09-23"
-          ],
-          "trainNumber": "14022",
-          "relatedTrainNumbers": [
-            "14022",
-            "38022"
-          ],
-          "service": "REG.EXP.",
-          "relatedServices": [
-            "REG.EXP.",
-            "REGIONAL"
-          ],
-          "routeId": "6540065000VRE",
-          "relatedRouteIds": [
-            "6540065000VRE",
-            "6531265000VRR"
-          ],
-          "serviceId": "2026-09-232026-11-03140221",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-11-03140221",
-            "2026-09-232026-11-03380221"
-          ],
-          "originRaw": "Tortosa",
-          "originStopId": "65400",
-          "orpesaStopSequence": 8
-        },
-        {
-          "departure": "15:39",
-          "arrival": "15:38",
-          "destination": "València",
-          "destinationRaw": "València-Estació del Nord",
-          "destinationStopId": "65000",
-          "direction": "south",
-          "tripId": "1444312026-09-23",
-          "relatedTripIds": [
-            "1444312026-09-23"
-          ],
-          "trainNumber": "14443",
-          "relatedTrainNumbers": [
-            "14443"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6531265000VRR",
-          "relatedRouteIds": [
-            "6531265000VRR"
-          ],
-          "serviceId": "2026-09-232026-10-04144431",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-04144431"
-          ],
-          "originRaw": "Vinaròs",
-          "originStopId": "65312",
-          "orpesaStopSequence": 5
-        },
-        {
-          "departure": "15:40",
-          "arrival": "15:39",
-          "destination": "Tortosa",
-          "destinationRaw": "Tortosa",
-          "destinationStopId": "65400",
-          "direction": "north",
-          "tripId": "1430212026-09-23",
-          "relatedTripIds": [
-            "1430212026-09-23"
-          ],
-          "trainNumber": "14302",
-          "relatedTrainNumbers": [
-            "14302"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6500065400VRR",
-          "relatedRouteIds": [
-            "6500065400VRR"
-          ],
-          "serviceId": "2026-09-232026-11-03143021",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-11-03143021"
-          ],
-          "originRaw": "València-Estació del Nord",
-          "originStopId": "65000",
-          "orpesaStopSequence": 8
-        },
-        {
-          "departure": "16:20",
-          "arrival": "16:19",
-          "destination": "Vinaròs",
-          "destinationRaw": "Vinaròs",
-          "destinationStopId": "65312",
-          "direction": "north",
-          "tripId": "1444612026-09-23",
-          "relatedTripIds": [
-            "1444612026-09-23"
-          ],
-          "trainNumber": "14446",
-          "relatedTrainNumbers": [
-            "14446"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6500065312VRR",
-          "relatedRouteIds": [
-            "6500065312VRR"
-          ],
-          "serviceId": "2026-09-232026-10-04144461",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-04144461"
-          ],
-          "originRaw": "València-Estació del Nord",
-          "originStopId": "65000",
-          "orpesaStopSequence": 16
-        },
-        {
-          "departure": "17:10",
-          "arrival": "17:09",
-          "destination": "Vinaròs",
-          "destinationRaw": "Vinaròs",
-          "destinationStopId": "65312",
-          "direction": "north",
-          "tripId": "1445012026-09-23",
-          "relatedTripIds": [
-            "1445012026-09-23"
-          ],
-          "trainNumber": "14450",
-          "relatedTrainNumbers": [
-            "14450"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6500065312VRR",
-          "relatedRouteIds": [
-            "6500065312VRR"
-          ],
-          "serviceId": "2026-09-232026-10-04144501",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-04144501"
-          ],
-          "originRaw": "València-Estació del Nord",
-          "originStopId": "65000",
-          "orpesaStopSequence": 16
-        },
-        {
-          "departure": "17:59",
-          "arrival": "17:58",
-          "destination": "València",
-          "destinationRaw": "València-Estació del Nord",
-          "destinationStopId": "65000",
-          "direction": "south",
-          "tripId": "1446312026-09-23",
-          "relatedTripIds": [
-            "1446312026-09-23"
-          ],
-          "trainNumber": "14463",
-          "relatedTrainNumbers": [
-            "14463"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6531265000VRR",
-          "relatedRouteIds": [
-            "6531265000VRR"
-          ],
-          "serviceId": "2026-09-232026-10-04144631",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-04144631"
-          ],
-          "originRaw": "Vinaròs",
-          "originStopId": "65312",
-          "orpesaStopSequence": 5
-        },
-        {
-          "departure": "18:08",
-          "arrival": "18:07",
-          "destination": "Vinaròs",
-          "destinationRaw": "Vinaròs",
-          "destinationStopId": "65312",
-          "direction": "north",
-          "tripId": "1446412026-09-23",
-          "relatedTripIds": [
-            "1446412026-09-23"
-          ],
-          "trainNumber": "14464",
-          "relatedTrainNumbers": [
-            "14464"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6500065312VRR",
-          "relatedRouteIds": [
-            "6500065312VRR"
-          ],
-          "serviceId": "2026-09-232026-10-30144641",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-30144641"
-          ],
-          "originRaw": "València-Estació del Nord",
-          "originStopId": "65000",
-          "orpesaStopSequence": 21
-        },
-        {
-          "departure": "18:54",
-          "arrival": "18:53",
-          "destination": "València",
-          "destinationRaw": "València-Estació del Nord",
-          "destinationStopId": "65000",
-          "direction": "south",
-          "tripId": "1446712026-09-23",
-          "relatedTripIds": [
-            "1446712026-09-23"
-          ],
-          "trainNumber": "14467",
-          "relatedTrainNumbers": [
-            "14467"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6531265000VRR",
-          "relatedRouteIds": [
-            "6531265000VRR"
-          ],
-          "serviceId": "2026-09-232026-10-04144671",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-04144671"
-          ],
-          "originRaw": "Vinaròs",
-          "originStopId": "65312",
-          "orpesaStopSequence": 5
-        },
-        {
-          "departure": "19:04",
-          "arrival": "19:03",
-          "destination": "Barcelona",
-          "destinationRaw": "Barcelona Estació de França",
-          "destinationStopId": "79400",
-          "direction": "north",
-          "tripId": "1809612026-09-23",
-          "relatedTripIds": [
-            "1809612026-09-23",
-            "3809612026-09-23"
-          ],
-          "trainNumber": "18096",
-          "relatedTrainNumbers": [
-            "18096",
-            "38096"
-          ],
-          "service": "REG.EXP.",
-          "relatedServices": [
-            "REG.EXP.",
-            "REGIONAL"
-          ],
-          "routeId": "6500079400VRE",
-          "relatedRouteIds": [
-            "6500079400VRE",
-            "6500065312VRR"
-          ],
-          "serviceId": "2026-09-232026-10-30180961",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-10-30180961",
-            "2026-09-232026-10-30380961"
-          ],
-          "originRaw": "València-Estació del Nord",
-          "originStopId": "65000",
-          "orpesaStopSequence": 8
-        },
-        {
-          "departure": "19:39",
-          "arrival": "19:39",
-          "destination": "València",
-          "destinationRaw": "València-Estació del Nord",
-          "destinationStopId": "65000",
-          "direction": "south",
-          "tripId": "1430412026-09-23",
-          "relatedTripIds": [
-            "1430412026-09-23"
-          ],
-          "trainNumber": "14304",
-          "relatedTrainNumbers": [
-            "14304"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6540065000VRR",
-          "relatedRouteIds": [
-            "6540065000VRR"
-          ],
-          "serviceId": "2026-09-232026-11-03143041",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-11-03143041"
-          ],
-          "originRaw": "Tortosa",
-          "originStopId": "65400",
-          "orpesaStopSequence": 8
-        },
-        {
-          "departure": "20:15",
-          "arrival": "20:14",
-          "destination": "Vinaròs",
-          "destinationRaw": "Vinaròs",
-          "destinationStopId": "65312",
-          "direction": "north",
-          "tripId": "1445212026-09-23",
-          "relatedTripIds": [
-            "1445212026-09-23"
-          ],
-          "trainNumber": "14452",
-          "relatedTrainNumbers": [
-            "14452"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6500065312VRR",
-          "relatedRouteIds": [
-            "6500065312VRR"
-          ],
-          "serviceId": "2026-09-232026-11-03144521",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-11-03144521"
-          ],
-          "originRaw": "València-Estació del Nord",
-          "originStopId": "65000",
-          "orpesaStopSequence": 21
-        },
-        {
-          "departure": "21:40",
-          "arrival": "21:39",
-          "destination": "Tortosa",
-          "destinationRaw": "Tortosa",
-          "destinationStopId": "65400",
-          "direction": "north",
-          "tripId": "1401612026-09-23",
-          "relatedTripIds": [
-            "1401612026-09-23",
-            "3801612026-09-23"
-          ],
-          "trainNumber": "14016",
-          "relatedTrainNumbers": [
-            "14016",
-            "38016"
-          ],
-          "service": "REG.EXP.",
-          "relatedServices": [
-            "REG.EXP.",
-            "REGIONAL"
-          ],
-          "routeId": "6500065400VRE",
-          "relatedRouteIds": [
-            "6500065400VRE",
-            "6500065312VRR"
-          ],
-          "serviceId": "2026-09-232026-11-03140161",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-11-03140161",
-            "2026-09-232026-11-03380161"
-          ],
-          "originRaw": "València-Estació del Nord",
-          "originStopId": "65000",
-          "orpesaStopSequence": 7
-        },
-        {
-          "departure": "21:46",
-          "arrival": "21:45",
-          "destination": "València",
-          "destinationRaw": "València-Estació del Nord",
-          "destinationStopId": "65000",
-          "direction": "south",
-          "tripId": "1446512026-09-23",
-          "relatedTripIds": [
-            "1446512026-09-23"
-          ],
-          "trainNumber": "14465",
-          "relatedTrainNumbers": [
-            "14465"
-          ],
-          "service": "REGIONAL",
-          "relatedServices": [
-            "REGIONAL"
-          ],
-          "routeId": "6531265000VRR",
-          "relatedRouteIds": [
-            "6531265000VRR"
-          ],
-          "serviceId": "2026-09-232026-11-03144651",
-          "startDate": "20260925",
-          "relatedServiceIds": [
-            "2026-09-232026-11-03144651"
-          ],
-          "originRaw": "Vinaròs",
-          "originStopId": "65312",
-          "orpesaStopSequence": 5
-        }
-      ]
-    },
     {
       "date": "2026-09-26",
       "trips": [
@@ -1956,6 +1153,809 @@
           ],
           "serviceId": "2026-09-232026-11-03144651",
           "startDate": "20260927",
+          "relatedServiceIds": [
+            "2026-09-232026-11-03144651"
+          ],
+          "originRaw": "Vinaròs",
+          "originStopId": "65312",
+          "orpesaStopSequence": 5
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "trips": [
+        {
+          "departure": "06:54",
+          "arrival": "06:53",
+          "destination": "València",
+          "destinationRaw": "València-Estació del Nord",
+          "destinationStopId": "65000",
+          "direction": "south",
+          "tripId": "1443312026-09-23",
+          "relatedTripIds": [
+            "1443312026-09-23"
+          ],
+          "trainNumber": "14433",
+          "relatedTrainNumbers": [
+            "14433"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6531265000VRR",
+          "relatedRouteIds": [
+            "6531265000VRR"
+          ],
+          "serviceId": "2026-09-232026-10-04144331",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-04144331"
+          ],
+          "originRaw": "Vinaròs",
+          "originStopId": "65312",
+          "orpesaStopSequence": 5
+        },
+        {
+          "departure": "07:23",
+          "arrival": "07:22",
+          "destination": "Vinaròs",
+          "destinationRaw": "Vinaròs",
+          "destinationStopId": "65312",
+          "direction": "north",
+          "tripId": "1443012026-09-23",
+          "relatedTripIds": [
+            "1443012026-09-23"
+          ],
+          "trainNumber": "14430",
+          "relatedTrainNumbers": [
+            "14430"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6500065312VRR",
+          "relatedRouteIds": [
+            "6500065312VRR"
+          ],
+          "serviceId": "2026-09-232026-10-04144301",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-04144301"
+          ],
+          "originRaw": "València-Estació del Nord",
+          "originStopId": "65000",
+          "orpesaStopSequence": 10
+        },
+        {
+          "departure": "08:11",
+          "arrival": "08:10",
+          "destination": "València",
+          "destinationRaw": "València-Estació del Nord",
+          "destinationStopId": "65000",
+          "direction": "south",
+          "tripId": "1401812026-09-23",
+          "relatedTripIds": [
+            "1401812026-09-23",
+            "3801812026-09-23"
+          ],
+          "trainNumber": "14018",
+          "relatedTrainNumbers": [
+            "14018",
+            "38018"
+          ],
+          "service": "REG.EXP.",
+          "relatedServices": [
+            "REG.EXP.",
+            "REGIONAL"
+          ],
+          "routeId": "6540065000VRE",
+          "relatedRouteIds": [
+            "6540065000VRE",
+            "6531265000VRR"
+          ],
+          "serviceId": "2026-09-232026-10-04140181",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-04140181",
+            "2026-09-232026-10-04380181"
+          ],
+          "originRaw": "Tortosa",
+          "originStopId": "65400",
+          "orpesaStopSequence": 8
+        },
+        {
+          "departure": "08:19",
+          "arrival": "08:18",
+          "destination": "Vinaròs",
+          "destinationRaw": "Vinaròs",
+          "destinationStopId": "65312",
+          "direction": "north",
+          "tripId": "1443212026-09-23",
+          "relatedTripIds": [
+            "1443212026-09-23"
+          ],
+          "trainNumber": "14432",
+          "relatedTrainNumbers": [
+            "14432"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6500065312VRR",
+          "relatedRouteIds": [
+            "6500065312VRR"
+          ],
+          "serviceId": "2026-09-232026-10-30144321",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-30144321"
+          ],
+          "originRaw": "València-Estació del Nord",
+          "originStopId": "65000",
+          "orpesaStopSequence": 16
+        },
+        {
+          "departure": "08:59",
+          "arrival": "08:58",
+          "destination": "València",
+          "destinationRaw": "València-Estació del Nord",
+          "destinationStopId": "65000",
+          "direction": "south",
+          "tripId": "1443512026-09-23",
+          "relatedTripIds": [
+            "1443512026-09-23"
+          ],
+          "trainNumber": "14435",
+          "relatedTrainNumbers": [
+            "14435"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6531265000VRR",
+          "relatedRouteIds": [
+            "6531265000VRR"
+          ],
+          "serviceId": "2026-09-232026-10-04144351",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-04144351"
+          ],
+          "originRaw": "Vinaròs",
+          "originStopId": "65312",
+          "orpesaStopSequence": 5
+        },
+        {
+          "departure": "09:15",
+          "arrival": "09:14",
+          "destination": "Tortosa",
+          "destinationRaw": "Tortosa",
+          "destinationStopId": "65400",
+          "direction": "north",
+          "tripId": "1402012026-09-23",
+          "relatedTripIds": [
+            "1402012026-09-23",
+            "3802012026-09-23"
+          ],
+          "trainNumber": "14020",
+          "relatedTrainNumbers": [
+            "14020",
+            "38020"
+          ],
+          "service": "REG.EXP.",
+          "relatedServices": [
+            "REG.EXP.",
+            "REGIONAL"
+          ],
+          "routeId": "6500065400VRE",
+          "relatedRouteIds": [
+            "6500065400VRE",
+            "6500065312VRR"
+          ],
+          "serviceId": "2026-09-232026-10-30140201",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-30140201",
+            "2026-09-232026-10-30380201"
+          ],
+          "originRaw": "València-Estació del Nord",
+          "originStopId": "65000",
+          "orpesaStopSequence": 8
+        },
+        {
+          "departure": "09:59",
+          "arrival": "09:58",
+          "destination": "València",
+          "destinationRaw": "València-Estació del Nord",
+          "destinationStopId": "65000",
+          "direction": "south",
+          "tripId": "1443712026-09-23",
+          "relatedTripIds": [
+            "1443712026-09-23"
+          ],
+          "trainNumber": "14437",
+          "relatedTrainNumbers": [
+            "14437"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6531265000VRR",
+          "relatedRouteIds": [
+            "6531265000VRR"
+          ],
+          "serviceId": "2026-09-232026-10-04144371",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-04144371"
+          ],
+          "originRaw": "Vinaròs",
+          "originStopId": "65312",
+          "orpesaStopSequence": 5
+        },
+        {
+          "departure": "11:15",
+          "arrival": "11:14",
+          "destination": "Vinaròs",
+          "destinationRaw": "Vinaròs",
+          "destinationStopId": "65312",
+          "direction": "north",
+          "tripId": "1446212026-09-23",
+          "relatedTripIds": [
+            "1446212026-09-23"
+          ],
+          "trainNumber": "14462",
+          "relatedTrainNumbers": [
+            "14462"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6500065312VRR",
+          "relatedRouteIds": [
+            "6500065312VRR"
+          ],
+          "serviceId": "2026-09-232026-10-30144621",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-30144621"
+          ],
+          "originRaw": "València-Estació del Nord",
+          "originStopId": "65000",
+          "orpesaStopSequence": 21
+        },
+        {
+          "departure": "12:59",
+          "arrival": "12:58",
+          "destination": "València",
+          "destinationRaw": "València-Estació del Nord",
+          "destinationStopId": "65000",
+          "direction": "south",
+          "tripId": "1446112026-09-23",
+          "relatedTripIds": [
+            "1446112026-09-23"
+          ],
+          "trainNumber": "14461",
+          "relatedTrainNumbers": [
+            "14461"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6531265000VRR",
+          "relatedRouteIds": [
+            "6531265000VRR"
+          ],
+          "serviceId": "2026-09-232026-10-04144611",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-04144611"
+          ],
+          "originRaw": "Vinaròs",
+          "originStopId": "65312",
+          "orpesaStopSequence": 5
+        },
+        {
+          "departure": "13:52",
+          "arrival": "13:52",
+          "destination": "València",
+          "destinationRaw": "València-Estació del Nord",
+          "destinationStopId": "65000",
+          "direction": "south",
+          "tripId": "1809312026-09-23",
+          "relatedTripIds": [
+            "1809312026-09-23",
+            "3809312026-09-23"
+          ],
+          "trainNumber": "18093",
+          "relatedTrainNumbers": [
+            "18093",
+            "38093"
+          ],
+          "service": "REG.EXP.",
+          "relatedServices": [
+            "REG.EXP.",
+            "REGIONAL"
+          ],
+          "routeId": "7940065000VRE",
+          "relatedRouteIds": [
+            "7940065000VRE",
+            "6531265000VRR"
+          ],
+          "serviceId": "2026-09-232026-11-03180931",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-11-03180931",
+            "2026-09-232026-11-03380931"
+          ],
+          "originRaw": "Barcelona Estació de França",
+          "originStopId": "79400",
+          "orpesaStopSequence": 21
+        },
+        {
+          "departure": "14:08",
+          "arrival": "14:07",
+          "destination": "Vinaròs",
+          "destinationRaw": "Vinaròs",
+          "destinationStopId": "65312",
+          "direction": "north",
+          "tripId": "1444412026-09-23",
+          "relatedTripIds": [
+            "1444412026-09-23"
+          ],
+          "trainNumber": "14444",
+          "relatedTrainNumbers": [
+            "14444"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6500065312VRR",
+          "relatedRouteIds": [
+            "6500065312VRR"
+          ],
+          "serviceId": "2026-09-232026-10-04144441",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-04144441"
+          ],
+          "originRaw": "València-Estació del Nord",
+          "originStopId": "65000",
+          "orpesaStopSequence": 20
+        },
+        {
+          "departure": "14:53",
+          "arrival": "14:52",
+          "destination": "València",
+          "destinationRaw": "València-Estació del Nord",
+          "destinationStopId": "65000",
+          "direction": "south",
+          "tripId": "1402212026-09-23",
+          "relatedTripIds": [
+            "1402212026-09-23",
+            "3802212026-09-23"
+          ],
+          "trainNumber": "14022",
+          "relatedTrainNumbers": [
+            "14022",
+            "38022"
+          ],
+          "service": "REG.EXP.",
+          "relatedServices": [
+            "REG.EXP.",
+            "REGIONAL"
+          ],
+          "routeId": "6540065000VRE",
+          "relatedRouteIds": [
+            "6540065000VRE",
+            "6531265000VRR"
+          ],
+          "serviceId": "2026-09-232026-11-03140221",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-11-03140221",
+            "2026-09-232026-11-03380221"
+          ],
+          "originRaw": "Tortosa",
+          "originStopId": "65400",
+          "orpesaStopSequence": 8
+        },
+        {
+          "departure": "15:39",
+          "arrival": "15:38",
+          "destination": "València",
+          "destinationRaw": "València-Estació del Nord",
+          "destinationStopId": "65000",
+          "direction": "south",
+          "tripId": "1444312026-09-23",
+          "relatedTripIds": [
+            "1444312026-09-23"
+          ],
+          "trainNumber": "14443",
+          "relatedTrainNumbers": [
+            "14443"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6531265000VRR",
+          "relatedRouteIds": [
+            "6531265000VRR"
+          ],
+          "serviceId": "2026-09-232026-10-04144431",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-04144431"
+          ],
+          "originRaw": "Vinaròs",
+          "originStopId": "65312",
+          "orpesaStopSequence": 5
+        },
+        {
+          "departure": "15:40",
+          "arrival": "15:39",
+          "destination": "Tortosa",
+          "destinationRaw": "Tortosa",
+          "destinationStopId": "65400",
+          "direction": "north",
+          "tripId": "1430212026-09-23",
+          "relatedTripIds": [
+            "1430212026-09-23"
+          ],
+          "trainNumber": "14302",
+          "relatedTrainNumbers": [
+            "14302"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6500065400VRR",
+          "relatedRouteIds": [
+            "6500065400VRR"
+          ],
+          "serviceId": "2026-09-232026-11-03143021",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-11-03143021"
+          ],
+          "originRaw": "València-Estació del Nord",
+          "originStopId": "65000",
+          "orpesaStopSequence": 8
+        },
+        {
+          "departure": "16:20",
+          "arrival": "16:19",
+          "destination": "Vinaròs",
+          "destinationRaw": "Vinaròs",
+          "destinationStopId": "65312",
+          "direction": "north",
+          "tripId": "1444612026-09-23",
+          "relatedTripIds": [
+            "1444612026-09-23"
+          ],
+          "trainNumber": "14446",
+          "relatedTrainNumbers": [
+            "14446"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6500065312VRR",
+          "relatedRouteIds": [
+            "6500065312VRR"
+          ],
+          "serviceId": "2026-09-232026-10-04144461",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-04144461"
+          ],
+          "originRaw": "València-Estació del Nord",
+          "originStopId": "65000",
+          "orpesaStopSequence": 16
+        },
+        {
+          "departure": "17:10",
+          "arrival": "17:09",
+          "destination": "Vinaròs",
+          "destinationRaw": "Vinaròs",
+          "destinationStopId": "65312",
+          "direction": "north",
+          "tripId": "1445012026-09-23",
+          "relatedTripIds": [
+            "1445012026-09-23"
+          ],
+          "trainNumber": "14450",
+          "relatedTrainNumbers": [
+            "14450"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6500065312VRR",
+          "relatedRouteIds": [
+            "6500065312VRR"
+          ],
+          "serviceId": "2026-09-232026-10-04144501",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-04144501"
+          ],
+          "originRaw": "València-Estació del Nord",
+          "originStopId": "65000",
+          "orpesaStopSequence": 16
+        },
+        {
+          "departure": "17:59",
+          "arrival": "17:58",
+          "destination": "València",
+          "destinationRaw": "València-Estació del Nord",
+          "destinationStopId": "65000",
+          "direction": "south",
+          "tripId": "1446312026-09-23",
+          "relatedTripIds": [
+            "1446312026-09-23"
+          ],
+          "trainNumber": "14463",
+          "relatedTrainNumbers": [
+            "14463"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6531265000VRR",
+          "relatedRouteIds": [
+            "6531265000VRR"
+          ],
+          "serviceId": "2026-09-232026-10-04144631",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-04144631"
+          ],
+          "originRaw": "Vinaròs",
+          "originStopId": "65312",
+          "orpesaStopSequence": 5
+        },
+        {
+          "departure": "18:08",
+          "arrival": "18:07",
+          "destination": "Vinaròs",
+          "destinationRaw": "Vinaròs",
+          "destinationStopId": "65312",
+          "direction": "north",
+          "tripId": "1446412026-09-23",
+          "relatedTripIds": [
+            "1446412026-09-23"
+          ],
+          "trainNumber": "14464",
+          "relatedTrainNumbers": [
+            "14464"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6500065312VRR",
+          "relatedRouteIds": [
+            "6500065312VRR"
+          ],
+          "serviceId": "2026-09-232026-10-30144641",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-30144641"
+          ],
+          "originRaw": "València-Estació del Nord",
+          "originStopId": "65000",
+          "orpesaStopSequence": 21
+        },
+        {
+          "departure": "18:54",
+          "arrival": "18:53",
+          "destination": "València",
+          "destinationRaw": "València-Estació del Nord",
+          "destinationStopId": "65000",
+          "direction": "south",
+          "tripId": "1446712026-09-23",
+          "relatedTripIds": [
+            "1446712026-09-23"
+          ],
+          "trainNumber": "14467",
+          "relatedTrainNumbers": [
+            "14467"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6531265000VRR",
+          "relatedRouteIds": [
+            "6531265000VRR"
+          ],
+          "serviceId": "2026-09-232026-10-04144671",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-04144671"
+          ],
+          "originRaw": "Vinaròs",
+          "originStopId": "65312",
+          "orpesaStopSequence": 5
+        },
+        {
+          "departure": "19:04",
+          "arrival": "19:03",
+          "destination": "Barcelona",
+          "destinationRaw": "Barcelona Estació de França",
+          "destinationStopId": "79400",
+          "direction": "north",
+          "tripId": "1809612026-09-23",
+          "relatedTripIds": [
+            "1809612026-09-23",
+            "3809612026-09-23"
+          ],
+          "trainNumber": "18096",
+          "relatedTrainNumbers": [
+            "18096",
+            "38096"
+          ],
+          "service": "REG.EXP.",
+          "relatedServices": [
+            "REG.EXP.",
+            "REGIONAL"
+          ],
+          "routeId": "6500079400VRE",
+          "relatedRouteIds": [
+            "6500079400VRE",
+            "6500065312VRR"
+          ],
+          "serviceId": "2026-09-232026-10-30180961",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-10-30180961",
+            "2026-09-232026-10-30380961"
+          ],
+          "originRaw": "València-Estació del Nord",
+          "originStopId": "65000",
+          "orpesaStopSequence": 8
+        },
+        {
+          "departure": "19:39",
+          "arrival": "19:39",
+          "destination": "València",
+          "destinationRaw": "València-Estació del Nord",
+          "destinationStopId": "65000",
+          "direction": "south",
+          "tripId": "1430412026-09-23",
+          "relatedTripIds": [
+            "1430412026-09-23"
+          ],
+          "trainNumber": "14304",
+          "relatedTrainNumbers": [
+            "14304"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6540065000VRR",
+          "relatedRouteIds": [
+            "6540065000VRR"
+          ],
+          "serviceId": "2026-09-232026-11-03143041",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-11-03143041"
+          ],
+          "originRaw": "Tortosa",
+          "originStopId": "65400",
+          "orpesaStopSequence": 8
+        },
+        {
+          "departure": "20:15",
+          "arrival": "20:14",
+          "destination": "Vinaròs",
+          "destinationRaw": "Vinaròs",
+          "destinationStopId": "65312",
+          "direction": "north",
+          "tripId": "1445212026-09-23",
+          "relatedTripIds": [
+            "1445212026-09-23"
+          ],
+          "trainNumber": "14452",
+          "relatedTrainNumbers": [
+            "14452"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6500065312VRR",
+          "relatedRouteIds": [
+            "6500065312VRR"
+          ],
+          "serviceId": "2026-09-232026-11-03144521",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-11-03144521"
+          ],
+          "originRaw": "València-Estació del Nord",
+          "originStopId": "65000",
+          "orpesaStopSequence": 21
+        },
+        {
+          "departure": "21:40",
+          "arrival": "21:39",
+          "destination": "Tortosa",
+          "destinationRaw": "Tortosa",
+          "destinationStopId": "65400",
+          "direction": "north",
+          "tripId": "1401612026-09-23",
+          "relatedTripIds": [
+            "1401612026-09-23",
+            "3801612026-09-23"
+          ],
+          "trainNumber": "14016",
+          "relatedTrainNumbers": [
+            "14016",
+            "38016"
+          ],
+          "service": "REG.EXP.",
+          "relatedServices": [
+            "REG.EXP.",
+            "REGIONAL"
+          ],
+          "routeId": "6500065400VRE",
+          "relatedRouteIds": [
+            "6500065400VRE",
+            "6500065312VRR"
+          ],
+          "serviceId": "2026-09-232026-11-03140161",
+          "startDate": "20260928",
+          "relatedServiceIds": [
+            "2026-09-232026-11-03140161",
+            "2026-09-232026-11-03380161"
+          ],
+          "originRaw": "València-Estació del Nord",
+          "originStopId": "65000",
+          "orpesaStopSequence": 7
+        },
+        {
+          "departure": "21:46",
+          "arrival": "21:45",
+          "destination": "València",
+          "destinationRaw": "València-Estació del Nord",
+          "destinationStopId": "65000",
+          "direction": "south",
+          "tripId": "1446512026-09-23",
+          "relatedTripIds": [
+            "1446512026-09-23"
+          ],
+          "trainNumber": "14465",
+          "relatedTrainNumbers": [
+            "14465"
+          ],
+          "service": "REGIONAL",
+          "relatedServices": [
+            "REGIONAL"
+          ],
+          "routeId": "6531265000VRR",
+          "relatedRouteIds": [
+            "6531265000VRR"
+          ],
+          "serviceId": "2026-09-232026-11-03144651",
+          "startDate": "20260928",
           "relatedServiceIds": [
             "2026-09-232026-11-03144651"
           ],
