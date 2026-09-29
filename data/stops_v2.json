@@ -1352,7 +1352,7 @@
       "pointIndex": 325
     },
     "card": {
-      "image": "media/cards_v2/Stop18_card.jpg",
+      "image": "media/cards/Stop18_card.jpg",
       "titleRu": "Остановка 18 · Urb. El Balcó (Av. Benicàssim - C/ Los Almendros)",
       "titleEs": "Parada 18 · Urb. El Balcó (Av. Benicàssim - C/ Los Almendros)",
       "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -1426,7 +1426,7 @@
       "pointIndex": 334
     },
     "card": {
-      "image": "media/cards_v2/Stop19_card.jpg",
+      "image": "media/cards/Stop19_card.jpg",
       "titleRu": "Остановка 19 · Urb. El Balcó (C/ Libélula - zona deportiva)",
       "titleEs": "Parada 19 · Urb. El Balcó (C/ Libélula - zona deportiva)",
       "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -1500,7 +1500,7 @@
       "pointIndex": 370
     },
     "card": {
-      "image": "media/cards_v2/Stop20_card.jpg",
+      "image": "media/cards/Stop20_card.jpg",
       "titleRu": "Остановка 20 · Av. de la Plana (Frente Guardia Civil y Unidad Respiro)",
       "titleEs": "Parada 20 · Av. de la Plana (Frente Guardia Civil y Unidad Respiro)",
       "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
