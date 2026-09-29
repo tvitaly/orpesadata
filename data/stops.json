@@ -1352,7 +1352,7 @@
       "pointIndex": 300
     },
     "card": {
-      "image": "media/cards/Stop18_card.jpg",
+      "image": "media/cards/Stop18_card_o.jpg",
       "titleRu": "Остановка 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
       "titleEs": "Parada 18 · Urb. Balcó (Av. Benicassim - C/ Almendros)",
       "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
@@ -1426,7 +1426,7 @@
       "pointIndex": 356
     },
     "card": {
-      "image": "media/cards/Stop19_card.jpg",
+      "image": "media/cards/Stop19_card_o.jpg",
       "titleRu": "Остановка 19 · Av. la Plana (Frente Guardia Civil)",
       "titleEs": "Parada 19 · Av. la Plana (Frente Guardia Civil)",
       "descriptionRu": "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
