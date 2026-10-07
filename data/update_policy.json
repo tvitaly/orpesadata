@@ -1,22 +1,54 @@
 {
-  "enabled": true,
-  "allowSkip": true,
-  "_helpRu": "Сервисная политика обновлений через Google Play. Сам JSON не проверяет наличие обновления. Наличие обновления проверяет Android через Google Play In-App Updates.",
-  "_enabledRu": "true — Android-приложение использует эту политику, если Google Play сообщил, что обновление доступно. false — приложение игнорирует эту политику и не запускает in-app update.",
-  "_allowSkipRu": "Главная кнопка. true — если Google Play найдёт обновление, пользователь может продолжить без обновления. false — если Google Play найдёт обновление, обновление обязательное.",
-  "_safeFirstReleaseRu": "Для первого релиза лучше оставить allowSkip:true. После публикации в Google Play можно менять только этот JSON на GitHub: true = мягкое обновление, false = обязательное.",
-  "_examplesRu": {
-    "Мягкое обновление, можно пропустить": {
-      "enabled": true,
-      "allowSkip": true
+  "timezone": "Europe/Madrid",
+  "reminderDayStartsAt": "05:00",
+  "android": {
+    "enabled": true
+  },
+  "ios": {
+    "enabled": true
+  },
+  "messages": {
+    "es": {
+      "title": "Actualización disponible",
+      "message": "Se han actualizado el horario y la ruta.",
+      "laterButton": "Más tarde",
+      "updateButton": "Actualizar"
     },
-    "Обязательное обновление": {
-      "enabled": true,
-      "allowSkip": false
+    "en": {
+      "title": "Update available",
+      "message": "The timetable and route have been updated.",
+      "laterButton": "Later",
+      "updateButton": "Update"
     },
-    "Отключить политику обновлений": {
-      "enabled": false,
-      "allowSkip": true
+    "de": {
+      "title": "Update verfügbar",
+      "message": "Fahrplan und Route wurden aktualisiert.",
+      "laterButton": "Später",
+      "updateButton": "Aktualisieren"
+    },
+    "fr": {
+      "title": "Mise à jour disponible",
+      "message": "Les horaires et l’itinéraire ont été mis à jour.",
+      "laterButton": "Plus tard",
+      "updateButton": "Mettre à jour"
+    },
+    "it": {
+      "title": "Aggiornamento disponibile",
+      "message": "Gli orari e il percorso sono stati aggiornati.",
+      "laterButton": "Più tardi",
+      "updateButton": "Aggiorna"
+    },
+    "ru": {
+      "title": "Доступно обновление",
+      "message": "Обновлено расписание и маршрут.",
+      "laterButton": "Позже",
+      "updateButton": "Обновить"
+    },
+    "uk": {
+      "title": "Доступне оновлення",
+      "message": "Розклад і маршрут оновлено.",
+      "laterButton": "Пізніше",
+      "updateButton": "Оновити"
     }
   }
 }
