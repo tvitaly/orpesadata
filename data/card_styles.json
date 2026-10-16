@@ -184,5 +184,108 @@
         }
       ]
     }
+  },
+  "lineStyles": {
+    "_commentRu": "Новые именованные стили отдельных строк. Используются только новыми версиями приложения. Старые версии должны игнорировать этот раздел.",
+    "S1": {
+      "_commentRu": "Основной заголовок / первая строка карточки.",
+      "fontSize": 18,
+      "fontWeight": 800,
+      "color": "#111111",
+      "lineHeight": 1.2,
+      "maxLines": 0,
+      "marginBottom": 8,
+      "textAlign": "left"
+    },
+    "S2": {
+      "_commentRu": "Подзаголовок или важная информация.",
+      "fontSize": 15,
+      "fontWeight": 650,
+      "color": "#222222",
+      "lineHeight": 1.3,
+      "maxLines": 0,
+      "marginBottom": 7,
+      "textAlign": "left"
+    },
+    "S3": {
+      "_commentRu": "Обычный основной текст.",
+      "fontSize": 14,
+      "fontWeight": 400,
+      "color": "#333333",
+      "lineHeight": 1.4,
+      "maxLines": 0,
+      "marginBottom": 8,
+      "textAlign": "left"
+    },
+    "S4": {
+      "_commentRu": "Дополнительная или второстепенная информация.",
+      "fontSize": 13,
+      "fontWeight": 400,
+      "color": "#666666",
+      "lineHeight": 1.35,
+      "maxLines": 0,
+      "marginBottom": 6,
+      "textAlign": "left"
+    },
+    "S5": {
+      "_commentRu": "Мелкий служебный текст.",
+      "fontSize": 12,
+      "fontWeight": 400,
+      "color": "#777777",
+      "lineHeight": 1.35,
+      "maxLines": 0,
+      "marginBottom": 5,
+      "textAlign": "left"
+    },
+    "S6": {
+      "_commentRu": "Крупный акцентный заголовок.",
+      "fontSize": 20,
+      "fontWeight": 800,
+      "color": "#111111",
+      "lineHeight": 1.15,
+      "maxLines": 0,
+      "marginBottom": 9,
+      "textAlign": "left"
+    },
+    "S7": {
+      "_commentRu": "Синий акцент / ссылка / выделенная информация.",
+      "fontSize": 14,
+      "fontWeight": 650,
+      "color": "#1769E0",
+      "lineHeight": 1.35,
+      "maxLines": 0,
+      "marginBottom": 7,
+      "textAlign": "left"
+    },
+    "S8": {
+      "_commentRu": "Красный акцент / важное предупреждение.",
+      "fontSize": 14,
+      "fontWeight": 650,
+      "color": "#C93838",
+      "lineHeight": 1.35,
+      "maxLines": 0,
+      "marginBottom": 7,
+      "textAlign": "left"
+    },
+    "S9": {
+      "_commentRu": "Зелёный акцент / положительный статус.",
+      "fontSize": 14,
+      "fontWeight": 650,
+      "color": "#168246",
+      "lineHeight": 1.35,
+      "maxLines": 0,
+      "marginBottom": 7,
+      "textAlign": "left"
+    },
+    "S10": {
+      "_commentRu": "Компактный текст без нижнего отступа.",
+      "fontSize": 13,
+      "fontWeight": 400,
+      "color": "#555555",
+      "lineHeight": 1.3,
+      "maxLines": 0,
+      "marginBottom": 0,
+      "textAlign": "left"
+    }
   }
 }
