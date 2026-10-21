@@ -70,6 +70,13 @@
          "2026-10-21"
       ],
       "title": "Servicio especial al Centro Médico",
+      "titleEs": "Servicio especial al Centro Médico",
+      "titleEn": "Special service to the Medical Centre",
+      "titleDe": "Sonderfahrt zum Gesundheitszentrum",
+      "titleFr": "Service spécial vers le centre médical",
+      "titleIt": "Servizio speciale per il centro medico",
+      "titleRu": "Специальный рейс до медицинского центра",
+      "titleUk": "Спеціальний рейс до медичного центру",
 
       "stops": [
         ["stop_009", "08:00"],
