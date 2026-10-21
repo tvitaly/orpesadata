@@ -47,7 +47,7 @@
           "days": "34"
         },
         "updateBadge": {
-          "key": "Apteka01_scheduled_01_mvihkveg_3"
+          "key": "Apteka01_scheduled_01_mviibdui_o"
         },
         "override": {
           "card": {
@@ -67,9 +67,16 @@
               },
               {
                 "type": "phone",
-                "style": "S1",
+                "style": "S2",
                 "text": {
                   "es": "964313353"
+                }
+              },
+              {
+                "type": "email",
+                "style": "S3",
+                "text": {
+                  "es": "test@test.es"
                 }
               }
             ]
