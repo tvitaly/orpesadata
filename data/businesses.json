@@ -1,0 +1,42 @@
+[
+  {
+    "id": "Apteka01",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.15356003814623853,
+      40.113367306995926
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "Apteka01_default_1",
+      "anchor": [
+        0.71,
+        0
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Med.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Apteka01_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Farmacia Marina d’Or",
+              "en": "Marina d’Or Pharmacy",
+              "de": "Apotheke Marina d’Or",
+              "fr": "Pharmacie Marina d’Or",
+              "it": "Farmacia Marina d’Or",
+              "ru": "Аптека Marina d’Or",
+              "uk": "Аптека Marina d’Or"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

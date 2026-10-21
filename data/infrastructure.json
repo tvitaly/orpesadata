@@ -1,0 +1,682 @@
+[
+  {
+    "id": "Zamok",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.13323765442,
+      40.092529576494
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "Zamok_default_1",
+      "anchor": [
+        0.74,
+        0
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Ist.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Zamok_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Castillo de Oropesa del Mar",
+              "en": "Oropesa del Mar Castle",
+              "de": "Burg von Oropesa del Mar",
+              "fr": "Château d’Oropesa del Mar",
+              "it": "Castello di Oropesa del Mar",
+              "ru": "Замок Оропеса дель Мар",
+              "uk": "Замок Оропеса дель Мар"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "TorreDelRey",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.14577681955347643,
+      40.08280185914611
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "TorreDelRey_default_1",
+      "anchor": [
+        0.74,
+        0
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Ist.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Torre_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Torre del Rey",
+              "en": "Torre del Rey",
+              "de": "Torre del Rey",
+              "fr": "Torre del Rey",
+              "it": "Torre del Rey",
+              "ru": "Башня короля (Torre del Rey)",
+              "uk": "Королівська вежа (Torre del Rey)"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "Museo",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.13430085822507645,
+      40.09220977380492
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "Museo_default_1",
+      "anchor": [
+        0.76,
+        0
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Ist.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Muzey_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Museo",
+              "en": "Museum",
+              "de": "Museum",
+              "fr": "Musée",
+              "it": "Museo",
+              "ru": "Музей",
+              "uk": "Музей"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "Poliklinika",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.1376642847499752,
+      40.09588803250298
+    ],
+    "updateBadge": {
+      "enabled": false,
+      "key": "Poliklinika_default_1",
+      "anchor": [
+        0.7,
+        0
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Med.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Poliklinika_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Centro de salud",
+              "en": "Health centre",
+              "de": "Gesundheitszentrum",
+              "fr": "Centre de santé",
+              "it": "Centro sanitario",
+              "ru": "Медицинский центр",
+              "uk": "Медичний центр"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "Vokzal",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.13993558044440615,
+      40.092350091594504
+    ],
+    "updateBadge": {
+      "enabled": false,
+      "key": "Vokzal_default_1",
+      "anchor": [
+        0.69,
+        0.12
+      ]
+    },
+    "default": {
+      "icon": "media/icons/GD.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Vokzal_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Estación de tren de Oropesa del Mar",
+              "en": "Oropesa del Mar Train Station",
+              "de": "Bahnhof Oropesa del Mar",
+              "fr": "Gare d’Oropesa del Mar",
+              "it": "Stazione ferroviaria di Oropesa del Mar",
+              "ru": "Железнодорожный вокзал Оропеса-дель-Мар",
+              "uk": "Залізничний вокзал Оропеса-дель-Мар"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "Meria",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.13492694030974783,
+      40.09452888311581
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "Meria_default_1",
+      "anchor": [
+        0.82,
+        0.28
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Gos.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Meria_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Ayuntamiento de Oropesa del Mar",
+              "en": "Oropesa del Mar Town Hall",
+              "de": "Rathaus von Oropesa del Mar",
+              "fr": "Mairie d’Oropesa del Mar",
+              "it": "Municipio di Oropesa del Mar",
+              "ru": "Мэрия Оропеса-дель-Мар",
+              "uk": "Мерія Оропеса-дель-Мар"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "CentroIntegralDeMayores",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.13483028470461955,
+      40.09162406303599
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "CentroIntegralDeMayores_default_1",
+      "anchor": [
+        0.82,
+        0.28
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Gos.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Stariki_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Centro Integral de Mayores",
+              "en": "Comprehensive Senior Centre",
+              "de": "Seniorenzentrum",
+              "fr": "Centre intégral pour personnes âgées",
+              "it": "Centro integrale per anziani",
+              "ru": "Комплексный центр для пожилых людей",
+              "uk": "Комплексний центр для людей похилого віку"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "PogarnayaChast",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.13535751727856807,
+      40.09836502255842
+    ],
+    "updateBadge": {
+      "enabled": false,
+      "key": "PogarnayaChast_default_1",
+      "anchor": [
+        0.91,
+        0
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Pogar.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Pogar_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Parque de bomberos",
+              "en": "Fire station",
+              "de": "Feuerwache",
+              "fr": "Caserne de pompiers",
+              "it": "Caserma dei vigili del fuoco",
+              "ru": "Пожарная часть",
+              "uk": "Пожежна частина"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "GuardiaCivil",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.12972418863938823,
+      40.0915383153225
+    ],
+    "updateBadge": {
+      "enabled": false,
+      "key": "GuardiaCivil_default_1",
+      "anchor": [
+        0.8,
+        0.05
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Pol.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Pol_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Guardia Civil",
+              "en": "Guardia Civil",
+              "de": "Guardia Civil",
+              "fr": "Guardia Civil",
+              "it": "Guardia Civil",
+              "ru": "Гражданская гвардия (Guardia Civil)",
+              "uk": "Цивільна гвардія (Guardia Civil)"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "PlazaDeToros",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.132077882269829,
+      40.0927577413405
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "PlazaDeToros_default_1",
+      "anchor": [
+        0.95,
+        0.04
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Bik.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Bik_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Plaza de Toros",
+              "en": "Bullring",
+              "de": "Stierkampfarena",
+              "fr": "Arènes",
+              "it": "Arena per corride",
+              "ru": "Арена для корриды",
+              "uk": "Арена для кориди"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ParroquiaSanJaimeApostol",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.13615592691290865,
+      40.091805494669465
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "ParroquiaSanJaimeApostol_default_1",
+      "anchor": [
+        0.7,
+        0
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Cerkov.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Cerkov_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Parroquia de San Jaime Apóstol",
+              "en": "Parish Church of Saint James the Apostle",
+              "de": "Pfarrkirche des Heiligen Jakobus des Apostels",
+              "fr": "Paroisse Saint-Jacques-Apôtre",
+              "it": "Parrocchia di San Giacomo Apostolo",
+              "ru": "Приходская церковь Святого Иакова Апостола",
+              "uk": "Парафіяльна церква Святого Якова Апостола"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "Faro",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.14672417025033316,
+      40.083206409062484
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "Faro_default_1",
+      "anchor": [
+        0.97,
+        0.05
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Mayak.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Mayak_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Faro",
+              "en": "Lighthouse",
+              "de": "Leuchtturm",
+              "fr": "Phare",
+              "it": "Faro",
+              "ru": "Маяк",
+              "uk": "Маяк"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "EspaiCultural",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.14209568881815673,
+      40.091889078005295
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "EspaiCultural_default_1",
+      "anchor": [
+        0.69,
+        0
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Muz.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Muz_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Espai Cultural",
+              "en": "Espai Cultural",
+              "de": "Espai Cultural",
+              "fr": "Espai Cultural",
+              "it": "Espai Cultural",
+              "ru": "Культурный центр Espai Cultural",
+              "uk": "Культурний центр Espai Cultural"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "Biblioteca",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.1350981144253324,
+      40.09349760741516
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "Biblioteca_default_1",
+      "anchor": [
+        0.93,
+        0.12
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Bibl.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Bibl_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Biblioteca",
+              "en": "Library",
+              "de": "Bibliothek",
+              "fr": "Bibliothèque",
+              "it": "Biblioteca",
+              "ru": "Библиотека",
+              "uk": "Бібліотека"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "CampoDeFutbol",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.14220642627441535,
+      40.095081811346304
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "CampoDeFutbol_default_1",
+      "anchor": [
+        0.77,
+        0.24
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Socer.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Socer_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Campo de fútbol",
+              "en": "Football Field",
+              "de": "Fußballplatz",
+              "fr": "Terrain de football",
+              "it": "Campo da calcio",
+              "ru": "Футбольное поле",
+              "uk": "Футбольне поле"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "JardinesMarinaDor",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.1529705618977702,
+      40.107681305219195
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "JardinesMarinaDor_default_1",
+      "anchor": [
+        0.96,
+        0.22
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Pavl.png",
+      "iconSize": 48,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Pavl_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Jardines Marina d’Or",
+              "en": "Marina d’Or Gardens",
+              "de": "Gärten von Marina d’Or",
+              "fr": "Jardins de Marina d’Or",
+              "it": "Giardini di Marina d’Or",
+              "ru": "Сады Marina d’Or",
+              "uk": "Сади Marina d’Or"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "OficinaDeCorreos",
+    "active": true,
+    "visible": true,
+    "coordinates": [
+      0.13715845167756233,
+      40.09094948865191
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "OficinaDeCorreos_default_mvbebv1f_a",
+      "anchor": [
+        0.9,
+        0.16
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Pochta.png",
+      "iconSize": 40,
+      "card": {
+        "style": "marker",
+        "image": "media/cards/Pochta_card.jpg",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Oficina de Correos",
+              "en": "Post Office",
+              "de": "Postamt",
+              "fr": "Bureau de poste",
+              "it": "Ufficio postale",
+              "ru": "Почтовое отделение",
+              "uk": "Поштове відділення"
+            }
+          }
+        ]
+      }
+    }
+  }
+]
