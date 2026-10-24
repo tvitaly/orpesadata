@@ -37,46 +37,6 @@
           }
         ]
       }
-    },
-    "scheduled": [
-      {
-        "id": "scheduled_01",
-        "enabled": true,
-        "priority": 0,
-        "when": {
-          "from": "2026-10-24",
-          "to": "2026-10-25"
-        },
-        "updateBadge": {
-          "key": "Apteka01_scheduled_01_mvmvxqfh_8"
-        },
-        "override": {
-          "card": {
-            "blocks": [
-              {
-                "type": "text",
-                "style": "S1",
-                "text": {
-                  "es": "Farmacia Marina d’Or",
-                  "en": "Marina d’Or Pharmacy",
-                  "de": "Apotheke Marina d’Or",
-                  "fr": "Pharmacie Marina d’Or",
-                  "it": "Farmacia Marina d’Or",
-                  "ru": "Аптека Marina d’Or",
-                  "uk": "Аптека Marina d’Or"
-                }
-              },
-              {
-                "type": "phone",
-                "style": "S7",
-                "text": {
-                  "es": "964 31 33 53"
-                }
-              }
-            ]
-          }
-        }
-      }
-    ]
+    }
   }
 ]
