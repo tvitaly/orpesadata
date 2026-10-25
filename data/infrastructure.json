@@ -154,6 +154,84 @@
               "ru": "Медицинский центр",
               "uk": "Медичний центр"
             }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "es": "Cita previa e información:",
+              "en": "Appointments and information:",
+              "de": "Termine und Auskunft:",
+              "fr": "Rendez-vous et renseignements:",
+              "it": "Appuntamenti e informazioni:",
+              "ru": "Запись к врачу и справки:",
+              "uk": "Запис до лікаря та довідки:"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "uk": "964 739 860",
+              "es": "964 739 860",
+              "en": "964 739 860",
+              "de": "964 739 860",
+              "fr": "964 739 860",
+              "it": "964 739 860",
+              "ru": "964 739 860"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "es": "Urgencias (24 h):",
+              "en": "Urgent care (24/7):",
+              "de": "Ärztlicher Notdienst (rund um die Uhr):",
+              "fr": "Soins urgents (24 h/24):",
+              "it": "Assistenza medica urgente (24 ore su 24):",
+              "ru": "Неотложная помощь (круглосуточно):",
+              "uk": "Невідкладна допомога (цілодобово):"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "964 739 865",
+              "en": "964 739 865",
+              "de": "964 739 865",
+              "fr": "964 739 865",
+              "it": "964 739 865",
+              "ru": "964 739 865",
+              "uk": "964 739 865"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "es": "Ambulancia / Emergencias (24 h):",
+              "en": "Ambulance / Emergency (24/7):",
+              "de": "Rettungswagen / Notruf (24 Stunden):",
+              "fr": "Ambulance / Urgences (24 h/24):",
+              "it": "Ambulanza / Emergenze (24 ore su 24):",
+              "ru": "Скорая помощь (круглосуточно):",
+              "uk": "Швидка допомога (цілодобово):"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "112",
+              "en": "112",
+              "de": "112",
+              "fr": "112",
+              "it": "112",
+              "ru": "112",
+              "uk": "112"
+            }
           }
         ]
       }
@@ -209,7 +287,7 @@
     ],
     "updateBadge": {
       "enabled": true,
-      "key": "Meria_default_1",
+      "key": "Meria_default_mvo1cwx4_21",
       "anchor": [
         0.82,
         0.28
@@ -233,6 +311,40 @@
               "it": "Municipio di Oropesa del Mar",
               "ru": "Мэрия Оропеса-дель-Мар",
               "uk": "Мерія Оропеса-дель-Мар"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "es": "Horario de atención:\nlunes a viernes, de 09:00 a 14:00\nSábados, domingos y festivos: cerrado",
+              "en": "Opening hours:\nMonday to Friday, 09:00–14:00\nClosed on weekends and public holidays",
+              "de": "Öffnungszeiten:\nMontag bis Freitag, 09:00–14:00 Uhr\nSamstags, sonntags und feiertags geschlossen",
+              "fr": "Horaires d'accueil:\nDu lundi au vendredi, de 09h00 à 14h00\nFermé les week-ends et jours fériés",
+              "it": "Orari di apertura:\nDal lunedì al venerdì, dalle 09:00 alle 14:00\nChiuso nei fine settimana e nei giorni festivi",
+              "ru": "Часы приёма:\nПонедельник - пятница, 09:00–14:00\nСуббота, воскресенье и праздники - закрыто",
+              "uk": "Години прийому:\nПонеділок - п’ятниця, 09:00-14:00\nСубота, неділя та святкові дні - зачинено"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "964 310 100"
+            }
+          },
+          {
+            "type": "email",
+            "style": "S2",
+            "text": {
+              "es": "sac@oropesadelmar.es"
+            }
+          },
+          {
+            "type": "link",
+            "style": "S2",
+            "text": {
+              "es": "https://sede.oropesadelmar.es/"
             }
           }
         ]
@@ -314,6 +426,58 @@
               "ru": "Пожарная часть",
               "uk": "Пожежна частина"
             }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "es": "Teléfono:",
+              "en": "Phone:",
+              "de": "Telefon:",
+              "fr": "Téléphone:",
+              "it": "Telefono:",
+              "ru": "Телефон:",
+              "uk": "Телефон:"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "964 313 304",
+              "en": "964 313 304",
+              "de": "964 313 304",
+              "fr": "964 313 304",
+              "it": "964 313 304",
+              "ru": "964 313 304",
+              "uk": "964 313 304"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "fr": "Urgences (24 h/24):",
+              "es": "Emergencias (24 h):",
+              "en": "Emergency (24/7):",
+              "de": "Notruf (rund um die Uhr):",
+              "it": "Emergenze (24 ore su 24):",
+              "ru": "Экстренная помощь (круглосуточно):",
+              "uk": "Екстрена допомога (цілодобово):"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "112",
+              "en": "112",
+              "de": "112",
+              "fr": "112",
+              "it": "112",
+              "ru": "112",
+              "uk": "112"
+            }
           }
         ]
       }
@@ -353,6 +517,58 @@
               "it": "Guardia Civil",
               "ru": "Гражданская гвардия (Guardia Civil)",
               "uk": "Цивільна гвардія (Guardia Civil)"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "es": "Teléfono del puesto:",
+              "en": "Local station phone:",
+              "de": "Telefon der Dienststelle:",
+              "fr": "Téléphone du poste:",
+              "it": "Telefono della stazione:",
+              "ru": "Телефон отделения:",
+              "uk": "Телефон відділення:"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "964 310 083",
+              "en": "964 310 083",
+              "de": "964 310 083",
+              "fr": "964 310 083",
+              "it": "964 310 083",
+              "ru": "964 310 083",
+              "uk": "964 310 083"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "es": "Emergencias Guardia Civil (24 h):",
+              "en": "General emergencies (24/7):",
+              "de": "Allgemeiner Notruf (24 Stunden):",
+              "fr": "Urgences générales (24 h/24):",
+              "it": "Emergenze generali (24 ore su 24):",
+              "ru": "Единый экстренный номер (круглосуточно):",
+              "uk": "Єдиний екстрений номер (цілодобово):"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "112",
+              "en": "112",
+              "de": "112",
+              "fr": "112",
+              "it": "112",
+              "ru": "112",
+              "uk": "112"
             }
           }
         ]
@@ -529,7 +745,7 @@
     ],
     "updateBadge": {
       "enabled": true,
-      "key": "Biblioteca_default_1",
+      "key": "Biblioteca_default_mvo1xp2n_2t",
       "anchor": [
         0.93,
         0.12
@@ -553,6 +769,33 @@
               "it": "Biblioteca",
               "ru": "Библиотека",
               "uk": "Бібліотека"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "en": "Opening hours:\nMonday and Friday: 09:00–15:00\nTuesday, Wednesday and Thursday: 09:00–15:00 and 16:30–20:00\nSaturday: 09:00–14:00\nSundays and public holidays: closed",
+              "es": "Horario:\nLunes y viernes: 09:00–15:00\nMartes, miércoles y jueves: 09:00–15:00 y 16:30–20:00\nSábados: 09:00–14:00\nDomingos y festivos: cerrado",
+              "de": "Öffnungszeiten:\nMontag und Freitag: 09:00–15:00 Uhr\nDienstag, Mittwoch und Donnerstag: 09:00–15:00 und 16:30–20:00 Uhr\nSamstag: 09:00–14:00 Uhr\nSonntags und feiertags geschlossen",
+              "fr": "Horaires d'ouverture :\nLundi et vendredi : 09:00–15:00\nMardi, mercredi et jeudi : 09:00–15:00 et 16:30–20:00\nSamedi : 09:00–14:00\nDimanches et jours fériés : fermé",
+              "it": "Orari di apertura:\nLunedì e venerdì: 09:00–15:00\nMartedì, mercoledì e giovedì: 09:00–15:00 e 16:30–20:00\nSabato: 09:00–14:00\nDomeniche e festivi: chiuso",
+              "ru": "Часы работы:\nПонедельник и пятница: 09:00–15:00\nВторник, среда, четверг: 09:00–15:00 и 16:30–20:00\nСуббота: 09:00–14:00\nВоскресенье и праздничные дни: закрыто",
+              "uk": "Години роботи:\nПонеділок і п’ятниця: 09:00–15:00\nВівторок, середа, четвер: 09:00–15:00 та 16:30–20:00\nСубота: 09:00–14:00\nНеділя та святкові дні: зачинено"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "964 313 574"
+            }
+          },
+          {
+            "type": "email",
+            "style": "S2",
+            "text": {
+              "es": "biblioteca@oropesadelmar.es"
             }
           }
         ]
