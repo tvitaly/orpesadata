@@ -286,7 +286,7 @@
       40.09452888311581
     ],
     "updateBadge": {
-      "enabled": true,
+      "enabled": false,
       "key": "Meria_default_mvo1cwx4_21",
       "anchor": [
         0.82,
@@ -744,7 +744,7 @@
       40.09349760741516
     ],
     "updateBadge": {
-      "enabled": true,
+      "enabled": false,
       "key": "Biblioteca_default_mvo1xp2n_2t",
       "anchor": [
         0.93,
@@ -811,7 +811,7 @@
       40.095081811346304
     ],
     "updateBadge": {
-      "enabled": true,
+      "enabled": false,
       "key": "CampoDeFutbol_default_1",
       "anchor": [
         0.77,
@@ -855,7 +855,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
@@ -892,7 +893,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
@@ -929,7 +931,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
@@ -966,7 +969,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
@@ -1003,7 +1007,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
@@ -1040,7 +1045,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
@@ -1077,7 +1083,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
@@ -1114,7 +1121,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
@@ -1151,7 +1159,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
@@ -1188,7 +1197,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
@@ -1225,7 +1235,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
@@ -1262,7 +1273,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
@@ -1299,7 +1311,8 @@
           "anchor": [
             0.75,
             0.08
-          ]
+          ],
+          "enabled": true
         },
         "override": {
           "icon": "media/icons/FFCV.png",
