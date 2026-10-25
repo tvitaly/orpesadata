@@ -597,7 +597,490 @@
           }
         ]
       }
-    }
+    },
+    "scheduled": [
+      {
+        "id": "scheduled_01",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2026-10-26",
+          "to": "2026-11-01"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_01_mvny5t3v_1s",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "hours",
+                "style": "S1",
+                "text": {
+                  "es": "01.11.2026 · 16:00\nOrpesa C.F. vs C.D. Cabanes",
+                  "en": "01.11.2026 · 16:00\nOrpesa C.F. vs C.D. Cabanes",
+                  "de": "01.11.2026 · 16:00\nOrpesa C.F. vs C.D. Cabanes",
+                  "fr": "01.11.2026 · 16:00\nOrpesa C.F. vs C.D. Cabanes",
+                  "it": "01.11.2026 · 16:00\nOrpesa C.F. vs C.D. Cabanes",
+                  "ru": "01.11.2026 · 16:00\nOrpesa C.F. vs C.D. Cabanes",
+                  "uk": "01.11.2026 · 16:00\nOrpesa C.F. vs C.D. Cabanes"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "scheduled_02",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2026-11-09",
+          "to": "2026-11-15"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_02_mvny6i14_1y",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "15.11.2026 · 16:00\nOrpesa C.F. vs C.F. Traiguera",
+                  "en": "15.11.2026 · 16:00\nOrpesa C.F. vs C.F. Traiguera",
+                  "de": "15.11.2026 · 16:00\nOrpesa C.F. vs C.F. Traiguera",
+                  "fr": "15.11.2026 · 16:00\nOrpesa C.F. vs C.F. Traiguera",
+                  "it": "15.11.2026 · 16:00\nOrpesa C.F. vs C.F. Traiguera",
+                  "ru": "15.11.2026 · 16:00\nOrpesa C.F. vs C.F. Traiguera",
+                  "uk": "15.11.2026 · 16:00\nOrpesa C.F. vs C.F. Traiguera"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "scheduled_03",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2026-11-23",
+          "to": "2026-11-29"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_03_mvny7ltl_24",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "29.11.2026 · 16:00\nOrpesa C.F. vs C.D. Benicásim",
+                  "en": "29.11.2026 · 16:00\nOrpesa C.F. vs C.D. Benicásim",
+                  "de": "29.11.2026 · 16:00\nOrpesa C.F. vs C.D. Benicásim",
+                  "fr": "29.11.2026 · 16:00\nOrpesa C.F. vs C.D. Benicásim",
+                  "it": "29.11.2026 · 16:00\nOrpesa C.F. vs C.D. Benicásim",
+                  "ru": "29.11.2026 · 16:00\nOrpesa C.F. vs C.D. Benicásim",
+                  "uk": "29.11.2026 · 16:00\nOrpesa C.F. vs C.D. Benicásim"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "scheduled_04",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2026-12-07",
+          "to": "2026-12-13"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_04_mvny8cwh_2a",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "13.12.2026 · 16:00\nOrpesa C.F. vs Sp. de Castelló \"A\"",
+                  "en": "13.12.2026 · 16:00\nOrpesa C.F. vs Sp. de Castelló \"A\"",
+                  "de": "13.12.2026 · 16:00\nOrpesa C.F. vs Sp. de Castelló \"A\"",
+                  "fr": "13.12.2026 · 16:00\nOrpesa C.F. vs Sp. de Castelló \"A\"",
+                  "it": "13.12.2026 · 16:00\nOrpesa C.F. vs Sp. de Castelló \"A\"",
+                  "ru": "13.12.2026 · 16:00\nOrpesa C.F. vs Sp. de Castelló \"A\"",
+                  "uk": "13.12.2026 · 16:00\nOrpesa C.F. vs Sp. de Castelló \"A\""
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "scheduled_05",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2027-01-04",
+          "to": "2027-01-10"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_05_mvny8wzq_2g",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "10.01.2027 · 16:00\nOrpesa C.F. vs C.D. Almazora \"B\"",
+                  "en": "10.01.2027 · 16:00\nOrpesa C.F. vs C.D. Almazora \"B\"",
+                  "de": "10.01.2027 · 16:00\nOrpesa C.F. vs C.D. Almazora \"B\"",
+                  "fr": "10.01.2027 · 16:00\nOrpesa C.F. vs C.D. Almazora \"B\"",
+                  "it": "10.01.2027 · 16:00\nOrpesa C.F. vs C.D. Almazora \"B\"",
+                  "ru": "10.01.2027 · 16:00\nOrpesa C.F. vs C.D. Almazora \"B\"",
+                  "uk": "10.01.2027 · 16:00\nOrpesa C.F. vs C.D. Almazora \"B\""
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "scheduled_06",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2027-01-18",
+          "to": "2027-01-24"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_06_mvny9iqp_2m",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "24.01.2027 · 16:00\nOrpesa C.F. vs C.F. Benlloch \"A\"",
+                  "en": "24.01.2027 · 16:00\nOrpesa C.F. vs C.F. Benlloch \"A\"",
+                  "de": "24.01.2027 · 16:00\nOrpesa C.F. vs C.F. Benlloch \"A\"",
+                  "fr": "24.01.2027 · 16:00\nOrpesa C.F. vs C.F. Benlloch \"A\"",
+                  "it": "24.01.2027 · 16:00\nOrpesa C.F. vs C.F. Benlloch \"A\"",
+                  "ru": "24.01.2027 · 16:00\nOrpesa C.F. vs C.F. Benlloch \"A\"",
+                  "uk": "24.01.2027 · 16:00\nOrpesa C.F. vs C.F. Benlloch \"A\""
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "scheduled_07",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2027-01-25",
+          "to": "2027-01-31"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_07_mvnya2yu_2s",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "31.01.2027 · 16:00\nOrpesa C.F. vs C.F. Villafamés",
+                  "en": "31.01.2027 · 16:00\nOrpesa C.F. vs C.F. Villafamés",
+                  "de": "31.01.2027 · 16:00\nOrpesa C.F. vs C.F. Villafamés",
+                  "fr": "31.01.2027 · 16:00\nOrpesa C.F. vs C.F. Villafamés",
+                  "it": "31.01.2027 · 16:00\nOrpesa C.F. vs C.F. Villafamés",
+                  "ru": "31.01.2027 · 16:00\nOrpesa C.F. vs C.F. Villafamés",
+                  "uk": "31.01.2027 · 16:00\nOrpesa C.F. vs C.F. Villafamés"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "scheduled_08",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2027-02-08",
+          "to": "2027-02-14"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_08_mvnyan08_2y",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "14.02.2027 · 16:00\nOrpesa C.F. vs Morella F.C.",
+                  "en": "14.02.2027 · 16:00\nOrpesa C.F. vs Morella F.C.",
+                  "de": "14.02.2027 · 16:00\nOrpesa C.F. vs Morella F.C.",
+                  "fr": "14.02.2027 · 16:00\nOrpesa C.F. vs Morella F.C.",
+                  "it": "14.02.2027 · 16:00\nOrpesa C.F. vs Morella F.C.",
+                  "ru": "14.02.2027 · 16:00\nOrpesa C.F. vs Morella F.C.",
+                  "uk": "14.02.2027 · 16:00\nOrpesa C.F. vs Morella F.C."
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "scheduled_09",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2027-02-22",
+          "to": "2027-02-28"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_09_mvnyb9rg_34",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "28.02.2027 · 16:00\nOrpesa C.F. vs C.D. Betxí",
+                  "en": "28.02.2027 · 16:00\nOrpesa C.F. vs C.D. Betxí",
+                  "de": "28.02.2027 · 16:00\nOrpesa C.F. vs C.D. Betxí",
+                  "fr": "28.02.2027 · 16:00\nOrpesa C.F. vs C.D. Betxí",
+                  "it": "28.02.2027 · 16:00\nOrpesa C.F. vs C.D. Betxí",
+                  "ru": "28.02.2027 · 16:00\nOrpesa C.F. vs C.D. Betxí",
+                  "uk": "28.02.2027 · 16:00\nOrpesa C.F. vs C.D. Betxí"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "scheduled_10",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2027-03-08",
+          "to": "2027-03-14"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_10_mvnybvax_3a",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "14.03.2027 · 16:00\nOrpesa C.F. vs C.D. Catí \"A\"",
+                  "en": "14.03.2027 · 16:00\nOrpesa C.F. vs C.D. Catí \"A\"",
+                  "de": "14.03.2027 · 16:00\nOrpesa C.F. vs C.D. Catí \"A\"",
+                  "fr": "14.03.2027 · 16:00\nOrpesa C.F. vs C.D. Catí \"A\"",
+                  "it": "14.03.2027 · 16:00\nOrpesa C.F. vs C.D. Catí \"A\"",
+                  "ru": "14.03.2027 · 16:00\nOrpesa C.F. vs C.D. Catí \"A\"",
+                  "uk": "14.03.2027 · 16:00\nOrpesa C.F. vs C.D. Catí \"A\""
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "scheduled_11",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2027-04-05",
+          "to": "2027-04-11"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_11_mvnych86_3g",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "11.04.2027 · 16:00\nOrpesa C.F. vs Esportiu Vila-real \"A\"",
+                  "en": "11.04.2027 · 16:00\nOrpesa C.F. vs Esportiu Vila-real \"A\"",
+                  "de": "11.04.2027 · 16:00\nOrpesa C.F. vs Esportiu Vila-real \"A\"",
+                  "fr": "11.04.2027 · 16:00\nOrpesa C.F. vs Esportiu Vila-real \"A\"",
+                  "it": "11.04.2027 · 16:00\nOrpesa C.F. vs Esportiu Vila-real \"A\"",
+                  "ru": "11.04.2027 · 16:00\nOrpesa C.F. vs Esportiu Vila-real \"A\"",
+                  "uk": "11.04.2027 · 16:00\nOrpesa C.F. vs Esportiu Vila-real \"A\""
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "scheduled_12",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2027-04-26",
+          "to": "2027-05-02"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_12_mvnyd66q_3m",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "02.05.2027 · 16:00\nOrpesa C.F. vs U.D. Sant Mateu",
+                  "en": "02.05.2027 · 16:00\nOrpesa C.F. vs U.D. Sant Mateu",
+                  "de": "02.05.2027 · 16:00\nOrpesa C.F. vs U.D. Sant Mateu",
+                  "fr": "02.05.2027 · 16:00\nOrpesa C.F. vs U.D. Sant Mateu",
+                  "it": "02.05.2027 · 16:00\nOrpesa C.F. vs U.D. Sant Mateu",
+                  "ru": "02.05.2027 · 16:00\nOrpesa C.F. vs U.D. Sant Mateu",
+                  "uk": "02.05.2027 · 16:00\nOrpesa C.F. vs U.D. Sant Mateu"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "scheduled_13",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2027-05-10",
+          "to": "2027-05-16"
+        },
+        "updateBadge": {
+          "key": "CampoDeFutbol_scheduled_13_mvnye0yc_3s",
+          "anchor": [
+            0.75,
+            0.08
+          ]
+        },
+        "override": {
+          "icon": "media/icons/FFCV.png",
+          "card": {
+            "image": "media/cards/FFCV_card.jpg",
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "16.05.2027 · 16:00\nOrpesa C.F. vs C.D. Onda \"B\"",
+                  "en": "16.05.2027 · 16:00\nOrpesa C.F. vs C.D. Onda \"B\"",
+                  "de": "16.05.2027 · 16:00\nOrpesa C.F. vs C.D. Onda \"B\"",
+                  "fr": "16.05.2027 · 16:00\nOrpesa C.F. vs C.D. Onda \"B\"",
+                  "it": "16.05.2027 · 16:00\nOrpesa C.F. vs C.D. Onda \"B\"",
+                  "ru": "16.05.2027 · 16:00\nOrpesa C.F. vs C.D. Onda \"B\"",
+                  "uk": "16.05.2027 · 16:00\nOrpesa C.F. vs C.D. Onda \"B\""
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
   },
   {
     "id": "JardinesMarinaDor",
