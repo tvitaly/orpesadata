@@ -157,7 +157,7 @@
           },
           {
             "type": "text",
-            "style": "S2",
+            "style": "S3",
             "text": {
               "es": "Cita previa e información:",
               "en": "Appointments and information:",
@@ -183,7 +183,7 @@
           },
           {
             "type": "text",
-            "style": "S2",
+            "style": "S3",
             "text": {
               "es": "Urgencias (24 h):",
               "en": "Urgent care (24/7):",
@@ -209,7 +209,7 @@
           },
           {
             "type": "text",
-            "style": "S2",
+            "style": "S3",
             "text": {
               "es": "Ambulancia / Emergencias (24 h):",
               "en": "Ambulance / Emergency (24/7):",
