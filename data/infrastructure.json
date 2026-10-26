@@ -317,13 +317,13 @@
             "type": "text",
             "style": "S3",
             "text": {
-              "es": "Horario de atención:\nlunes a viernes, de 09:00 a 14:00\nSábados, domingos y festivos: cerrado",
-              "en": "Opening hours:\nMonday to Friday, 09:00–14:00\nClosed on weekends and public holidays",
-              "de": "Öffnungszeiten:\nMontag bis Freitag, 09:00–14:00 Uhr\nSamstags, sonntags und feiertags geschlossen",
-              "fr": "Horaires d'accueil:\nDu lundi au vendredi, de 09h00 à 14h00\nFermé les week-ends et jours fériés",
-              "it": "Orari di apertura:\nDal lunedì al venerdì, dalle 09:00 alle 14:00\nChiuso nei fine settimana e nei giorni festivi",
-              "ru": "Часы приёма:\nПонедельник - пятница, 09:00–14:00\nСуббота, воскресенье и праздники - закрыто",
-              "uk": "Години прийому:\nПонеділок - п’ятниця, 09:00-14:00\nСубота, неділя та святкові дні - зачинено"
+              "es": "Horario de atención:\nDe lunes a viernes: 09:00–14:00\nSábados, domingos y festivos: cerrado",
+              "en": "Opening hours:\nMonday to Friday: 09:00–14:00\nWeekends and public holidays: closed",
+              "de": "Öffnungszeiten:\nMontag bis Freitag: 09:00–14:00 Uhr\nSamstags, sonntags und feiertags: geschlossen",
+              "fr": "Horaires d'accueil:\nDu lundi au vendredi: 09:00–14:00\nSamedi, dimanche et jours fériés: fermé",
+              "it": "Orari di apertura:\nDal lunedì al venerdì: 09:00–14:00\nSabato, domenica e giorni festivi: chiuso",
+              "ru": "Часы приёма:\nС понедельника по пятницу: 09:00–14:00\nСуббота, воскресенье и праздники: закрыто",
+              "uk": "Години прийому:\nЗ понеділка до п’ятниці: 09:00-14:00\nСубота, неділя та святкові дні: зачинено"
             }
           },
           {
@@ -776,12 +776,12 @@
             "style": "S3",
             "text": {
               "en": "Opening hours:\nMonday and Friday: 09:00–15:00\nTuesday, Wednesday and Thursday: 09:00–15:00 and 16:30–20:00\nSaturday: 09:00–14:00\nSundays and public holidays: closed",
-              "es": "Horario:\nLunes y viernes: 09:00–15:00\nMartes, miércoles y jueves: 09:00–15:00 y 16:30–20:00\nSábados: 09:00–14:00\nDomingos y festivos: cerrado",
-              "de": "Öffnungszeiten:\nMontag und Freitag: 09:00–15:00 Uhr\nDienstag, Mittwoch und Donnerstag: 09:00–15:00 und 16:30–20:00 Uhr\nSamstag: 09:00–14:00 Uhr\nSonntags und feiertags geschlossen",
-              "fr": "Horaires d'ouverture :\nLundi et vendredi : 09:00–15:00\nMardi, mercredi et jeudi : 09:00–15:00 et 16:30–20:00\nSamedi : 09:00–14:00\nDimanches et jours fériés : fermé",
-              "it": "Orari di apertura:\nLunedì e venerdì: 09:00–15:00\nMartedì, mercoledì e giovedì: 09:00–15:00 e 16:30–20:00\nSabato: 09:00–14:00\nDomeniche e festivi: chiuso",
-              "ru": "Часы работы:\nПонедельник и пятница: 09:00–15:00\nВторник, среда, четверг: 09:00–15:00 и 16:30–20:00\nСуббота: 09:00–14:00\nВоскресенье и праздничные дни: закрыто",
-              "uk": "Години роботи:\nПонеділок і п’ятниця: 09:00–15:00\nВівторок, середа, четвер: 09:00–15:00 та 16:30–20:00\nСубота: 09:00–14:00\nНеділя та святкові дні: зачинено"
+              "es": "Horario de apertura:\nLunes y viernes: 09:00–15:00\nMartes, miércoles y jueves: 09:00–15:00 y 16:30–20:00\nSábados: 09:00–14:00\nDomingos y festivos: cerrado",
+              "de": "Öffnungszeiten:\nMontag und Freitag: 09:00–15:00 Uhr\nDienstag, Mittwoch und Donnerstag: 09:00–15:00 und 16:30–20:00 Uhr\nSamstag: 09:00–14:00 Uhr\nSonntags und feiertags: geschlossen",
+              "fr": "Horaires d'ouverture:\nLundi et vendredi: 09:00–15:00\nMardi, mercredi et jeudi: 09:00–15:00 et 16:30–20:00\nSamedi: 09:00–14:00\nDimanches et jours fériés: fermé",
+              "it": "Orari di apertura:\nLunedì e venerdì: 09:00–15:00\nMartedì, mercoledì e giovedì: 09:00–15:00 e 16:30–20:00\nSabato: 09:00–14:00\nDomenica e giorni festivi: chiuso",
+              "ru": "Часы работы:\nПонедельник и пятница: 09:00–15:00\nВторник, среда и четверг: 09:00–15:00 и 16:30–20:00\nСуббота: 09:00–14:00\nВоскресенье и праздничные дни: закрыто",
+              "uk": "Години роботи:\nПонеділок і п’ятниця: 09:00–15:00\nВівторок, середа та четвер: 09:00–15:00 і 16:30–20:00\nСубота: 09:00–14:00\nНеділя та святкові дні: зачинено"
             }
           },
           {
