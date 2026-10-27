@@ -133,5 +133,75 @@
       "from": "2026-10-27",
       "to": "2026-11-01"
     }
+  },
+  {
+    "id": "event_002",
+    "coordinates": [
+      0.1306826,
+      40.0924445
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "event_002_default_mvqozw8q_55",
+      "anchor": [
+        0.88,
+        0.16
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Tikva.png",
+      "iconSize": 48,
+      "card": {
+        "style": "event",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Fiesta de Halloween con la Discomóvil",
+              "en": "Halloween Party with Mobile Disco",
+              "de": "Halloween-Party mit mobiler Disco",
+              "fr": "Soirée Halloween avec discothèque mobile",
+              "it": "Festa di Halloween con discoteca mobile",
+              "ru": "Вечеринка в честь Хэллоуина с мобильной дискотекой",
+              "uk": "Вечірка на честь Геловіну з мобільною дискотекою"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "es": "Noche del 31 de octubre al 1 de noviembre, 00:00",
+              "en": "Night of 31 October to 1 November, 00:00",
+              "de": "In der Nacht vom 31. Oktober auf den 1. November, 00:00 Uhr",
+              "fr": "Dans la nuit du 31 octobre au 1er novembre, à 00:00",
+              "it": "Nella notte tra il 31 ottobre e il 1° novembre, alle 00:00",
+              "ru": "В ночь с 31 октября на 1 ноября, в 00:00",
+              "uk": "У ніч із 31 жовтня на 1 листопада, о 00:00"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S3",
+            "text": {
+              "es": "¡Ven disfrazado!",
+              "en": "Come in costume!",
+              "de": "Komm verkleidet!",
+              "fr": "Venez déguisés !",
+              "it": "Vieni in maschera!",
+              "ru": "Приходите в костюмах!",
+              "uk": "Приходьте в костюмах!"
+            }
+          }
+        ],
+        "image": "media/cards/Tikva02_card.jpg"
+      }
+    },
+    "active": true,
+    "visible": true,
+    "availability": {
+      "from": "2026-10-27",
+      "to": "2026-10-31"
+    }
   }
 ]
