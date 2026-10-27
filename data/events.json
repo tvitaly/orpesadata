@@ -7,7 +7,7 @@
     ],
     "updateBadge": {
       "enabled": true,
-      "key": "event_001_default_mvqmmfmw_3v",
+      "key": "event_001_default_mvquz0lr_54",
       "anchor": [
         0.89,
         0.21
@@ -21,7 +21,7 @@
         "blocks": [
           {
             "type": "text",
-            "style": "S3",
+            "style": "S2",
             "text": {
               "es": "II Cabalgata «Vespra de Tots Sants»:",
               "en": "2nd «Vespra de Tots Sants» Parade:",
@@ -34,7 +34,7 @@
           },
           {
             "type": "text",
-            "style": "S2",
+            "style": "S3",
             "text": {
               "es": "31 de octubre, 19:00",
               "en": "31 October, 19:00",
@@ -47,7 +47,7 @@
           },
           {
             "type": "text",
-            "style": "S3",
+            "style": "S2",
             "text": {
               "es": "Reparto del «Tarró de Gat»:",
               "en": "Distribution of «Tarró de Gat»:",
@@ -60,7 +60,7 @@
           },
           {
             "type": "text",
-            "style": "S2",
+            "style": "S3",
             "text": {
               "es": "31 de octubre, 19:30",
               "en": "31 October, 19:30",
@@ -73,7 +73,7 @@
           },
           {
             "type": "text",
-            "style": "S3",
+            "style": "S2",
             "text": {
               "es": "Animación infantil:",
               "en": "Children's entertainment:",
@@ -86,7 +86,7 @@
           },
           {
             "type": "text",
-            "style": "S2",
+            "style": "S3",
             "text": {
               "es": "31 de octubre, 20:00",
               "en": "31 October, 20:00",
@@ -99,7 +99,7 @@
           },
           {
             "type": "text",
-            "style": "S3",
+            "style": "S2",
             "text": {
               "es": "Actividades infantiles:",
               "en": "Children's activities:",
@@ -112,7 +112,7 @@
           },
           {
             "type": "text",
-            "style": "S2",
+            "style": "S3",
             "text": {
               "es": "1 de noviembre, 11:00",
               "en": "1 November, 11:00",
@@ -142,7 +142,7 @@
     ],
     "updateBadge": {
       "enabled": true,
-      "key": "event_002_default_mvqozw8q_55",
+      "key": "event_002_default_mvquzr2v_55",
       "anchor": [
         0.88,
         0.16
@@ -169,7 +169,7 @@
           },
           {
             "type": "text",
-            "style": "S2",
+            "style": "S3",
             "text": {
               "es": "Noche del 31 de octubre al 1 de noviembre, 00:00",
               "en": "Night of 31 October to 1 November, 00:00",

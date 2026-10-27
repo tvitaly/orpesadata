@@ -9,7 +9,7 @@
     ],
     "updateBadge": {
       "enabled": true,
-      "key": "Apteka01_default_1",
+      "key": "Apteka01_default_mvqwhskz_89",
       "anchor": [
         0.71,
         0
@@ -33,6 +33,26 @@
               "it": "Farmacia Marina d’Or",
               "ru": "Аптека Marina d’Or",
               "uk": "Аптека Marina d’Or"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S3",
+            "text": {
+              "es": "Información por teléfono:",
+              "en": "Information by phone:",
+              "de": "Telefonische Auskunft:",
+              "fr": "Renseignements par téléphone :",
+              "it": "Informazioni telefoniche:",
+              "ru": "Информация по телефону:",
+              "uk": "Інформація за телефоном:"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "964 313 353"
             }
           }
         ]

@@ -599,7 +599,7 @@
     ],
     "updateBadge": {
       "enabled": true,
-      "key": "CentroIntegralDeMayores_default_1",
+      "key": "CentroIntegralDeMayores_default_mvqw6wy7_71",
       "anchor": [
         0.82,
         0.28
@@ -623,6 +623,40 @@
               "it": "Centro integrale per anziani",
               "ru": "Комплексный центр для пожилых людей",
               "uk": "Комплексний центр для людей похилого віку"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S3",
+            "text": {
+              "es": "De lunes a domingo: de 9:00 a 21:00\nTeléfono:",
+              "en": "Monday to Sunday: 9:00–21:00\nPhone:",
+              "de": "Montag bis Sonntag: 9:00–21:00 Uhr.\nTelefon:",
+              "fr": "Du lundi au dimanche : de 9:00 à 21:00\nTéléphone :",
+              "it": "Dal lunedì alla domenica: dalle 9:00 alle 21:00\nTelefono:",
+              "ru": "С понедельника по воскресенье: с 9:00 до 21:00\nТелефон:",
+              "uk": "З понеділка по неділю: з 9:00 до 21:00\nТелефон:"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "964 04 48 85"
+            }
+          },
+          {
+            "type": "email",
+            "style": "S2",
+            "text": {
+              "es": "info@cimoropesa.es"
+            }
+          },
+          {
+            "type": "link",
+            "style": "S2",
+            "text": {
+              "es": "cimoropesa.es"
             }
           }
         ]
@@ -862,7 +896,7 @@
           "to": "2026-11-01"
         },
         "updateBadge": {
-          "key": "PlazaDeToros_scheduled_01_mvqqhlfi_6l",
+          "key": "PlazaDeToros_scheduled_01_mvqv06vr_56",
           "enabled": true,
           "anchor": [
             0.85,
@@ -889,7 +923,7 @@
               },
               {
                 "type": "text",
-                "style": "S2",
+                "style": "S3",
                 "text": {
                   "es": "Viernes, 30 de octubre: 20:30, 21:10, 21:50, 22:30\nSábado, 31 de octubre: 20:30, 21:10, 21:50, 22:30\nDomingo, 1 de noviembre: 18:30, 19:10, 19:50, 20:30",
                   "en": "Friday, 30 October: 20:30, 21:10, 21:50, 22:30\nSaturday, 31 October: 20:30, 21:10, 21:50, 22:30\nSunday, 1 November: 18:30, 19:10, 19:50, 20:30",
@@ -936,7 +970,7 @@
     ],
     "updateBadge": {
       "enabled": true,
-      "key": "ParroquiaSanJaimeApostol_default_1",
+      "key": "ParroquiaSanJaimeApostol_default_mvqwdri3_7p",
       "anchor": [
         0.7,
         0
@@ -960,6 +994,26 @@
               "it": "Parrocchia di San Giacomo Apostolo",
               "ru": "Приходская церковь Святого Иакова Апостола",
               "uk": "Парафіяльна церква Святого Якова Апостола"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S3",
+            "text": {
+              "uk": "Інформація за телефоном:",
+              "es": "Información por teléfono:",
+              "en": "Information by phone:",
+              "de": "Telefonische Auskunft:",
+              "fr": "Renseignements par téléphone :",
+              "it": "Informazioni telefoniche:",
+              "ru": "Информация по телефону:"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "964 310 229"
             }
           }
         ]
@@ -1797,7 +1851,7 @@
     ],
     "updateBadge": {
       "enabled": true,
-      "key": "OficinaDeCorreos_default_mvbebv1f_a",
+      "key": "OficinaDeCorreos_default_mvqvu375_67",
       "anchor": [
         0.9,
         0.16
@@ -1821,6 +1875,39 @@
               "it": "Ufficio postale",
               "ru": "Почтовое отделение",
               "uk": "Поштове відділення"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S3",
+            "text": {
+              "es": "De lunes a viernes: de 08:30 a 14:30\nSábados, domingos y festivos: sin servicio",
+              "en": "Monday to Friday: 08:30–14:30\nSaturdays, Sundays and public holidays: no service",
+              "de": "Montag bis Freitag: 08:30–14:30 Uhr.\nSamstags, sonntags und feiertags: kein Betrieb",
+              "fr": "Du lundi au vendredi : de 08:30 à 14:30\nSamedis, dimanches et jours fériés : pas de service",
+              "it": "Dal lunedì al venerdì: dalle 08:30 alle 14:30\nSabato, domenica e giorni festivi: nessun servizio",
+              "ru": "С понедельника по пятницу: с 08:30 до 14:30\nСуббота, воскресенье и праздничные дни: обслуживание не осуществляется",
+              "uk": "З понеділка по п’ятницю: з 08:30 до 14:30\nСубота, неділя та святкові дні: обслуговування не здійснюється"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S3",
+            "text": {
+              "es": "Teléfono:",
+              "en": "Phone:",
+              "de": "Telefon:",
+              "fr": "Téléphone :",
+              "it": "Telefono:",
+              "ru": "Телефон:",
+              "uk": "Телефон:"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "964 310 142"
             }
           }
         ]
