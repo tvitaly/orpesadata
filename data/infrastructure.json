@@ -704,7 +704,7 @@
       40.091889078005295
     ],
     "updateBadge": {
-      "enabled": true,
+      "enabled": false,
       "key": "EspaiCultural_default_1",
       "anchor": [
         0.69,
@@ -716,7 +716,7 @@
       "iconSize": 48,
       "card": {
         "style": "marker",
-        "image": "media/cards/Muz_card.jpg",
+        "image": "media/cards/Teatr01_card.jpg",
         "blocks": [
           {
             "type": "text",
@@ -733,7 +733,79 @@
           }
         ]
       }
-    }
+    },
+    "scheduled": [
+      {
+        "id": "scheduled_01",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2026-10-27",
+          "to": "2026-10-31"
+        },
+        "updateBadge": {
+          "key": "EspaiCultural_scheduled_01_mvqln5ey_r",
+          "anchor": [
+            0.94,
+            0.28
+          ],
+          "enabled": true
+        },
+        "override": {
+          "icon": "media/icons/Teatr.png",
+          "card": {
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "La Casa de Bernarda Alba"
+                }
+              },
+              {
+                "type": "text",
+                "style": "S3",
+                "text": {
+                  "es": "Obra de teatro",
+                  "en": "Theatre performance",
+                  "de": "Theateraufführung",
+                  "fr": "Pièce de théâtre",
+                  "it": "Spettacolo teatrale",
+                  "ru": "Спектакль",
+                  "uk": "Театральна вистава"
+                }
+              },
+              {
+                "type": "text",
+                "style": "S2",
+                "text": {
+                  "es": "Sábado 31/10 a las 19:30",
+                  "en": "Saturday, 31 October at 19:30",
+                  "de": "Samstag, 31.10., um 19:30 Uhr",
+                  "fr": "Samedi 31 octobre à 19 h 30",
+                  "it": "Sabato 31 ottobre alle 19:30",
+                  "ru": "В субботу, 31 октября, в 19:30",
+                  "uk": "У суботу, 31 жовтня, о 19:30"
+                }
+              },
+              {
+                "type": "text",
+                "style": "S3",
+                "text": {
+                  "es": "Entrada gratuita hasta completar aforo",
+                  "en": "Free admission, subject to availability",
+                  "de": "Eintritt frei, solange Plätze verfügbar sind",
+                  "fr": "Entrée gratuite dans la limite des places disponibles",
+                  "it": "Ingresso gratuito fino a esaurimento posti",
+                  "ru": "Вход бесплатный до заполнения зала",
+                  "uk": "Вхід безкоштовний до заповнення зали"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
   },
   {
     "id": "Biblioteca",
