@@ -9,7 +9,7 @@
     ],
     "updateBadge": {
       "enabled": true,
-      "key": "Zamok_default_mvqt6sym_1i",
+      "key": "Zamok_default_mvquf5sf_3h",
       "anchor": [
         0.74,
         0
@@ -37,7 +37,7 @@
           },
           {
             "type": "text",
-            "style": "S2",
+            "style": "S3",
             "text": {
               "es": "De lunes a domingo, de 9:00 a 20:00",
               "en": "Monday to Sunday, from 9:00 to 20:00",
@@ -94,7 +94,7 @@
           "to": "2027-08-31"
         },
         "updateBadge": {
-          "key": "Zamok_scheduled_01_mvqtkcaz_29"
+          "key": "Zamok_scheduled_01_mvqufpu7_3i"
         },
         "override": {
           "card": {
@@ -114,7 +114,7 @@
               },
               {
                 "type": "text",
-                "style": "S2",
+                "style": "S3",
                 "text": {
                   "es": "Todos los días, excepto los martes: de 09:00 a 21:00\nMartes: de 08:00 a 14:00",
                   "en": "Every day except Tuesdays: 09:00–21:00\nTuesdays: 08:00–14:00",
@@ -214,7 +214,7 @@
     ],
     "updateBadge": {
       "enabled": true,
-      "key": "Museo_default_mvqu3dwf_3f",
+      "key": "Museo_default_mvquizka_46",
       "anchor": [
         0.76,
         0
@@ -242,15 +242,15 @@
           },
           {
             "type": "text",
-            "style": "S2",
+            "style": "S3",
             "text": {
-              "es": "Lunes: de 10:00 a 14:00\nDe martes a sábado: de 10:00 a 14:00 y de 16:00 a 19:00",
-              "en": "Monday: 10:00–14:00\nTuesday to Saturday: 10:00–14:00 and 16:00–19:00",
-              "de": "Montag: 10:00–14:00 Uhr.\nDienstag bis Samstag: 10:00–14:00 Uhr und 16:00–19:00 Uhr.",
-              "fr": "Lundi : de 10:00 à 14:00\nDu mardi au samedi : de 10:00 à 14:00 et de 16:00 à 19:00",
-              "it": "Lunedì: dalle 10:00 alle 14:00\nDal martedì al sabato: dalle 10:00 alle 14:00 e dalle 16:00 alle 19:00",
-              "ru": "Понедельник: с 10:00 до 14:00\nСо вторника по субботу: с 10:00 до 14:00 и с 16:00 до 19:00",
-              "uk": "Понеділок: з 10:00 до 14:00\nЗ вівторка по суботу: з 10:00 до 14:00 та з 16:00 до 19:00"
+              "es": "Lunes: de 10:00 a 14:00\nDe martes a sábado: de 10:00 a 14:00 y de 16:00 a 19:00\nDomingo: cerrado",
+              "en": "Monday: 10:00–14:00\nTuesday to Saturday: 10:00–14:00 and 16:00–19:00\nSunday: closed",
+              "de": "Montag: 10:00–14:00 Uhr.\nDienstag bis Samstag: 10:00–14:00 Uhr und 16:00–19:00 Uhr.\nSonntag: geschlossen",
+              "fr": "Lundi : de 10:00 à 14:00\nDu mardi au samedi : de 10:00 à 14:00 et de 16:00 à 19:00\nDimanche : fermé",
+              "it": "Lunedì: dalle 10:00 alle 14:00\nDal martedì al sabato: dalle 10:00 alle 14:00 e dalle 16:00 alle 19:00\nDomenica: chiuso",
+              "ru": "Понедельник: с 10:00 до 14:00\nСо вторника по субботу: с 10:00 до 14:00 и с 16:00 до 19:00\nВоскресенье: закрыто",
+              "uk": "Понеділок: з 10:00 до 14:00\nЗ вівторка по суботу: з 10:00 до 14:00 та з 16:00 до 19:00\nНеділя: зачинено"
             }
           },
           {
@@ -282,7 +282,80 @@
           }
         ]
       }
-    }
+    },
+    "scheduled": [
+      {
+        "id": "scheduled_01",
+        "enabled": true,
+        "priority": 0,
+        "when": {
+          "from": "2027-07-01",
+          "to": "2027-08-31"
+        },
+        "updateBadge": {
+          "key": "Museo_scheduled_01_mvqumunn_4w"
+        },
+        "override": {
+          "card": {
+            "blocks": [
+              {
+                "type": "text",
+                "style": "S1",
+                "text": {
+                  "es": "Museo",
+                  "en": "Museum",
+                  "de": "Museum",
+                  "fr": "Musée",
+                  "it": "Museo",
+                  "ru": "Музей",
+                  "uk": "Музей"
+                }
+              },
+              {
+                "type": "text",
+                "style": "S3",
+                "text": {
+                  "es": "Lunes: de 10:30 a 14:00\nDe martes a sábado: de 10:30 a 14:00 y de 18:00 a 21:00\nDomingo: cerrado",
+                  "en": "Monday: 10:30–14:00\nTuesday to Saturday: 10:30–14:00 and 18:00–21:00\nSunday: closed",
+                  "de": "Montag: 10:30–14:00 Uhr.\nDienstag bis Samstag: 10:30–14:00 Uhr und 18:00–21:00 Uhr.\nSonntag: geschlossen",
+                  "fr": "Lundi : de 10:30 à 14:00\nDu mardi au samedi : de 10:30 à 14:00 et de 18:00 à 21:00\nDimanche : fermé",
+                  "it": "Lunedì: dalle 10:30 alle 14:00\nDal martedì al sabato: dalle 10:30 alle 14:00 e dalle 18:00 alle 21:00\nDomenica: chiuso",
+                  "ru": "Понедельник: с 10:30 до 14:00\nСо вторника по субботу: с 10:30 до 14:00 и с 18:00 до 21:00\nВоскресенье: закрыто",
+                  "uk": "Понеділок: з 10:30 до 14:00\nЗ вівторка по суботу: з 10:30 до 14:00 та з 18:00 до 21:00\nНеділя: зачинено"
+                }
+              },
+              {
+                "type": "text",
+                "style": "S3",
+                "text": {
+                  "es": "Información por teléfono:",
+                  "en": "Information by phone:",
+                  "de": "Telefonische Auskunft:",
+                  "fr": "Renseignements par téléphone :",
+                  "it": "Informazioni telefoniche:",
+                  "ru": "Информация по телефону:",
+                  "uk": "Інформація за телефоном:"
+                }
+              },
+              {
+                "type": "phone",
+                "style": "S2",
+                "text": {
+                  "es": "964 310 100"
+                }
+              },
+              {
+                "type": "link",
+                "style": "S2",
+                "text": {
+                  "es": "museodeoropesadelmar.es"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
   },
   {
     "id": "Poliklinika",
@@ -931,7 +1004,7 @@
           },
           {
             "type": "text",
-            "style": "S2",
+            "style": "S3",
             "text": {
               "es": "De lunes a domingo de 09:00 a 20:00 h",
               "en": "Monday to Sunday, 09:00–20:00",
