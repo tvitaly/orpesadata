@@ -58,5 +58,69 @@
         ]
       }
     }
+  },
+  {
+    "id": "2D",
+    "coordinates": [
+      0.1525989,
+      40.1066279
+    ],
+    "updateBadge": {
+      "enabled": true,
+      "key": "2D_default_mvs6o8cs_m",
+      "anchor": [
+        0.89,
+        0.19
+      ]
+    },
+    "default": {
+      "icon": "media/icons/Cofe.png",
+      "iconSize": 48,
+      "card": {
+        "style": "business",
+        "blocks": [
+          {
+            "type": "text",
+            "style": "S1",
+            "text": {
+              "es": "Cafetería 2D"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S3",
+            "text": {
+              "es": "Una cafetería junto al mar con una decoración original y cuidada que crea la ilusión de estar dentro de un dibujo en dos dimensiones",
+              "en": "A seaside café with unique, thoughtfully designed décor that creates the illusion of stepping into a two-dimensional drawing",
+              "de": "Ein außergewöhnliches Café direkt am Meer mit liebevoll gestalteter Einrichtung, die den Eindruck erweckt, sich in einer zweidimensionalen Zeichnung zu befinden",
+              "fr": "Un café en bord de mer au décor original et soigné, qui donne l'impression de se retrouver à l'intérieur d'un dessin en deux dimensions",
+              "it": "Una caffetteria sul mare con un arredamento originale e curato nei dettagli, che crea l'illusione di trovarsi all'interno di un disegno bidimensionale",
+              "ru": "Необычное кафе на берегу моря с оригинальным, продуманным до мелочей интерьером, создающим иллюзию нахождения внутри двухмерного рисунка",
+              "uk": "Незвичайне кафе на березі моря з оригінальним, продуманим до дрібниць інтер'єром, що створює ілюзію перебування всередині двовимірного малюнка"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "es": "Horario: todos los días de 08:00 a 14:00",
+              "en": "Opening hours: daily from 08:00 to 14:00",
+              "de": "Öffnungszeiten: täglich von 08:00 bis 14:00 Uhr.",
+              "fr": "Horaires d'ouverture : tous les jours de 08:00 à 14:00",
+              "it": "Orari di apertura: tutti i giorni dalle 08:00 alle 14:00",
+              "ru": "Время работы: ежедневно с 08:00 до 14:00",
+              "uk": "Години роботи: щодня з 08:00 до 14:00"
+            }
+          }
+        ],
+        "image": "media/cards/2D_card.jpg"
+      }
+    },
+    "active": true,
+    "visible": true,
+    "availability": {
+      "from": "2026-10-28",
+      "to": "2026-12-01"
+    }
   }
 ]

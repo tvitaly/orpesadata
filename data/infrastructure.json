@@ -1094,7 +1094,7 @@
       "iconSize": 48,
       "card": {
         "style": "marker",
-        "image": "media/cards/Teatr01_card.jpg",
+        "image": "media/cards/Muz_card.jpg",
         "blocks": [
           {
             "type": "text",
@@ -1107,6 +1107,26 @@
               "it": "Espai Cultural",
               "ru": "Культурный центр Espai Cultural",
               "uk": "Культурний центр Espai Cultural"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S3",
+            "text": {
+              "es": "Información por teléfono:",
+              "en": "Information by phone:",
+              "de": "Telefonische Auskunft:",
+              "fr": "Renseignements par téléphone :",
+              "it": "Informazioni telefoniche:",
+              "ru": "Информация по телефону:",
+              "uk": "Інформація за телефоном:"
+            }
+          },
+          {
+            "type": "phone",
+            "style": "S2",
+            "text": {
+              "es": "964 310 100"
             }
           }
         ]
@@ -1806,8 +1826,8 @@
     "active": true,
     "visible": true,
     "coordinates": [
-      0.1529705618977702,
-      40.107681305219195
+      0.1532078,
+      40.1083408
     ],
     "updateBadge": {
       "enabled": true,
