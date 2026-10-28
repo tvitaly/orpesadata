@@ -1142,7 +1142,7 @@
           "to": "2026-10-31"
         },
         "updateBadge": {
-          "key": "EspaiCultural_scheduled_01_mvqln5ey_r",
+          "key": "EspaiCultural_scheduled_01_mvs74trz_n",
           "anchor": [
             0.94,
             0.28
@@ -1199,7 +1199,8 @@
                   "uk": "Вхід безкоштовний до заповнення зали"
                 }
               }
-            ]
+            ],
+            "image": "media/cards/Teatr01_card.jpg"
           }
         }
       }
