@@ -25,49 +25,49 @@
           "Autobús urbano de Oropesa",
           "Siguiente parada: {{next_stop_title}}",
           "Llegada a las {{next_stop_time}} dentro de {{next_stop_duration}} ± 5 minutos.",
-          "El movimiento del autobús se calcula según el horario. El autobús puede pasar antes o después de la hora prevista.",
+          "¡Atención! El movimiento del autobús se calcula según el horario. El autobús puede pasar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Oropesa urban bus",
           "Next stop: {{next_stop_title}}",
           "Arrival at {{next_stop_time}} in {{next_stop_duration}} ± 5 minutes.",
-          "The bus movement is calculated according to the timetable. The bus may pass earlier or later than scheduled.",
+          "Attention! The bus movement is calculated according to the timetable. The bus may pass earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Stadtbus Oropesa",
           "Nächste Haltestelle: {{next_stop_title}}",
           "Ankunft um {{next_stop_time}} in {{next_stop_duration}} ± 5 Minuten.",
-          "Die Bewegung des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen vorbeifahren.",
+          "Achtung! Die Bewegung des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen vorbeifahren.",
           ""
         ],
         "fr": [
           "Bus urbain d’Oropesa",
           "Prochain arrêt : {{next_stop_title}}",
           "Arrivée à {{next_stop_time}} dans {{next_stop_duration}} ± 5 minutes.",
-          "Le déplacement du bus est calculé selon les horaires. Le bus peut passer plus tôt ou plus tard que prévu.",
+          "Attention ! Le déplacement du bus est calculé selon les horaires. Le bus peut passer plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Autobus urbano di Oropesa",
           "Prossima fermata: {{next_stop_title}}",
           "Arrivo alle {{next_stop_time}} tra {{next_stop_duration}} ± 5 minuti.",
-          "Il movimento dell’autobus viene calcolato in base all’orario. L’autobus può passare prima o dopo l’orario previsto.",
+          "Attenzione! Il movimento dell’autobus viene calcolato in base all’orario. L’autobus può passare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Автобус Оропесы",
           "Следующая остановка: {{next_stop_title}}",
           "Прибытие в {{next_stop_time}} через {{next_stop_duration}} ± 5 минут.",
-          "Движение автобуса рассчитывается на основе расписания. Автобус может проехать раньше или позже запланированного времени.",
+          "Внимание! Движение автобуса рассчитывается на основе расписания. Автобус может проехать раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Автобус Оропеси",
           "Наступна зупинка: {{next_stop_title}}",
           "Прибуття о {{next_stop_time}} через {{next_stop_duration}} ± 5 хвилин.",
-          "Рух автобуса розраховується на основі розкладу. Автобус може проїхати раніше або пізніше запланованого часу.",
+          "Увага! Рух автобуса розраховується на основі розкладу. Автобус може проїхати раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -103,43 +103,43 @@
         "es": [
           "Parada 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 1 · C/ Jose Rivera Forner (esq. Leoncio Serrano)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -177,43 +177,43 @@
         "es": [
           "Parada 2 · C/ Torreblanca (centro médico)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 2 · C/ Torreblanca (centro médico)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 2 · C/ Torreblanca (centro médico)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 2 · C/ Torreblanca (centro médico)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 2 · C/ Torreblanca (centro médico)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 2 · C/ Torreblanca (centro médico)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 2 · C/ Torreblanca (centro médico)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -251,43 +251,43 @@
         "es": [
           "Parada 3 · P. España (cruce C/ Fco. Sevillano)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 3 · P. España (cruce C/ Fco. Sevillano)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 3 · P. España (cruce C/ Fco. Sevillano)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 3 · P. España (cruce C/ Fco. Sevillano)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 3 · P. España (cruce C/ Fco. Sevillano)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 3 · P. España (cruce C/ Fco. Sevillano)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 3 · P. España (cruce C/ Fco. Sevillano)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -325,43 +325,43 @@
         "es": [
           "Parada 4 · P. Principe de Asturias (frente ed. Florida)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 4 · P. Principe de Asturias (frente ed. Florida)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 4 · P. Principe de Asturias (frente ed. Florida)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 4 · P. Principe de Asturias (frente ed. Florida)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 4 · P. Principe de Asturias (frente ed. Florida)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 4 · P. Principe de Asturias (frente ed. Florida)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 4 · P. Principe de Asturias (frente ed. Florida)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -399,43 +399,43 @@
         "es": [
           "Parada 5 · P.M. Mediterráneo (frente H Koral)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 5 · P.M. Mediterráneo (frente H Koral)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 5 · P.M. Mediterráneo (frente H Koral)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 5 · P.M. Mediterráneo (frente H Koral)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 5 · P.M. Mediterráneo (frente H Koral)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 5 · P.M. Mediterráneo (frente H Koral)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 5 · P.M. Mediterráneo (frente H Koral)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -473,43 +473,43 @@
         "es": [
           "Parada 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 6 · Av. Barcelona (junto recinto deportivo M.d’O, cruce l’Antina)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -547,43 +547,43 @@
         "es": [
           "Parada 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 7 · Av. Barcelona (jardín encantado M.d’O, cruce Moscatel)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -621,43 +621,43 @@
         "es": [
           "Parada 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 8 · Av. Barcelona (Rotonda Barco direcc. campings)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -695,43 +695,43 @@
         "es": [
           "Parada 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 9 · Av. Barcelona (Ro. Ratlla Terme)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -769,43 +769,43 @@
         "es": [
           "Parada 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 10 · Av. Barcelona (Rotonda Barco VUELTA-Mercadona)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -843,43 +843,43 @@
         "es": [
           "Parada 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 11 · Av. Barcelona (frente Hotel Magic Sport)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -917,43 +917,43 @@
         "es": [
           "Parada 12 · Av. Valencia (frente Urb Trebol)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 12 · Av. Valencia (frente Urb Trebol)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 12 · Av. Valencia (frente Urb Trebol)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 12 · Av. Valencia (frente Urb Trebol)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 12 · Av. Valencia (frente Urb Trebol)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 12 · Av. Valencia (frente Urb Trebol)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 12 · Av. Valencia (frente Urb Trebol)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -991,43 +991,43 @@
         "es": [
           "Parada 13 · Av. Valencia (altura C/ Berlín)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 13 · Av. Valencia (altura C/ Berlín)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 13 · Av. Valencia (altura C/ Berlín)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 13 · Av. Valencia (altura C/ Berlín)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 13 · Av. Valencia (altura C/ Berlín)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 13 · Av. Valencia (altura C/ Berlín)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 13 · Av. Valencia (altura C/ Berlín)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -1066,43 +1066,43 @@
         "es": [
           "Parada 14 · Av. Madrid (frente H. Oropesa Sol)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 14 · Av. Madrid (frente H. Oropesa Sol)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 14 · Av. Madrid (frente H. Oropesa Sol)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 14 · Av. Madrid (frente H. Oropesa Sol)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 14 · Av. Madrid (frente H. Oropesa Sol)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 14 · Av. Madrid (frente H. Oropesa Sol)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 14 · Av. Madrid (frente H. Oropesa Sol)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -1140,43 +1140,43 @@
         "es": [
           "Parada 15 · Playa de la Concha (frente Plaza París)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 15 · Playa de la Concha (frente Plaza París)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 15 · Playa de la Concha (frente Plaza París)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 15 · Playa de la Concha (frente Plaza París)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 15 · Playa de la Concha (frente Plaza París)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 15 · Playa de la Concha (frente Plaza París)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 15 · Playa de la Concha (frente Plaza París)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -1214,43 +1214,43 @@
         "es": [
           "Parada 16 · P. la Estación (Estación RENFE)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 16 · P. la Estación (Estación RENFE)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 16 · P. la Estación (Estación RENFE)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 16 · P. la Estación (Estación RENFE)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 16 · P. la Estación (Estación RENFE)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 16 · P. la Estación (Estación RENFE)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 16 · P. la Estación (Estación RENFE)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -1288,43 +1288,43 @@
         "es": [
           "Parada 17 · Av. la Plana (cruce Plaza Constitución)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 17 · Av. la Plana (cruce Plaza Constitución)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 17 · Av. la Plana (cruce Plaza Constitución)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 17 · Av. la Plana (cruce Plaza Constitución)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 17 · Av. la Plana (cruce Plaza Constitución)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 17 · Av. la Plana (cruce Plaza Constitución)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 17 · Av. la Plana (cruce Plaza Constitución)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -1362,43 +1362,43 @@
         "es": [
           "Parada 18 · Urb. El Balcó (Av. Benicàssim - C/ Los Almendros)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 18 · Urb. El Balcó (Av. Benicàssim - C/ Los Almendros)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 18 · Urb. El Balcó (Av. Benicàssim - C/ Los Almendros)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 18 · Urb. El Balcó (Av. Benicàssim - C/ Los Almendros)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 18 · Urb. El Balcó (Av. Benicàssim - C/ Los Almendros)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 18 · Urb. El Balcó (Av. Benicàssim - C/ Los Almendros)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 18 · Urb. El Balcó (Av. Benicàssim - C/ Los Almendros)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -1436,43 +1436,43 @@
         "es": [
           "Parada 19 · Urb. El Balcó (C/ Libélula - zona deportiva)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 19 · Urb. El Balcó (C/ Libélula - zona deportiva)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 19 · Urb. El Balcó (C/ Libélula - zona deportiva)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 19 · Urb. El Balcó (C/ Libélula - zona deportiva)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 19 · Urb. El Balcó (C/ Libélula - zona deportiva)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 19 · Urb. El Balcó (C/ Libélula - zona deportiva)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 19 · Urb. El Balcó (C/ Libélula - zona deportiva)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
@@ -1510,43 +1510,43 @@
         "es": [
           "Parada 20 · Av. de la Plana (Frente Guardia Civil y Unidad Respiro)",
           "El autobús llegará a las {{eta_to_stop_time}} dentro de {{eta_to_stop_duration}} ± 5 minutos.",
-          "La hora de llegada se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
+          "¡Atención! La llegada del autobús se calcula según el horario. El autobús puede llegar antes o después de la hora prevista.",
           ""
         ],
         "en": [
           "Stop 20 · Av. de la Plana (Frente Guardia Civil y Unidad Respiro)",
           "The bus will arrive at {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 minutes.",
-          "The arrival time is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
+          "Attention! The bus arrival is calculated according to the timetable. The bus may arrive earlier or later than scheduled.",
           ""
         ],
         "de": [
           "Haltestelle 20 · Av. de la Plana (Frente Guardia Civil y Unidad Respiro)",
           "Der Bus kommt um {{eta_to_stop_time}} in {{eta_to_stop_duration}} ± 5 Minuten an.",
-          "Die Ankunftszeit wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
+          "Achtung! Die Ankunft des Busses wird anhand des Fahrplans berechnet. Der Bus kann früher oder später als vorgesehen ankommen.",
           ""
         ],
         "fr": [
           "Arrêt 20 · Av. de la Plana (Frente Guardia Civil y Unidad Respiro)",
           "Le bus arrivera à {{eta_to_stop_time}} dans {{eta_to_stop_duration}} ± 5 minutes.",
-          "L’heure d’arrivée est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
+          "Attention ! L’arrivée du bus est calculée selon les horaires. Le bus peut arriver plus tôt ou plus tard que prévu.",
           ""
         ],
         "it": [
           "Fermata 20 · Av. de la Plana (Frente Guardia Civil y Unidad Respiro)",
           "L’autobus arriverà alle {{eta_to_stop_time}} tra {{eta_to_stop_duration}} ± 5 minuti.",
-          "L’orario di arrivo viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
+          "Attenzione! L’arrivo dell’autobus viene calcolato in base all’orario. L’autobus può arrivare prima o dopo l’orario previsto.",
           ""
         ],
         "ru": [
           "Остановка 20 · Av. de la Plana (Frente Guardia Civil y Unidad Respiro)",
           "Автобус приедет в {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 минут.",
-          "Время прибытия рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
+          "Внимание! Прибытие автобуса рассчитывается на основе расписания. Автобус может прибыть раньше или позже запланированного времени.",
           ""
         ],
         "uk": [
           "Зупинка 20 · Av. de la Plana (Frente Guardia Civil y Unidad Respiro)",
           "Автобус прибуде о {{eta_to_stop_time}} через {{eta_to_stop_duration}} ± 5 хвилин.",
-          "Час прибуття розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
+          "Увага! Прибуття автобуса розраховується на основі розкладу. Автобус може прибути раніше або пізніше запланованого часу.",
           ""
         ]
       }
