@@ -64,29 +64,29 @@
         {
           "_commentRu": "1-й абзац: заголовок автобуса.",
           "fontSize": 18,
-          "fontWeight": 800,
+          "fontWeight": 700,
           "color": "#111111",
           "lineHeight": 1.2,
           "maxLines": 0,
-          "marginBottom": 8
+          "marginBottom": 6
         },
         {
           "_commentRu": "2-й абзац: следующая остановка.",
           "fontSize": 14,
-          "fontWeight": 650,
-          "color": "#222222",
-          "lineHeight": 1.35,
+          "fontWeight": 400,
+          "color": "#8B1E1E",
+          "lineHeight": 1.2,
           "maxLines": 0,
           "marginBottom": 6
         },
         {
           "_commentRu": "3-й и следующие абзацы: время прибытия и доп.информация.",
-          "fontSize": 14,
-          "fontWeight": 400,
+          "fontSize": 15,
+          "fontWeight": 600,
           "color": "#333333",
-          "lineHeight": 1.38,
+          "lineHeight": 1.2,
           "maxLines": 0,
-          "marginBottom": 0
+          "marginBottom": 6
         }
       ]
     },
@@ -110,30 +110,30 @@
       "paragraphStyles": [
         {
           "_commentRu": "1-й абзац: название остановки.",
-          "fontSize": 17,
-          "fontWeight": 800,
+          "fontSize": 18,
+          "fontWeight": 700,
           "color": "#111111",
           "lineHeight": 1.2,
           "maxLines": 0,
-          "marginBottom": 8
+          "marginBottom": 6
         },
         {
           "_commentRu": "2-й абзац: живое время прибытия автобуса.",
           "fontSize": 14,
-          "fontWeight": 650,
-          "color": "#202020",
-          "lineHeight": 1.35,
+          "fontWeight": 400,
+          "color": "#8B1E1E",
+          "lineHeight": 1.2,
           "maxLines": 0,
-          "marginBottom": 7
+          "marginBottom": 6
         },
         {
           "_commentRu": "3-й и следующие абзацы: описание, plus code или служебный текст.",
-          "fontSize": 13,
-          "fontWeight": 400,
-          "color": "#555555",
-          "lineHeight": 1.35,
+          "fontSize": 15,
+          "fontWeight": 600,
+          "color": "#333333",
+          "lineHeight": 1.2,
           "maxLines": 0,
-          "marginBottom": 0
+          "marginBottom": 6
         }
       ]
     },
