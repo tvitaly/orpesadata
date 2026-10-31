@@ -896,7 +896,7 @@
           "to": "2026-11-01"
         },
         "updateBadge": {
-          "key": "PlazaDeToros_scheduled_01_mvwmre4g_r",
+          "key": "PlazaDeToros_scheduled_01_mvwniml8_3p",
           "enabled": true,
           "anchor": [
             0.85,
@@ -923,7 +923,7 @@
               },
               {
                 "type": "text",
-                "style": "S3",
+                "style": "S8",
                 "text": {
                   "es": "EVENTO CANCELADO\nLa actividad prevista para los días 30 y 31 de octubre y 1 de noviembre ha sido cancelada con motivo del luto nacional",
                   "en": "VERANSTALTUNG ABGESAGT\nDie für den 30. und 31. Oktober sowie den 1. November geplante Veranstaltung wurde aufgrund der Staatstrauer abgesagt",
