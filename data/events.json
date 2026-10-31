@@ -7,7 +7,7 @@
     ],
     "updateBadge": {
       "enabled": true,
-      "key": "event_001_default_mvquz0lr_54",
+      "key": "event_001_default_mvwn78ig_3o",
       "anchor": [
         0.89,
         0.21
@@ -19,84 +19,6 @@
       "card": {
         "style": "event",
         "blocks": [
-          {
-            "type": "text",
-            "style": "S2",
-            "text": {
-              "es": "II Cabalgata «Vespra de Tots Sants»:",
-              "en": "2nd «Vespra de Tots Sants» Parade:",
-              "de": "2. Festumzug «Vespra de Tots Sants»:",
-              "fr": "2e défilé «Vespra de Tots Sants» :",
-              "it": "2ª sfilata «Vespra de Tots Sants»:",
-              "ru": "II праздничное шествие «Канун Дня всех святых»:",
-              "uk": "II святкова хода «Переддень Дня всіх святих»:"
-            }
-          },
-          {
-            "type": "text",
-            "style": "S3",
-            "text": {
-              "es": "31 de octubre, 19:00",
-              "en": "31 October, 19:00",
-              "de": "31. Oktober, 19:00",
-              "fr": "31 octobre, 19:00",
-              "it": "31 ottobre, 19:00",
-              "ru": "31 октября, 19:00",
-              "uk": "31 жовтня, 19:00"
-            }
-          },
-          {
-            "type": "text",
-            "style": "S2",
-            "text": {
-              "es": "Reparto del «Tarró de Gat»:",
-              "en": "Distribution of «Tarró de Gat»:",
-              "de": "Verteilung von «Tarró de Gat»:",
-              "fr": "Distribution du «Tarró de Gat» :",
-              "it": "Distribuzione del «Tarró de Gat»:",
-              "ru": "Раздача традиционного угощения «Tarró de Gat»:",
-              "uk": "Роздача традиційних ласощів «Tarró de Gat»:"
-            }
-          },
-          {
-            "type": "text",
-            "style": "S3",
-            "text": {
-              "es": "31 de octubre, 19:30",
-              "en": "31 October, 19:30",
-              "de": "31. Oktober, 19:30",
-              "fr": "31 octobre, 19:30",
-              "it": "31 ottobre, 19:30",
-              "ru": "31 октября, 19:30",
-              "uk": "31 жовтня, 19:30"
-            }
-          },
-          {
-            "type": "text",
-            "style": "S2",
-            "text": {
-              "es": "Animación infantil:",
-              "en": "Children's entertainment:",
-              "de": "Kinderunterhaltung:",
-              "fr": "Animations pour enfants :",
-              "it": "Animazione per bambini:",
-              "ru": "Детская развлекательная программа:",
-              "uk": "Дитяча розважальна програма:"
-            }
-          },
-          {
-            "type": "text",
-            "style": "S3",
-            "text": {
-              "es": "31 de octubre, 20:00",
-              "en": "31 October, 20:00",
-              "de": "31. Oktober, 20:00",
-              "fr": "31 octobre, 20:00",
-              "it": "31 ottobre, 20:00",
-              "ru": "31 октября, 20:00",
-              "uk": "31 жовтня, 20:00"
-            }
-          },
           {
             "type": "text",
             "style": "S2",
@@ -121,6 +43,84 @@
               "it": "1 novembre, 11:00",
               "ru": "1 ноября, 11:00",
               "uk": "1 листопада, 11:00"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "es": "II Cabalgata «Vespra de Tots Sants»:",
+              "en": "2nd «Vespra de Tots Sants» Parade:",
+              "de": "2. Festumzug «Vespra de Tots Sants»:",
+              "fr": "2e défilé «Vespra de Tots Sants» :",
+              "it": "2ª sfilata «Vespra de Tots Sants»:",
+              "ru": "II праздничное шествие «Канун Дня всех святых»:",
+              "uk": "II святкова хода «Переддень Дня всіх святих»:"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S3",
+            "text": {
+              "es": "1 de noviembre, 18:30",
+              "en": "1 November, 18:30",
+              "de": "1. November, 18:30",
+              "fr": "1er novembre, 18:30",
+              "it": "1 novembre, 18:30",
+              "ru": "1 ноября, 18:30",
+              "uk": "1 листопада, 18:30"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "es": "Reparto del «Tarró de Gat»:",
+              "en": "Distribution of «Tarró de Gat»:",
+              "de": "Verteilung von «Tarró de Gat»:",
+              "fr": "Distribution du «Tarró de Gat» :",
+              "it": "Distribuzione del «Tarró de Gat»:",
+              "ru": "Раздача традиционного угощения «Tarró de Gat»:",
+              "uk": "Роздача традиційних ласощів «Tarró de Gat»:"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S3",
+            "text": {
+              "es": "1 de noviembre, 19:00",
+              "en": "1 November, 19:00",
+              "de": "1. November, 19:00",
+              "fr": "1er novembre, 19:00",
+              "it": "1 novembre, 19:00",
+              "ru": "1 ноября, 19:00",
+              "uk": "1 листопада, 19:00"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S2",
+            "text": {
+              "es": "Animación infantil:",
+              "en": "Children's entertainment:",
+              "de": "Kinderunterhaltung:",
+              "fr": "Animations pour enfants :",
+              "it": "Animazione per bambini:",
+              "ru": "Детская развлекательная программа:",
+              "uk": "Дитяча розважальна програма:"
+            }
+          },
+          {
+            "type": "text",
+            "style": "S3",
+            "text": {
+              "es": "1 de noviembre, 19:30",
+              "en": "1 November, 19:30",
+              "de": "1. November, 19:30",
+              "fr": "1er novembre, 19:30",
+              "it": "1 novembre, 19:30",
+              "ru": "1 ноября, 19:30",
+              "uk": "1 листопада, 19:30"
             }
           }
         ],

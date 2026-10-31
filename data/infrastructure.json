@@ -896,7 +896,7 @@
           "to": "2026-11-01"
         },
         "updateBadge": {
-          "key": "PlazaDeToros_scheduled_01_mvqv06vr_56",
+          "key": "PlazaDeToros_scheduled_01_mvwmre4g_r",
           "enabled": true,
           "anchor": [
             0.85,
@@ -925,33 +925,13 @@
                 "type": "text",
                 "style": "S3",
                 "text": {
-                  "es": "Viernes, 30 de octubre: 20:30, 21:10, 21:50, 22:30\nSábado, 31 de octubre: 20:30, 21:10, 21:50, 22:30\nDomingo, 1 de noviembre: 18:30, 19:10, 19:50, 20:30",
-                  "en": "Friday, 30 October: 20:30, 21:10, 21:50, 22:30\nSaturday, 31 October: 20:30, 21:10, 21:50, 22:30\nSunday, 1 November: 18:30, 19:10, 19:50, 20:30",
-                  "de": "Freitag, 30. Oktober: 20:30, 21:10, 21:50, 22:30\nSamstag, 31. Oktober: 20:30, 21:10, 21:50, 22:30\nSonntag, 1. November: 18:30, 19:10, 19:50, 20:30",
-                  "fr": "Vendredi 30 octobre : 20:30, 21:10, 21:50, 22:30\nSamedi 31 octobre : 20:30, 21:10, 21:50, 22:30\nDimanche 1er novembre : 18:30, 19:10, 19:50, 20:30",
-                  "it": "Venerdì 30 ottobre: 20:30, 21:10, 21:50, 22:30\nSabato 31 ottobre: 20:30, 21:10, 21:50, 22:30\nDomenica 1 novembre: 18:30, 19:10, 19:50, 20:30",
-                  "ru": "Пятница, 30 октября: 20:30, 21:10, 21:50, 22:30\nСуббота, 31 октября: 20:30, 21:10, 21:50, 22:30\nВоскресенье, 1 ноября: 18:30, 19:10, 19:50, 20:30",
-                  "uk": "П'ятниця, 30 жовтня: 20:30, 21:10, 21:50, 22:30\nСубота, 31 жовтня: 20:30, 21:10, 21:50, 22:30\nНеділя, 1 листопада: 18:30, 19:10, 19:50, 20:30"
-                }
-              },
-              {
-                "type": "text",
-                "style": "S3",
-                "text": {
-                  "es": "Entrada gratuita. Solo 300 plazas disponibles.\nInscripción obligatoria en el siguiente enlace:",
-                  "en": "Free admission. Only 300 places available.\nRegistration is required via the following link:",
-                  "de": "Eintritt frei. Nur 300 Plätze verfügbar.\nAnmeldung über folgenden Link erforderlich:",
-                  "fr": "Entrée gratuite. Seulement 300 places disponibles.\nInscription obligatoire via le lien suivant :",
-                  "it": "Ingresso gratuito. Solo 300 posti disponibili.\nPrenotazione obbligatoria tramite il seguente link:",
-                  "ru": "Вход бесплатный. Всего 300 мест.\nОбязательная регистрация по ссылке:",
-                  "uk": "Вхід безкоштовний. Усього 300 місць.\nОбов'язкова реєстрація за посиланням:"
-                }
-              },
-              {
-                "type": "link",
-                "style": "S2",
-                "text": {
-                  "es": "oropesadelmarturismo.com/es/entradas.html?id_categoria=63"
+                  "es": "EVENTO CANCELADO\nLa actividad prevista para los días 30 y 31 de octubre y 1 de noviembre ha sido cancelada con motivo del luto nacional",
+                  "en": "VERANSTALTUNG ABGESAGT\nDie für den 30. und 31. Oktober sowie den 1. November geplante Veranstaltung wurde aufgrund der Staatstrauer abgesagt",
+                  "de": "ÉVÉNEMENT ANNULÉ\nL'événement prévu les 30 et 31 octobre ainsi que le 1er novembre a été annulé en raison du deuil national",
+                  "fr": "ÉVÉNEMENT ANNULÉ\nL'événement prévu les 30 et 31 octobre ainsi que le 1er novembre a été annulé en raison du deuil national",
+                  "it": "EVENTO ANNULLATO\nL'evento previsto per il 30 e 31 ottobre e il 1° novembre è stato annullato a causa del lutto nazionale",
+                  "ru": "МЕРОПРИЯТИЕ ОТМЕНЕНО\nМероприятие, запланированное на 30 и 31 октября и 1 ноября, отменено в связи с объявленным национальным трауром",
+                  "uk": "ЗАХІД СКАСОВАНО\nЗахід, запланований на 30 і 31 жовтня та 1 листопада, скасовано у зв'язку з оголошеним загальнонаціональним трауром"
                 }
               }
             ]
