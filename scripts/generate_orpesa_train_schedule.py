@@ -719,7 +719,7 @@ def build_candidates_for_service_date(
         service = route.get(
             "route_short_name",
             "",
-        )
+        ).strip().upper()
 
         # Ключевой фильтр:
         # любые Intercity, ALVIA и т.д.
