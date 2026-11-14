@@ -18,12 +18,10 @@ from zoneinfo import ZoneInfo
 STATION_ID = "65304"
 TIMEZONE = "Europe/Madrid"
 
-# Нас интересуют только поезда, которые реально являются
-# региональными поездами для Orpesa.
-ALLOWED_SERVICES = {
-    "REGIONAL",
-    "REG.EXP.",
-}
+# Поезда отбираются по доступности посадки или высадки
+# на станции Orpesa, независимо от категории (Regional, Intercity и т. д.).
+# Значение 0 (либо пустое поле) означает обычную пассажирскую операцию.
+REGULAR_ACCESS_VALUES = {"", "0"}
 
 DEFAULT_DAYS = 3
 
@@ -721,13 +719,6 @@ def build_candidates_for_service_date(
             "",
         ).strip().upper()
 
-        # Ключевой фильтр:
-        # любые Intercity, ALVIA и т.д.
-        # полностью игнорируются.
-
-        if service not in ALLOWED_SERVICES:
-            continue
-
         trip_id = trip.get(
             "trip_id",
             "",
@@ -773,6 +764,25 @@ def build_candidates_for_service_date(
             ]
         )
 
+        # Не включаем технические остановки без обычной
+        # пассажирской посадки и высадки. Категория поезда
+        # (Regional, Intercity и т. д.) не имеет значения.
+        pickup_type = clean(station_time.get("pickup_type"))
+        drop_off_type = clean(station_time.get("drop_off_type"))
+
+        if (
+            pickup_type not in REGULAR_ACCESS_VALUES
+            and drop_off_type not in REGULAR_ACCESS_VALUES
+        ):
+            continue
+
+        # Если Orpesa — последняя станция данного рейса,
+        # отображаем время прибытия как основное время
+        # в существующем поле departure, без меток в интерфейсе.
+        orpesa_is_terminal = (
+            station_index == len(trip_stop_times) - 1
+        )
+
         departure_raw = (
             station_time.get(
                 "departure_time"
@@ -796,6 +806,9 @@ def build_candidates_for_service_date(
             or not arrival_raw
         ):
             continue
+
+        if orpesa_is_terminal:
+            departure_raw = arrival_raw
 
         (
             day_offset,
@@ -1350,10 +1363,14 @@ def build_schedule(
         "source":
             agency_name,
 
+        # Список фактически представленных категорий,
+        # а не ограничение на допустимые категории.
         "serviceFilter":
-            sorted(
-                ALLOWED_SERVICES
-            ),
+            sorted({
+                candidate.service
+                for daily_candidates in candidates_by_date.values()
+                for candidate in daily_candidates
+            }),
 
         "days":
             days_json,
@@ -1382,8 +1399,7 @@ def main() -> int:
 
     parser = argparse.ArgumentParser(
         description=(
-            "Generate Orpesa "
-            "REGIONAL/REG.EXP. "
+            "Generate Orpesa passenger-stop "
             "schedule from Renfe GTFS."
         )
     )
