@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-14T09:55:37+01:00",
+  "generatedAt": "2026-11-14T16:18:07+01:00",
   "station": {
     "id": "65304",
     "name": "Orpesa",
@@ -10,7 +10,7 @@
   "timezone": "Europe/Madrid",
   "source": "RENFE OPERADORA",
   "serviceFilter": [
-    "REG.EXP.",
+    "INTERCITY",
     "REGIONAL"
   ],
   "days": [
@@ -1081,6 +1081,38 @@
           "originRaw": "València-Estació del Nord",
           "originStopId": "65000",
           "orpesaStopSequence": 21
+        },
+        {
+          "departure": "21:01",
+          "arrival": "21:00",
+          "destination": "Barcelona",
+          "destinationRaw": "Barcelona-Sants",
+          "destinationStopId": "71801",
+          "direction": "north",
+          "tripId": "0140212026-11-14",
+          "relatedTripIds": [
+            "0140212026-11-14"
+          ],
+          "trainNumber": "01402",
+          "relatedTrainNumbers": [
+            "01402"
+          ],
+          "service": "INTERCITY",
+          "relatedServices": [
+            "INTERCITY"
+          ],
+          "routeId": "6091171801GL026",
+          "relatedRouteIds": [
+            "6091171801GL026"
+          ],
+          "serviceId": "2026-11-142026-12-12014021",
+          "startDate": "20261115",
+          "relatedServiceIds": [
+            "2026-11-142026-12-12014021"
+          ],
+          "originRaw": "Alicante/Alacant-Terminal",
+          "originStopId": "60911",
+          "orpesaStopSequence": 9
         },
         {
           "departure": "21:40",
